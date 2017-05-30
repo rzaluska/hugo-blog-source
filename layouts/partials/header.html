@@ -1,4 +1,13 @@
 <header class="header">
-    <a href="/" class="title">{{ .Site.Title }}</a>
+    <div>
+        <div style="float:left">
+            <a href="/" class="title">{{ .Site.Title }}</a>
+        </div>
+        <div style="float:right">
+            <a class="title" href='{{ relURL "/about/" }}'>➤ About</a>
+        </div>
+    </div>
+    <div style="clear: both;">
     {{ if isset .Site.Params "description" }}<p>{{ .Site.Params.Description }}</p>{{end}}
+    </div>
 </header>
