@@ -66,8 +66,9 @@ header.header {
 /* general paragraph styling */
 
 p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
 }
 
 /* image styling */
@@ -98,6 +99,7 @@ a:hover {
 ul {
     margin-left: 20px;
     list-style-type: square;
+    padding-bottom: 10px;
 }
 
 ol {
@@ -180,6 +182,10 @@ pre {
     margin-top: 10px;
     margin-bottom: 10px;
     overflow-x: scroll;
+}
+
+article {
+    text-align: justify;
 }
 
 /* general background styling */
