@@ -1,0 +1,21 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<section id="main">
+    <header class="post-header">
+      <p class="post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p>
+      <p class="post-meta">{{ .Date.Format "2 Jan 2006" }} - Can be read in {{ .ReadingTime }} min </p>
+      {{ if isset .Params "tags" }}
+        <p> Tags:
+        {{ range .Params.tags }}
+            <a class=tag href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+        {{ end }}
+        </p>
+        {{ end }}
+    </header>
+    <article itemprop="articleBody" id="content">
+       {{ .Content }}
+    </article>
+    {{ partial "disqus.html" . }}
+</section>
+{{ partial "footer.html" . }}

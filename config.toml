@@ -1,0 +1,20 @@
+baseURL = "https://www.reversance.com/"
+languageCode = "en-us"
+title = "Reversance blog"
+googleAnalytics = "UA-97780102-1"
+disqusShortname = "reversance"
+
+
+[params]
+  author = "Radek (LuxuryPro)"
+  githubUser = "LuxuryPro"
+  description = "Linux - Android - Programming - Security - Reverse Engineering"
+
+[permalinks]
+	post = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
