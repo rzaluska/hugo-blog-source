@@ -21,9 +21,6 @@ I have big experience working with various Linux distributions such as:
 I created this blog to establish my Computer Science knowledge and share my
 thoughts and experience.
 
-## Links
-- [github](https://github.com/LuXuryPro)
-- [bitbucket](https://bitbucket.org/Panoramix)
 
 ## Topics that will be discussed
 - Programming
