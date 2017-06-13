@@ -1,6 +1,7 @@
 +++
 title = "So I end up creating blog... - Hello world!"
 date = "2017-04-20"
+slug = "hello-world"
 +++
 
 Hello! This is my first post on my new blog. I hope it will be intresting site
