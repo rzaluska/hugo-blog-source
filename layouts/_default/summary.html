@@ -1,11 +1,11 @@
 <article class="post">
     <header class="post-summary-header">
-      <p class="post-title"><a href="{{ .Permalink }}">▶ {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p>
-      <p class="post-meta">{{ .Date.Format "2 Jan 2006" }} - Can be read in {{ .ReadingTime }} min </p>
+        <h3> <p class="post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p> </h3>
+       {{ partial "postMeta.html" . }}
     </header>
 
+    <div>
     {{ .Summary }}
-    <footer>
-        <a href='{{ .Permalink }}'><nobr>more →</nobr></a>
-    </footer>
+    </div>
+    <a class="btn btn-primary" href='{{ .Permalink }}'><nobr><span class="glyphicon glyphicon-book"></span> Read more...</nobr></a>
 </article>

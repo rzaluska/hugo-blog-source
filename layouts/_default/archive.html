@@ -1,0 +1,24 @@
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+<section id="main">
+    {{ .Content }} <!-- content of the markdown file. note that inside the range .Content will point to each page's content -->
+    {{ range ((where .Site.Pages "Type" "post").GroupByDate "2006") }}
+    <h2>
+        {{ .Key }}
+    </h2>
+
+        {{ range where .Pages "Kind" "page" }}
+
+        <article class="post">
+            <header class="post-summary-header">
+                <h3> <p class="post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p> </h3>
+                {{ partial "postMeta.html" . }}
+            </header>
+        </article>
+        {{ end }}
+    {{ end }}
+</section>
+
+{{ partial "footer.html" . }}
