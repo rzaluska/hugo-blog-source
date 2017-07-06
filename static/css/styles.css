@@ -32,3 +32,7 @@ p.post-title {
 #TableOfContents ul ul {
   list-style-type: disc;
 }
+
+div.copyright {
+    text-align: center;
+}
