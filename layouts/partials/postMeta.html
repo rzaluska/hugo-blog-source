@@ -1,0 +1,9 @@
+<p class="post-meta"><span class="glyphicon glyphicon-calendar"></span>
+Published {{ .Date.Format "2 Jan 2006" }} - <span class="glyphicon glyphicon-time"></span> Can be read in {{ .ReadingTime }} min </p>
+{{ if isset .Params "tags" }}
+<p> Tags:
+{{ range .Params.tags }}
+<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><span class="glyphicon glyphicon-tag"></span> {{ . }}</a>
+{{ end }}
+</p>
+{{ end }}

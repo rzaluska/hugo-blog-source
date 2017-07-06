@@ -1,7 +1,6 @@
 baseURL = "https://www.reversance.com/"
 languageCode = "en-us"
 title = "Reversance blog"
-googleAnalytics = "UA-97780102-1"
 disqusShortname = "reversance"
 
 
@@ -9,12 +8,11 @@ disqusShortname = "reversance"
   author = "Radek (LuxuryPro)"
   githubUser = "LuxuryPro"
   description = "Linux - Android - Programming - Security - Reverse Engineering"
+  googleAnalytics = "UA-97780102-1"
 
 [permalinks]
 	post = "/:year/:month/:day/:slug/"
 
 [taxonomies]
 tag = "tags"
-category = "categories"
-series = "series"
 
