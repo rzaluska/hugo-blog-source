@@ -7,7 +7,7 @@ disqusShortname = "reversance"
 [params]
   author = "Radek (LuxuryPro)"
   githubUser = "LuxuryPro"
-  description = "Linux - Android - Programming - Security - Reverse Engineering"
+  description = "Blog about Linux - Android - Programming - Security - Reverse Engineering"
   googleAnalytics = "UA-97780102-1"
 
 [permalinks]
