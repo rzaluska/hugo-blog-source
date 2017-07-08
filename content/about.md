@@ -27,7 +27,7 @@ thoughts and experience. I hope it will be intresting for many people.
 - <i class="fa fa-bitbucket" aria-hidden="true"></i> [bitbucket](https://bitbucket.org/Panoramix/)
 - <i class="fa fa-linkedin" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/radek-za%C5%82uska-3b281312a/)
 - <i class="fa fa-reddit" aria-hidden="true"></i> [reddit](https://www.reddit.com/user/luxuryPro/)
-- <i class="fa fa-twitter" aria-hidden="true"></i> [twitter](https://twitter.com/yet_another_com)
+- <i class="fa fa-twitter" aria-hidden="true"></i> [twitter](https://twitter.com/reversance)
 - <i class="fa fa-steam" aria-hidden="true"></i> [steam](https://steamcommunity.com/profiles/76561198036490269)
 - <i class="fa fa-meetup" aria-hidden="true"></i> [meetup.com](https://www.meetup.com/pl-PL/members/230999559/)
 - <i class="fa fa-soundcloud" aria-hidden="true"></i> [soundcloud](https://soundcloud.com/antiquo)
