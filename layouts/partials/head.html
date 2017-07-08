@@ -4,6 +4,7 @@
         <meta charset="utf-8">
 
         {{ partial "meta.html" . }}
+        {{ partial "head/seo.html" . }}
 
         <base href="{{ .Permalink }}">
         <title>{{ .Page.Title }}</title>
@@ -12,7 +13,7 @@
 
         {{ partial "head_includes.html" . }}
         {{ partial "ga.html" . }}
-        {{ partial "seo-schema.html" . }}
+        {{ partial "google-structured-data.html" . }}
         </head>
     <body>
         <div class="column">
