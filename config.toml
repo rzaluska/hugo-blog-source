@@ -2,6 +2,7 @@ baseURL = "https://www.reversance.com/"
 languageCode = "en-us"
 title = "Reversance"
 disqusShortname = "reversance"
+pluralizelisttitles: false
 
 SectionPagesMenu = "main"
 
