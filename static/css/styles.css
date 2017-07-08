@@ -1,16 +1,20 @@
-.column {
+.header {
+    max-width: 65em;
+    min-height: 100%;
+    margin: auto;
+}
+
+#main {
     max-width: 60em;
     min-height: 100%;
     margin: auto;
 }
 
 article {
-    font-family: serif;
     font-size: 14pt;
 }
 
 header.post-header {
-    font-family: serif;
     font-size: 14pt;
 }
 
@@ -21,10 +25,17 @@ header.post-header {
 }
 
 p.post-title {
+    font-weight: bold;
     font-family: sans-serif;
-    font-size: 18pt;
+    font-size: 24pt;
 }
 
 div.copyright {
     text-align: center;
 }
+
+h2, h3, h4 {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
