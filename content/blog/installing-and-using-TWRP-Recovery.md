@@ -26,7 +26,7 @@ for Xiaomi Redmi Note 4 MTK but I haven't tested it
 that there is no official TWRP for this phone (https://twrp.me/Devices/).
 
 ## Warning
-> If you want to user official Xiaomi ROMs then remember - never flash
+> If you want to use official Xiaomi ROMs then remember - never flash
 > Global or China Stable version. If you do so then it will lock you bootloader
 > again.
 
