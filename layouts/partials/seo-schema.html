@@ -1,0 +1,58 @@
+{{ "<!-- ENTERING partial seo-schema.html -->" | safeHTML }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "alternateName": "{{ .Site.Title }}.com",
+  "url": "{{ .Site.BaseURL }}"
+}
+</script>
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "{{ .Site.BaseURL }}{{ .Section }}/",
+      "name": "{{ .Section }}"
+    }
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+      "@id": "{{ .Permalink }}",
+      "name": "{{ .Title }}"
+    }
+  }]
+}
+</script>
+{{ if eq .Section "blog" }}
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "articleSection" : "{{ .Section }}",
+    "name" : "{{ .Title }}",
+    "headline" : "{{ .Title }}",
+    "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+    "inLanguage" : "en-US",
+    "author" : "{{ .Site.Params.author }}",
+    "creator" : "{{ .Site.Params.author }}",
+    "accountablePerson" : "{{ .Site.Params.author }}",
+    "copyrightHolder" : "{{ .Site.Params.author }}",
+    "copyrightYear" : "{{ .Date.Format "2006" }}",
+    "datePublished": "{{ .Date.Format $.Site.Params.ISO8601 }}",
+    "dateModified" : "{{ .Date.Format $.Site.Params.ISO8601 }}",
+    "url" : "{{ .Permalink }}",
+    "wordCount" : "{{ .WordCount }}",
+    "image" : [ {{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} ],
+    "keywords" : [ {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }} ]
+}
+</script>
+{{ end }}
+{{ end }}
+{{ "<!-- LEAVING partial seo-schema.html -->" | safeHTML }}
