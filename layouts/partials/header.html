@@ -2,13 +2,16 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/">{{ .Site.Title }} </a>
+                <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }} </a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Blog</a></li>
+                {{ $currentPage := . }}
+                 {{ range .Site.Menus.main }}
+                <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}"><a href="{{ .URL }} ">{{ .Name }}</a></li>
+                {{ end }}
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/archive/"><span class="glyphicon glyphicon-hdd"></span> Archive</a></li>
+                <li><a href="/blog/archive/"><span class="glyphicon glyphicon-hdd"></span> Archive</a></li>
                 <li><a href="/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss"></i> RSS</a></li>
                 <li><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
                 <li><a href="/about/"><span class="glyphicon glyphicon-question-sign"></span> About</a></li>
