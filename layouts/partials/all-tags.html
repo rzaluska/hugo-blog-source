@@ -1,0 +1,10 @@
+<section class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+    <div class="list-group">
+        {{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
+        <a href="/tags/{{ $value.Name | urlize }}" class="list-group-item"> {{ $value.Name | humanize }} <span class="badge">{{ $value.Count }} </span></a>
+        {{ end }}
+    </div>
+</section>

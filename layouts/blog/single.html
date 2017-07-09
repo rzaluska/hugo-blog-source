@@ -2,25 +2,32 @@
 {{ partial "header.html" . }}
 
 <section id="main">
-    <div>
-        <button style="display: none;" id="go-to-bottom" type="button" class="btn pull-right btn-primary"><span class="glyphicon glyphicon-chevron-down"></span> Go to bottom</button>
-    </div>
-    <header class="post-header">
-        <h1>
-            <p class="post-title">
+    <div class="col-md-8">
+        <div>
+            <button style="display: none;" id="go-to-bottom" type="button" class="btn pull-right btn-primary"><span class="glyphicon glyphicon-chevron-down"></span> Go to bottom</button>
+        </div>
+        <header class="post-header">
+            <h1>
+                <p class="post-title">
                 <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a>
-            </p>
-        </h1>
-        {{ partial "postMeta.html" . }}
-    </header>
-    <article itemprop="articleBody" id="content">
+                </p>
+            </h1>
+            {{ partial "postMeta.html" . }}
+        </header>
+        <article itemprop="articleBody" id="content">
             <div class="well" style="display: none;" id="toc">
             </div>
-        {{ .Content }}
-    </article>
-    <div>
-        <button style="display: none;" id="go-to-top" type="button" class="btn pull-right btn-primary"><span class="glyphicon glyphicon-chevron-up"></span> Go to top</button>
+            {{ .Content }}
+        </article>
+        <div>
+            <button style="display: none;" id="go-to-top" type="button" class="btn pull-right btn-primary"><span class="glyphicon glyphicon-chevron-up"></span> Go to top</button>
+        </div>
+        {{ partial "disqus.html" . }}
     </div>
-    {{ partial "disqus.html" . }}
+    <div class="col-md-4">
+        {{ partial "same-tags.html" . }}
+        {{ partial "latest.html" . }}
+        {{ partial "all-tags.html" . }}
+    </div>
 </section>
 {{ partial "footer.html" . }}

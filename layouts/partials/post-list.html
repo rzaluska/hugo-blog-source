@@ -1,0 +1,9 @@
+<div class="col-md-8">
+    {{ range where .Site.Pages "Section" "blog" }}
+    {{ .Render "summary" }}
+    {{ end }}
+</div>
+<div class="col-md-4">
+    {{ partial "latest.html" . }}
+    {{ partial "all-tags.html" . }}
+</div>

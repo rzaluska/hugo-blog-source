@@ -3,9 +3,10 @@
         <h3> <p class="post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p> </h3>
        {{ partial "postMeta.html" . }}
     </header>
+    <hr>
 
     <div>
     {{ .Summary }}
     </div>
-    <a class="btn btn-primary" href='{{ .Permalink }}'><nobr><span class="glyphicon glyphicon-book"></span> Read more...</nobr></a>
+    <hr>
 </article>
