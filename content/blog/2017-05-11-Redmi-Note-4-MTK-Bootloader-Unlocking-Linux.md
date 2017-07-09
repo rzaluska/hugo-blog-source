@@ -29,7 +29,7 @@ only in Windows operating system. Second thing is that to unlock bootloader you
 must [ask for premission](https://miui.com/unlock/) first. Then you need to
 wait for SMS message that you are allowed to proceed to next steps. To sum up
 this part - **we will need to use Windows operating system anyway**.
-Right now there is not way to unlock bootloader using linux only :(
+Right now there is no way to unlock bootloader using linux only :(
 So install one
 on physical machine or virtual one.
 

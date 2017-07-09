@@ -80,7 +80,7 @@ $$\vec{U} = \left(1, -\left(\frac{\vec{A}_x}{\vec{A}_y}\right)\right)$$
 
 But what to do if @@\vec{A}_y = 0@@ ?
 
-The you need to set @@\vec{U}_y = 1@@ and follow previous steps which will lead us to:
+Then you need to set @@\vec{U}_y = 1@@ and follow previous steps which will lead us to:
 $$\vec{U} = \left(-\left(\frac{\vec{A}_y}{\vec{A}_x}\right), 1\right)$$
 
 If both @@\vec{A}_x@@ and @@\vec{A}_y@@ are equal to @@0@@ then we can't find perpendicular vector
