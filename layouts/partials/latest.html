@@ -1,0 +1,15 @@
+<section class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">Latests Posts</div>
+    </div>
+    <div class="list-group">
+        {{ range where .Site.Pages "Section" "blog" }}
+        {{ if eq .Kind "page" }}
+        <a href="{{ .Permalink }}" class="list-group-item" style="color:#337ab7">
+                {{ .Title }}
+        </a>
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+

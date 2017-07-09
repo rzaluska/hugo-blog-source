@@ -1,0 +1,33 @@
+{{ range $site := where $.Site.Pages "Section" "blog" }}
+    {{ range $tag := $.Params.tags }}
+        {{ if in $site.Params.tags $tag }}
+                {{ if eq $site.Permalink $.Permalink }}
+                {{ else }}
+                    {{ $.Scratch.Set "NotZero" true }}
+                {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ if eq ($.Scratch.Get "NotZero") true }}
+    <section class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">Related posts</div>
+        </div>
+        <div class="list-group">
+            {{ range $site := where $.Site.Pages "Section" "blog" }}
+                {{ range $tag := $.Params.tags }}
+                    {{ if in $site.Params.tags $tag }}
+                        {{ if eq ($.Scratch.Get $site.Permalink) nil }}
+                            {{ if eq $site.Permalink $.Permalink }}
+                            {{ else }}
+                                <a href="{{ $site.Permalink }}" class="list-group-item" style="color:#337ab7"> {{ $site.Title }}</a>
+                                {{ $.Scratch.Add $site.Permalink true }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+{{ end }}
