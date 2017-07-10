@@ -101,19 +101,19 @@ pick latest forum thread.
     - Turn off your phone
     - Hold down **Vol (+)** and **Power** buttons **together**
     - Release buttons when TWRP Recovery boot screen appears
-7. In you want you can backup your phone now using **Backup** option.
+7. If you want you can backup your phone now using **Backup** option.
 8. After that select **Install** option
 9. If file manager select zip archive you have put in your phone
 10. Swipe to confirm flash
 11. Flashing process should take up to 10 minutes
-12. After flashing finishes click **Wipe cache/dalvik
+12. After flashing finishes click **Wipe cache/dalvik**
 13. Next click **Reboot system**
-14. Your phone will start for about 10 minutes this is normal
-15. At the moment MIUI Creator appears Xiaomi.eu ROM installation if finished
+14. Your phone will be starting for about 10 minutes. Don't worry this is normal
+15. At the moment when MIUI Creator appears, Xiaomi.eu ROM installation if finished
 16. Enjoy your new ROM
 
 ### Rooting phone
-With help of TWRP recovery rooting Xiaomi Redmi Note 4 phone is easy process.
+With help of TWRP recovery rooting Xiaomi Redmi Note 4 phone is very easy process.
 
 1. Download SuperSU https://download.chainfire.eu/1021/SuperSU/SR3-SuperSU-v2.79-SR3-20170114223742.zip
 2. Put downloaded zip archive in your phone internal memory
