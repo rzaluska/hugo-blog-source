@@ -1,13 +1,13 @@
-baseURL = "https://www.reversance.com/"
+baseURL = "https://www.writeingo.com/"
 languageCode = "en-us"
-title = "Reversance"
+title = "Write in GO"
 disqusShortname = "reversance"
 
 SectionPagesMenu = "main"
 
 [params]
   author = "Radek (LuxuryPro)"
-  description = "Blog about Linux - Android - Programming - Security - Reverse Engineering"
+  description = "Blog about GO programming language"
   googleAnalytics = "UA-97780102-1"
   ISO8601 = "2006-01-02T15:04:05CEST"
   [params.social]
