@@ -2,8 +2,14 @@
 {{ partial "header.html" . }}
 
 <section id="main">
-    <article>
-       {{ .Content }}
-    </article>
+    <div class="col-md-8">
+        <article itemprop="articleBody" id="content">
+            {{ .Content }}
+        </article>
+    </div>
+    <div class="col-md-4">
+        {{ partial "latest.html" . }}
+        {{ partial "all-tags.html" . }}
+    </div>
 </section>
 {{ partial "footer.html" . }}

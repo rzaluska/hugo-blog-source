@@ -3,11 +3,7 @@
 {{ partial "header.html" . }}
 
 <section id="main">
-    <div>
-        {{ range first 10 .Data.Pages }}
-            {{ .Render "summary" }}
-        {{ end }}
-    </div>
+    {{ partial "post-list.html" . }}
 </section>
 
 {{ partial "footer.html" . }}
