@@ -1,7 +1,7 @@
 baseURL = "https://www.writeingo.com/"
 languageCode = "en-us"
 title = "Write in Go"
-disqusShortname = "reversance"
+disqusShortname = "writeingo"
 
 SectionPagesMenu = "main"
 
@@ -11,7 +11,7 @@ SectionPagesMenu = "main"
   googleAnalytics = "UA-97780102-1"
   ISO8601 = "2006-01-02T15:04:05CEST"
   [params.social]
-    twitter = "reversance"
+    twitter = "writeingocom"
 
 [permalinks]
 	blog = "/blog/:slug/"
