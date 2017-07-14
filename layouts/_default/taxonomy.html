@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<section id="main">
+    <div>
+        <div class="col-md-8">
+            <h1 id="title">{{ .Title }}</h1>
+            {{ range .Data.Pages }}
+            <header class="post-summary-header">
+                <h3> <p class="post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p> </h3>
+                {{ partial "postMeta.html" . }}
+            </header>
+            <hr>
+            {{ end }}
+        </div>
+        <div class="col-md-4">
+            {{ partial "latest.html" . }}
+            {{ partial "all-tags.html" . }}
+        </div>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}
+
+

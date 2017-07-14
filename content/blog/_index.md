@@ -1,3 +1,3 @@
 +++
-title = "Reversance - Blog"
+title = "Write in Go - Blog"
 +++

@@ -9,18 +9,18 @@ phone using linux, to sum up I decided to write *definitive* tutorial about it.
 I have collected all informations that were scattered around internet and
 gathered them in one place.
 
-#### Note
+# Note
 This tutorial is written especially for MTK SOC devices, so if you have locked
 bootlader on other Xiaomi phone that Redmi Note 4 and it is MTK, then you can
 try unlocking it using tools and methods presented here.
 
-## Disclaimer
+# Disclaimer
 > 1. I don't take any responsibility for bricked or broken devices.
 > 2. You are performing all steps at your own risk.
 > 3. Your warranty in most cases will be void.
 
 
-## General informations
+# General informations
 Probably many of you knows that
 [bootloader unlocking process](http://en.miui.com/thread-202290-1-1.html)
 in recent Xiaomi phones is difficult and requires a lot of work.
@@ -33,7 +33,7 @@ Right now there is no way to unlock bootloader using linux only :(
 So install one
 on physical machine or virtual one.
 
-## Before you start
+# Before you start
 To make sure that bootloader in your Xiaomi Redmi Note 4 MTK is actually locked
 we will use Android Fastboot tool.
 
@@ -66,8 +66,8 @@ we will use Android Fastboot tool.
     then you don't need to do anything.
 
 
-## Unlocking process
-### Preparation
+# Unlocking process
+## Preparation
 - Create Xiaomi Account if you don't have one
     - Go to <https://account.xiaomi.com/>
     - At button of page change language from Chinese to English
@@ -92,7 +92,7 @@ my vary between users.
 - Install application in windows machine or go to next section where I
   describled process of preparing virtual machine.
 
-### Using Virtual Machine instead of physical Windows PC
+## Using Virtual Machine instead of physical Windows PC
 - Install Virtual Box via package manager
 - Create new Virtual Machine and install Windows on it (I recommend using Windows
   7)
@@ -123,7 +123,7 @@ my vary between users.
 - If everything is working install Mi Flash on virtual machine
 
 
-### Flashing China Developer ROM
+## Flashing China Developer ROM
 To be able to unlock bootlader on Redmi Note 4 you need China Developer ROM
 installed on your device.
 
@@ -168,7 +168,7 @@ begins. You can release **Volume Down (-)** button.
 - You can unplug your phone and turn it on. First boot might take up to 10
 minutes. This is normal.
 
-### Binding Mi Account to phone
+## Binding Mi Account to phone
 Now you when you have China Developer ROM installed it is time for got throught
 setup wizard.
 After your phone is ready you must bind it to Xiaomi Account which you have
@@ -186,7 +186,7 @@ After wizard is done:
 - Go to Setting -> Additional settings -> Developer options
 - Turn on USB Debuging
 
-### Unlocking Bootloader
+## Unlocking Bootloader
 - Start Mi Unlock Tool on **Windows**
 - On first screen provide username and password and login to your Xiaomi account
 - Turn off your phone and turn in on in Fastboot mode. To do so,
@@ -199,12 +199,12 @@ After wizard is done:
             describled at begining of tutorial).
 - Enjoy!
 
-## What to do next ?
+# What to do next ?
 Now when you have your bootloader unlocked you will probably want to **flash
 custom Recovery** to manage your ROMS. This process will be described in next
 post.
 
-## References
+# References
 - <https://forum.xda-developers.com/redmi-note-4/how-to/guide-redmi-note-4-unlock-bootloader-t3517806>
 - <https://forum.xda-developers.com/general/rooting-roms/tutorial-how-to-setup-spflashtoollinux-t3160802>
 - <http://en.miui.com/thread-202290-1-1.html>
