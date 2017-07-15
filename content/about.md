@@ -4,9 +4,6 @@ layout = "static"
 url = "about"
 +++
 
-Hello and welcome to my blog site.
-I would like to encourage you to look around and explore it.
-
 # About me
 Hello, my name is Radek and I am from Poland.
 My main interests are programming in various languages and reverse

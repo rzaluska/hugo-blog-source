@@ -5,13 +5,8 @@
 }
 
 #main {
-    max-width: 80em;
-    min-height: 100%;
-    margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 article {
