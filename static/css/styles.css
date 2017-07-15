@@ -8,6 +8,10 @@
     max-width: 80em;
     min-height: 100%;
     margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 60px;
 }
 
 article {
@@ -16,12 +20,6 @@ article {
 
 header.post-header {
     font-size: 14pt;
-}
-
-#main {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
 }
 
 p.post-title {
