@@ -1,6 +1,6 @@
 <div class="col-md-8">
     {{ range where .Site.Pages "Section" "blog" }}
-    {{ .Render "summary" }}
+        {{ .Render "summary" }}
     {{ end }}
 </div>
 <div class="col-md-4">
