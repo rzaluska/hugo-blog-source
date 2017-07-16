@@ -4,7 +4,7 @@
 
 <section id="main">
     <div class="container">
-        {{ .Content }} <!-- content of the markdown file. note that inside the range .Content will point to each page's content -->
+        {{ .Content }}
         <h1> Post archive </h1>
         <table>
             {{ range ((where .Site.Pages "Section" "blog").GroupByDate "2006") }}
