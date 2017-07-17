@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-US">
-    <head>
-        <meta charset="utf-8">
+<meta charset="utf-8">
 
-        {{ partial "meta.html" . }}
-        {{ partial "head/seo.html" . }}
+{{ partial "meta.html" . }}
+{{ partial "head/seo.html" . }}
 
-        <base href="{{ .Permalink }}">
-        <title>{{ .Page.Title }}</title>
-        <link rel="canonical" href="{{ .Permalink }}">
-        <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
+<base href="{{ .Permalink }}">
+<title>{{ .Page.Title }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
 
-        {{ partial "head_includes.html" . }}
-        {{ partial "ga.html" . }}
-        {{ partial "google-structured-data.html" . }}
-        </head>
-    <body>
+{{ partial "head_includes.html" . }}
+{{ partial "ga.html" . }}
+{{ partial "google-structured-data.html" . }}

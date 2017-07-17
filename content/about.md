@@ -10,7 +10,7 @@ My main interests are programming in various languages and reverse
 engineering. I use [<i class="fa fa-linux" aria-hidden="true"></i>
 arch linux](https://www.archlinux.org/) at every day basis.
 My favourite programming language is [Go](https://golang.org/).
-I have switched to it from Python. I use this programming
+I have switched to it from Python. I use this two programming
 languages most often so this blog will be dedicated to them.
 
 I hope this blog it will be intresting for many people.

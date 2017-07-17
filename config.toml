@@ -24,3 +24,8 @@ tag = "tags"
     identifier = "blog"
     url = "/blog/"
 
+[[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    url = "/tags/"
+
