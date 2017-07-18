@@ -40,7 +40,7 @@ If vectors have to be perpendicular to each other the angle between them needs t
 We know that:
 $$\cos(\frac{\pi}{4}) = 0$$
 
-So lets insert it into out previous equation:
+So let's insert it into out previous equation:
 $$\vec{A} \cdot \vec{B} = ||\vec{A}|| * ||\vec{B}|| * \cos(\frac{\pi}{4})$$
 $$\vec{A} \cdot \vec{B} = ||\vec{A}|| * ||\vec{B}|| * 0$$
 
@@ -87,7 +87,7 @@ If both @@\vec{A}_x@@ and @@\vec{A}_y@@ are equal to @@0@@ then we can't find pe
 because @@\vec{A}@@ has a length of @@0@@.
 
 # 3D example
-After showing 2D example 3D one will be more understandable. Now lets suppose we have vector
+After showing 2D example 3D one will be more understandable. Now let's suppose we have vector
 @@\vec{A} = (A_x, A_y, A_z)@@ and we want to find vector that is perpendicular to it.
 Let's state that unknown vector is @@\vec{U} = (U_x, U_y, U_z)@@.
 
