@@ -2,6 +2,7 @@
 {{ .Content }}
 <h1> Post archive </h1>
     {{ range ((where .Site.Pages "Section" "blog").GroupByDate "2006") }}
+    <div class="well">
             <h2>
                 {{ .Key }}:
             </h2>
@@ -15,5 +16,6 @@
             </article>
             <hr>
             {{ end }}
+        </div>
     {{ end }}
 {{ end }}

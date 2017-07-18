@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="row">
     <div class="col-lg-12">
+        <article itemprop="articleBody" id="content">
         <header class="post-header">
             <h1>
                 <p class="post-title">
@@ -9,7 +10,6 @@
             </h1>
             {{ partial "postMeta.html" . }}
         </header>
-        <article itemprop="articleBody" id="content">
             {{ if in (string .TableOfContents) "nav" }}
                     <div class="well">
                         {{ .TableOfContents }}

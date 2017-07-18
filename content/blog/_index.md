@@ -1,3 +1,3 @@
 +++
-title = "Write in Go - Blog"
+outputs = []
 +++
