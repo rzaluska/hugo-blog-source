@@ -1,21 +1,10 @@
 {{ define "main" }}
 {{ .Content }}
 <h1> Post archive </h1>
-<table>
     {{ range ((where .Site.Pages "Section" "blog").GroupByDate "2006") }}
-    <tr>
-        <td>
             <h2>
                 {{ .Key }}:
             </h2>
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
             {{ range where .Pages "Kind" "page" }}
 
             <article class="post">
@@ -24,11 +13,7 @@
                     {{ partial "postMeta.html" . }}
                 </header>
             </article>
+            <hr>
             {{ end }}
-        </td>
-    </tr>
     {{ end }}
-</table>
-</div>
-</section>
 {{ end }}
