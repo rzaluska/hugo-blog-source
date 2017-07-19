@@ -1,26 +1,18 @@
-<nav class="navbar navbar-default">
+<nav style="margin-bottom:10px" class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ .Site.BaseURL }}"> <span><img width="20" style="vertical-align:middle"src="/img/gopher.svg"/></span> {{ .Site.Title }}</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                {{ $currentPage := . }}
-                {{ range .Site.Menus.main }}
-                <li class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}"><a href="{{ .URL }} ">{{ .Name }}</a></li>
-                {{ end }}
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a style="margin-top:-10px" class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}<small>Blog about Golang</small></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/blog/archive/"><span class="glyphicon glyphicon-hdd"></span> Archive</a></li>
-                <li><a href="/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss"></i> RSS</a></li>
-                <li><a href="/contact/"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-                <li><a href="/about/"><span class="glyphicon glyphicon-question-sign"></span> About</a></li>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/tags/"><i class="fa fa-tags" aria-hidden="true"></i> Tags</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog/archive/"><i class="fa fa-hdd-o" aria-hidden="true"></i> Archive</a></li>
+                <li class="nav-item"><a class="nav-link" href="/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss"></i> RSS</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact/"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about/"><i class="fa fa-question-circle-o" aria-hidden="true"></i> About</a></li>
             </ul>
         </div>
     </div>

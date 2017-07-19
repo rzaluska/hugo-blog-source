@@ -1,15 +1,13 @@
-<section class="panel panel-default">
-    <div class="panel-heading">
-        <div class="panel-title">Latest Posts</div>
-    </div>
+<div style="margin-bottom:10px" class="card card-block">
+    <h3 class="card-title">Latest Posts</h3>
     <div class="list-group">
         {{ range where .Site.Pages "Section" "blog" }}
         {{ if eq .Kind "page" }}
         <a href="{{ .Permalink }}" class="list-group-item" style="color:#337ab7">
-                {{ .Title }}
+            {{ .Title }}
         </a>
         {{ end }}
         {{ end }}
     </div>
-</section>
+</div>
 

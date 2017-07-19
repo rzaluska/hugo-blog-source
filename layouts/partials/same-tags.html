@@ -10,10 +10,9 @@
 {{ end }}
 
 {{ if eq ($.Scratch.Get "NotZero") true }}
-    <section class="panel panel-default">
-        <div class="panel-heading">
-            <div class="panel-title">Related posts</div>
-        </div>
+<div style="margin-bottom:10px" class="card">
+    <div class="card-block">
+        <h3 class="card-title">Related posts</h3>
         <div class="list-group">
             {{ range $site := where $.Site.Pages "Section" "blog" }}
                 {{ range $tag := $.Params.tags }}
@@ -29,5 +28,6 @@
                 {{ end }}
             {{ end }}
         </div>
-    </section>
+    </div>
+</div>
 {{ end }}
