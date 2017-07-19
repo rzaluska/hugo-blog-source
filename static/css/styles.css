@@ -1,6 +1,11 @@
 article {
+    color: #333;
     font-size: 21px;
-    font-family: 'Merriweather', serif;
+    line-height: 1.5em;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 header.post-header {
@@ -17,12 +22,11 @@ div.copyright {
 
 h1, h2, h3, h4 {
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
 }
 
 
 .container {
-    max-width: 740px;
+    max-width: 760px;
 }
 
 #share-buttons img {
@@ -39,4 +43,13 @@ h1, h2, h3, h4 {
 
 .navbar .navbar-brand {
   margin-top: -5px;
+}
+
+a {
+    color: #05569c;
+}
+
+a:hover {
+    color: #3186cb;
+    text-decoration: none;
 }
