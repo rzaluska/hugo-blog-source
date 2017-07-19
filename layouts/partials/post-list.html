@@ -1,5 +1,10 @@
-<div class="col-md-12">
+<div style="margin-top:10px" class="col-md-8">
     {{ range where .Site.Pages "Section" "blog" }}
-    {{ .Render "summary" }}
+        {{ .Render "summary" }}
     {{ end }}
+</div>
+<div class="col-md-4">
+    {{ partial "about.html" . }}
+    {{ partial "social.html" . }}
+    {{ partial "all-tags.html" . }}
 </div>

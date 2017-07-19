@@ -1,11 +1,13 @@
 <div class="post-meta">
     <p style="font-size:12pt">
-        <span class="glyphicon glyphicon-calendar"></span>
-        Published {{ .Date.Format "2 Jan 2006" }} <span class="glyphicon glyphicon-time"></span> Can be read in {{ .ReadingTime }} min
+        <i class="fa fa-calendar"></i> Published {{ .Date.Format "2 Jan 2006" }} with tags: 
     {{ if isset .Params "tags" }}
         {{ range .Params.tags }}
-            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><span class="glyphicon glyphicon-tag"></span> {{ . }}</a>
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fa fa-tags"></i> {{ . }}</a>
         {{ end }}
     {{ end }}
+        <span class="pull-right">
+        <i class="fa fa-clock-o"></i> Can be read in {{ .ReadingTime }} min
+        </span>
     </p>
 </div>

@@ -1,15 +1,19 @@
 {{ define "main" }}
 <div class="row">
     <div class="col-md-12">
-        <h1 id="title">{{ .Title }}: </h1>
-        <section class="panel panel-default">
+        <div class="card card-block">
+            <h3 class="card-title">All tags:</h3>
             <div class="list-group">
-                {{ $data := .Data }}
                 {{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
-                <a href="{{ $.Site.BaseURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}" class="list-group-item"> {{ $value.Name | humanize }} <span class="badge">{{ $value.Count }} </span></a>
+                <a href="/tags/{{ $value.Name | urlize }}" class="list-group-item">
+                    <span><i class="fa fa-tags"></i></span> {{ $value.Name | humanize }}
+                    <span style="margin-left: auto;" class="badge text-right badge-primary">{{ $value.Count }} </span>
+                </a>
                 {{ end }}
             </div>
-        </section>
+        </div>
     </div>
 </div>
 {{ end }}
+
+
