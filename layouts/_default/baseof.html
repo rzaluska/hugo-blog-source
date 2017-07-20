@@ -3,16 +3,14 @@
     <head>
         {{ partial "head.html" . }}
     </head>
-    <body>
-        <div id="wrap">
-            {{ partial "navbar.html" . }}
+    <body class="max-h-flex-column">
+        {{ partial "navbar.html" . }}
+        <main class="flex-fill">
             <div class="container">
-                <section id="main">
-                    {{ block "main" . }}
-                    {{ end }}
-                </section>
+                {{ block "main" . }}
+                {{ end }}
             </div>
-        </div>
+        </main>
         {{ partial "footer.html" . }}
     </body>
 </html>
