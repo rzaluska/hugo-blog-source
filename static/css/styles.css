@@ -29,12 +29,12 @@ footer {
     margin-top: 10px;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.flex-fill {
+    flex: 1;
 }
 
-#wrap {
-    flex: 1;
+.max-h-flex-column {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
