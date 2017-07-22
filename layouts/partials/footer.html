@@ -1,10 +1,18 @@
 <footer class="footer">
     <div class="container">
         <div class="text-center">
+            <p>
             <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution"><img height="30px" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg"></img></a>
             {{ if isset .Site.Params "author" }} {{ .Site.Params.Author }}.{{end}}
             <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution">Some rights reserved</a>;
             please attribute properly and link back.
+            </p>
+            <p class="small">
+            This blog is proudly powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://v4-alpha.getbootstrap.com/">Bootstrap 4</a>.
+            </p>
+            <p class="small">
+            The Go gopher was designed by Renee French and licensed under the Creative Commons 3.0 Attributions license.
+            </p>
         </div>
     </div>
 </footer>

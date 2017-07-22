@@ -3,6 +3,7 @@ date = "2017-07-05T17:30:36+02:00"
 draft = false
 title = "Finding vector perpendicular to another vector"
 tags = ['3D', 'math']
+useTex = true
 +++
 
 Hello, in this post I will present solution for math problem I stumbled upon

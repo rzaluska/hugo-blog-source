@@ -6,7 +6,7 @@ disqusShortname = "writeingo"
 SectionPagesMenu = "main"
 
 [params]
-  author = "Radek (LuxuryPro)"
+  author = "Radek Załuska"
   description = "Blog about Go programming language"
   googleAnalytics = "UA-97780102-1"
   ISO8601 = "2006-01-02T15:04:05CEST"
