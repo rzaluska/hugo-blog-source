@@ -5,18 +5,12 @@
 {{ define "main" }}
         <h1>Blog posts</h1>
         <div class="row">
-            <div style="margin-top:10px" class="col-md-8">
+            <div style="margin-top:10px" class="col-md-12">
                 <ul>
                 {{ range .Data.Pages }}
                 <li> <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}::DRAFT{{end}}</a> <time class="pull-right text-muted">{{ .Date.Format "Mon, 2 Jan 2006" }}</time> </li>
                 {{ end }}
                 </ul>
-            </div>
-            <div class="col-md-4">
-                {{ partial "all-tags.html" . }}
-                {{ partial "about.html" . }}
-                {{ partial "social.html" . }}
-                {{ partial "rss-sub.html" . }}
             </div>
         </div>
 {{ end }}

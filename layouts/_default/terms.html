@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-12">
         <div class="card card-block">
             <h3 class="card-title">All tags:</h3>
             <div class="list-group">
@@ -12,12 +12,6 @@
                 {{ end }}
             </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        {{ partial "latest.html" . }}
-        {{ partial "about.html" . }}
-        {{ partial "social.html" . }}
-        {{ partial "rss-sub.html" . }}
     </div>
 </div>
 {{ end }}

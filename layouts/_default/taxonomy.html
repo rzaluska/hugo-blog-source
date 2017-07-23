@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h1 id="title">Posts with tag {{ .Title }}:</h1>
             <ul>
         {{ range .Data.Pages }}
@@ -8,12 +8,5 @@
         {{ end }}
             </ul>
     </div>
-            <div class="col-md-4">
-                {{ partial "latest.html" . }}
-                {{ partial "all-tags.html" . }}
-                {{ partial "about.html" . }}
-                {{ partial "social.html" . }}
-                {{ partial "rss-sub.html" . }}
-            </div>
 </div>
 {{ end }}
