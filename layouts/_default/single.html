@@ -3,8 +3,8 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="row">
-    <div style="margin-top:10px" class="col-md-8">
+<div class="row justify-content-center push-navbar">
+    <div style="margin-top:10px" class="col-md-12">
         <article itemprop="articleBody" id="content">
             <header class="post-header">
                 <h1>
@@ -14,22 +14,11 @@
                 </h1>
                 {{ partial "postMeta.html" . }}
             </header>
-            <p>
-            {{ if in (string .TableOfContents) "nav" }}
-            <div class="card card-block">
-                {{ .TableOfContents }}
-            </div>
-            {{ end }}
-            </p>
+            <hr>
+            <div class="postContent">
             {{ .Content }}
+            </div>
         </article>
-    </div>
-
-    <div class="col-md-4">
-        {{ partial "same-tags.html" . }}
-        {{ partial "latest.html" . }}
-        {{ partial "all-tags.html" . }}
-        {{ partial "social.html" . }}
     </div>
 </div>
 

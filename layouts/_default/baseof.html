@@ -11,7 +11,7 @@
     <body class="max-h-flex-column">
         {{ partial "navbar.html" . }}
         <main class="flex-fill">
-            <div class="container">
+            <div class="container" style="max-width:700px">
                 {{ block "main" . }}
                 {{ end }}
             </div>
