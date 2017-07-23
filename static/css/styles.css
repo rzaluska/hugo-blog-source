@@ -11,8 +11,6 @@
     font-size:10px;
 }
 
-
-
 .list-group-item:hover {
     background-color: #f5f5f5;
 }
@@ -24,8 +22,8 @@
 }
 
 footer {
-    background-color: #f0f0f0;
-    padding-top: 20px;
+    background-color: #ddd;
+    padding: 20px;
     margin-top: 10px;
 }
 
@@ -50,7 +48,42 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#content {
+.main-column {
     padding-top: 60px;
     margin-top: -60px;
+    max-width: 700px;
+    font-size: 20px;
+}
+
+.post-title {
+    font-weight: bold;
+}
+
+a {
+    color: #043B58;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #094D72;
+}
+
+.post-summary-content {
+    font-size: 16px;
+}
+
+.bg-blue {
+    background-color: #12628f;
+}
+
+.hljs {
+    font-size: 16px;
+}
+
+.nav-container {
+    max-width: 750px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
 }
