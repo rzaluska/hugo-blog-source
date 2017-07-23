@@ -3,9 +3,8 @@ languageCode = "en-us"
 title = "Write in Go"
 disqusShortname = "writeingo"
 
-SectionPagesMenu = "main"
-
 [params]
+  subtitle = "Blog about Golang"
   author = "Radek Załuska"
   description = "Blog about Go programming language"
   googleAnalytics = "UA-97780102-1"
@@ -18,14 +17,4 @@ SectionPagesMenu = "main"
 
 [taxonomies]
 tag = "tags"
-
-[[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    url = "/blog/"
-
-[[menu.main]]
-    name = "Tags"
-    identifier = "tags"
-    url = "/tags/"
 

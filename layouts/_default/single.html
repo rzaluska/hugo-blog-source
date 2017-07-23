@@ -1,3 +1,7 @@
+{{ define "title" }}
+    {{ .Title }} – {{ .Site.Title }} - {{ .Site.Params.Subtitle }}
+{{ end }}
+
 {{ define "main" }}
 <div class="row">
     <div style="margin-top:10px" class="col-md-8">
@@ -25,7 +29,6 @@
         {{ partial "same-tags.html" . }}
         {{ partial "latest.html" . }}
         {{ partial "all-tags.html" . }}
-        {{ partial "rss-sub.html" . }}
         {{ partial "social.html" . }}
     </div>
 </div>
