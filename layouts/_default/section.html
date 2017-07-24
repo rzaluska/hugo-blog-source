@@ -6,11 +6,18 @@
             <div class="row justify-content-center push-navbar">
                 <div style="margin-top:10px" class="col-xl-7 col-lg-8 col-md-11 col-sm-12 col-12">
                 <h1>Blog posts</h1>
-                <ul>
+                <hr>
                 {{ range .Data.Pages }}
-                <li> <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}::DRAFT{{end}}</a> <time class="pull-right text-muted">{{ .Date.Format "Mon, 2 Jan 2006" }}</time> </li>
+                    <div class="row">
+                        <div class="col-9">
+                            <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}::DRAFT{{end}}</a>
+                        </div>
+                        <div class="col-3">
+                            <time class="float-right text-muted">{{ .Date.Format "2 Jan 2006" }}</time></span>
+                        </div>
+                    </div>
+                    <hr>
                 {{ end }}
-                </ul>
             </div>
         </div>
 {{ end }}
