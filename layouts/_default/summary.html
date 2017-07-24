@@ -3,7 +3,7 @@
         <h1> <p class="post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p> </h1>
        {{ partial "postMeta.html" . }}
     </header>
-    <div class="post-summary-content">
+    <div class="post-summary-content text-muted">
     {{ .Summary }}
     </div>
     <div>
