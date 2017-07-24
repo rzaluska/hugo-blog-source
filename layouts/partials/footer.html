@@ -1,21 +1,23 @@
-<div class="container nav-container">
-    <footer class="footer">
-        <div class="text-center">
-            <p>
-            <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution"><img height="30px" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg"></img></a>
-            {{ if isset .Site.Params "author" }} {{ .Site.Params.Author }}.{{end}}
-            <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution">Some rights reserved</a>;
-            please attribute properly and link back.
-            </p>
-            <p class="small">
-            This blog is proudly powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://v4-alpha.getbootstrap.com/">Bootstrap 4</a>.
-            </p>
-            <p class="small">
-            The Go gopher was designed by Renee French and licensed under the Creative Commons 3.0 Attributions license.
-            </p>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12">
+            <footer class="footer">
+                <div class="text-center">
+                    <p>
+                    <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution"><img height="30px" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg"></img></a>
+                    {{ if isset .Site.Params "author" }} {{ .Site.Params.Author }}.{{end}}
+                    <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+                    please attribute properly and link back.
+                    </p>
+                    <p class="small">
+                    This blog is proudly powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://v4-alpha.getbootstrap.com/">Bootstrap 4</a>.
+                    </p>
+                    <p class="small">
+                    The Go gopher was designed by Renee French and licensed under the Creative Commons 3.0 Attributions license.
+                    </p>
+                </div>
+            </footer>
         </div>
-    </footer>
+    </div>
 </div>
 </div>
-</body>
-</html>
