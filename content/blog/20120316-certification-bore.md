@@ -1,0 +1,15 @@
+title: Certification bore
+link: http://jaffamonkey.com/6800/certification-bore
+author: jaffamonkey
+description: 
+post_id: 6800
+created: 2012/03/16 12:28:00
+created_gmt: 2012/03/16 12:28:00
+comment_status: open
+post_name: certification-bore
+status: publish
+post_type: post
+
+# Certification bore
+
+I am glad to see the back of the oft-quoted phrase "anyone can be a tester", commonly delivered on the back of numerous cack-handed Agile (mis)translations. Developers test, stakeholders test - why do we need a tester? Because developers test is isolated unit level fashion, while stakeholders generally have their own testing agendas. Too often stakeholders become the beleaguered project testers, but without the basic QA skills. A good development team can negate this issue, but that's a big assumption. Though the value of the independent tester has risen, what hasn't gone away is the continual influx of certified testers in the marketplace. What kind of person makes decision to suddenly do an ISEB testing certification? There are two distinct groups:- 1\. Like myself, test professionals who started when there were no real certifications, but decided to do the ISEB Foundation in testing, because of wittering agencies and companies, who latched onto this certification simply because it was the only one out there. 2\. By far the most - worldwide there appears to be some campaign to get this ISEB testing certification by taking it anough times, and sharing exam and course information around similar-minded folk. I have been on these forums, and there seems to be little interested in QA generally, just obsessive drive to get just enough information to pass the certification. My concern around testing certifications is that they encourage the wrong people to get into testing. I have been working in QA for 17 years, and I find the content of these certifications both off-putting, misleading and failing to illustrate the value of cross-functional individuals and team players. I have no problem with certification per se, but I do if it ends up attracting the wrong type of persons. To me, testing is a varied interesting role that encourages multi-disciplined approach. What it isn't is a role fit for someone who enjoys regurgitating terminology and "ideal" processes. This can appear like someone is doing a job well, when what they are doing is hiding behind a certification smokescreen. Testing attracted a whole ramp of chancers, as it is perceived as an easy route into world of IT contracting. A disappointing array of ISEB-spouting testers, with little desire to learn/improve, and more priority in accelerating their own careers, regardless of whether they are learning their craft or not. Unfortunately hiring managers and agencies with little experience of QA, will latch onto these certifications, regardless of validity. Testing is being taken more seriously, but has a lot further to go - and a good step would be to drop the ISEB Foundation Testing certification. It is far too easy to bluff your way through it, and still end up an atrocious tester.

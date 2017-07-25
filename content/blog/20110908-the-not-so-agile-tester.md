@@ -1,0 +1,15 @@
+title: The not-so agile tester
+link: http://jaffamonkey.com/4479/the-not-so-agile-tester
+author: jaffamonkey
+description: 
+post_id: 4479
+created: 2011/09/08 14:25:07
+created_gmt: 2011/09/08 14:25:07
+comment_status: open
+post_name: the-not-so-agile-tester
+status: publish
+post_type: post
+
+# The not-so agile tester
+
+![cartoontester](/wp-content/uploads/2011/10/8submarine.png?w=300) Cartoon from http://cartoontester.blogspot.com Testing, as IT project area, has changed radically over the last ten years - largely subsumed into development. Now this is a very perilous double-edged sword, as although testing and development are natural bedfellows, I compare it to a fiery relationship (but with love :)). This is by no means criticism, but developers have a more blinkered view of overall project as a default. Testers are there to bridge that view to incorporate business expectations as well as technical verification. Testing became seen as something anyone could do - similar to attitude of developing websites in the 90's. Why pay 1000's when I can get a school-age relation to do me up one? Well, i can guarantee the latter will never get finished! We all need a reason to produce something, an end goal - which is why most websites done for free by a mate/relation never get done. Even in those circumstances you need a stakeholder to provide vision and drive scheduling. Testing is exactly the same - effort needs an end goal, and that goal is not defined by development, it is defined by the stakeholder. When it comes to behind-biting stage, the stakeholder and/or project manager are who the tester/test manager will have to answer to. Keep that in mind, and you're golden. Join the development clique too much, and it's easier to be part of the mistakes. But reality is mistakes are common in development - part of the learning curuves and route to improvments on code or user stories. Testing should be highlighting these issues, not compounding them. In the "olden days", testers generally had to have a thick skin - appreciated only once a good product had appeared at the other end of the SDLC. No room for over-sensitivity - there is a product to deliver, and if testing fails to properly scope out the requirements, and more importantly, ongoing changes/additions, the tester will end up testing what development wants them to test. This brings onto another point - there are far too many testers, who shouldnt be. Those who have arrived via certification routes only. I have worked in QA for 16 years, but when I read to exams for these certification, I wonder what planet the exam creators have come from. Its not reflective of the way people talk or communicate, and a lot of the terminology is akin to dreaded "mba-speak" - largely for show. I am not saying that certified testers are bad testers - that certification has introduced a large body of testers who shouldnt be. Do it because you love it, not because you see it as route to easy money. Testing can be a thankless, difficult and stressful activity - the reward is your contribution to a product that pleases both stakeholder and the team.

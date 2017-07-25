@@ -1,0 +1,17 @@
+title: Demonised self-employed
+link: http://jaffamonkey.com/9776/demonised-self-employed
+author: jaffamonkey
+description: 
+post_id: 9776
+created: 2013/06/29 17:49:08
+created_gmt: 2013/06/29 17:49:08
+comment_status: open
+post_name: demonised-self-employed
+status: publish
+post_type: post
+
+# Demonised self-employed
+
+> ... ironic because company executives and human resources say they want self starters, innovative hires, a certain entrepreneurial spirit.
+
+This article, [Entrepreneurs need not apply: Companies shun the self employed](http://qz.com/97962/entrepreneurs-need-not-apply-companies-shun-the-self-employed/), comes as no surprise, as companies attempt to hire contractors and the self-employed, as permanent employees. I have been in some comical permanent job interviews over the years, where it is plain they liked my wide variety of skills and experience, but plain nervous when we talk about terms of commitment. It seems that anything I say is met with suspicious eyes, unable to take in what I am saying. I do not lie, I don't have to - as far as I am concerned, they should be persuading me taking a permanent job is worth my while.  One question stuck in my mind - "what would you say is difference from being a contractor to being a permanent employee?". What a daft question - contractors are generally hired to fill skills gap, be it general advice on Agile process, skills in particular automation tools, or simply down to the experience of the contractor being seen as general added value. They ask that question, simply because they know the answer, but do not know how to marry one with the other. This is a problem in other countries, but particularly so in the UK, where Labour were demonising the self-employed for years, and the public/media enforced incorrect stereotypes. In particular, contractors are frequently hired for project rescue missions. And we don't expect anything outside of our agreed rates. And we generally have to be more visibly productive. For myself, those are the stark differences. Sure, there are employees who shine and are constantly overloaded, but majority of permanent staff are on a kind of job cruise. The time you really notice when this is true, is when a company has a severe downsize exercise. This is where company HR has not really thought it through properly. If you want people to stay in your company, you better provide damn good incentive to do so, apart from just taking advantage of the current temporary jobs slump. Self-employed workers do not expect longevity, or that a company cannot fulfill their their promises for employees. We prefer to be paid a good rate for our skills and time. Now I would have thought that was a good policy anyway, when hiring skilled people, or it demonstrates a basic lack of respect. Startup's generally prefer younger people, because of the naivety factor. They are more easily sold on a company more intangible sales spiel about how life is more than work. Or how work is life, and it's so much fun here! After 37 companies of varying sizes, I have seen so many games played with permanent employees, it is plainly ingrained in business culture, and don't be fooled by newer startups - they are behaving the same way.

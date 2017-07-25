@@ -1,0 +1,21 @@
+title: Choosing a testing path
+link: http://jaffamonkey.com/6662/choosing-a-testing-path
+author: jaffamonkey
+description: 
+post_id: 6662
+created: 2012/02/28 21:47:23
+created_gmt: 2012/02/28 21:47:23
+comment_status: open
+post_name: choosing-a-testing-path
+status: publish
+post_type: post
+
+# Choosing a testing path
+
+Firstly, I should say that I am always writing from perspective of someone who works in multiple industry, but majority is within web application development.   I am a real fan of Acceptance Test Driven Development (ATDD), which has many similar variants: 
+
+  * Test Driven Development (TDD)
+  * Behaviour Driven Development (BDD)
+  * Feature Driven Development (FDD)
+  * Story Test-Driven Development (STDD)
+How different are they? Well, not much, but all have their own slightly weighted approaches. Interestingly, TDD, almost promoted by developers, is disliked by many developers because of what they see as increased admin. More quality does take more work. To make life easier, you ensure the "more work" is optimal. Unless you have some kind of Acceptance Test Framework (ATF), it will all be difficult to maintain momentum on a project, because the onus really in on the developers to follow process, and Agile Sprints quickly turn into fingers-crossed releases. By use of an ATF, the testers are provided with a Quality Assurance gateway, which can also be used for same purpose by all project members. A visible measure of progress, and easy demonstration. A good ATF will be able to trace requirements right down to unit code level. Tools such as Cucumber and Specflow go a step further and using DSL (Domain-Specific Language). This kick-starts the test-driven process, by creating skeleton coded acceptance test from natural language requirements. [caption id="attachment_6643" align="alignnone" width="469" caption="Fitness Acceptance Test Example"]![](/wp-content/uploads/2012/02/fitnesseaf_passing.jpg)[/caption] ATDD makes Agile easier because you will end up with consistently working software to demonstrate at any time, and it steers developers to Agile ways. It requires more of the developer (test-driven approaches have more initial "admin"), and more of the testers, who should be pairing with developers. This is where testers can make a real difference, by assisting in bridging gap between requirements and code. ATDD encourages collaborative approach to process of acceptance testing, the key measure of project progress and success.  The tools were available before ATDD process was formally defined, but the principles are simple ones.  The principles is to record your requirements within the tools, and then developers use these as guide to code.  The ATF can be traced from unit level of code to requirements.  Tools like Cucumber go a step further, and take written user stories and scenarios and generate DSL to ATDD can help fulfil a lot of the Agile criteria, as the dependency in on the business and development to work in Agile fashion. "Individuals and interactions over processes and tools" - that Agile manifesto statement assumes individuals on project are self-motivating and working Agile. I would say that a combination of BOTH is necessary in the real world. An acceptance test framework is best tool for centralisation of development lifecycle. For QA, the functional testing of user stories is the main testing focus, and indeed the client/stakeholders. The inner mechanics and additional testing depends on the project in question, but something not of inherent interest to the client. Business measures on results, not process. The added beauty of ATDD, backed with a solid Acceptance Testing Framework, is that QA can become pivotal in client deliveries - exactly where we should be. What are good tools? There are not many but Fitnesse  is still highly regarded (which comes complete with it's own automated testing features, or simple integration with Selenium). The application itself is open to customisation (source code freely available) and will plug into all the major source control systems. I personally like its simplicity, wealth of API features and usability. Newer entrants are Cucumber and Specflow, but due to their dependence on DSL, support is very specific, and only support Ruby and .NET, respectively.

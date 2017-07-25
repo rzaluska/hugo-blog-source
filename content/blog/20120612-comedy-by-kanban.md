@@ -1,0 +1,15 @@
+title: Comedy by Kanban
+link: http://jaffamonkey.com/6014/comedy-by-kanban
+author: jaffamonkey
+description: 
+post_id: 6014
+created: 2012/06/12 23:14:11
+created_gmt: 2012/06/12 23:14:11
+comment_status: open
+post_name: comedy-by-kanban
+status: publish
+post_type: post
+
+# Comedy by Kanban
+
+I am big comedy fan, and in more nerdy moments, looked at sites about how sitcoms are made in the US. And it struck me how Agile they were as a default. They have many story writers, and each has their own specialist topics (so can be cross-functional). They employ storyboarding and continual review/improve process to scripts. Script reviews are with the whole team - when problems are ironed out. Episodes broken down into smaller storylines (sometimes more than one writers). Each writer has their own character that they write best for, so they will certainly be very active in cross-functional capacity. Some episodes require work outside of the core team (special effects, location finders, etc.). The audience (stakeholders) are sounded out, and work still goes on to hone the script. Below is a general process that the Seinfeld team employed. It touches on Agile, Scrum & Kanban ethos, in the process of getting an idea on our TV screens. But if I had to name one to associate, it would be Kanban approach. 1\. Idea for show (Project Initiation) - The main thing that makes for a good episode is the initial idea. The idea should be simple yet worthy of exploration, be easily expressible in about two or three sentences. 2\. “Yeah let’s do it” (Project Inception) – After the initial idea/project initiation, it still needs to be pitched to someone else to get the go ahead to be made (and here comes the Client ...) 3\. Episode Outlines (User Stories) 4\. Script (Scenarios) – This is the actual script/scenarios process (from those initial outlines/stories). This is the stage where peer review, and good management is necessary. Also, if the writing/coding starts to go bad here, the muscles atrophy and the script/application dies immediately. Some ideas/scenarios look good, even in an outline/user story, but just are not writable/programmable right then. 5\. Read-through/Rewrite/Rehearsal/Rewrite (Tasks) – This time gets the now created “body” off the table and walking on its own. This is the development cycle at work (Enter Kanban). 6\. Shoot night (Acceptance testing) – You have to think on your feet, you have to deal with people seeing your work and watching your brain work as you field questions, and that it’s a weird feeling to get used to. This stage shows, too, that there is never a time when editing/review isn’t done.  Editing/reviewing is always going on. 7.Final Editing (Deployment) - Just before it goes on air/deployed, you go back through and do a final edit for cosmetics and the like. 8\. Celebration (Review/Improve) – After each show/delivery, there should be a celebration ritual. It is important to celebrate before starting on another project. Celebrate the fact that you all did it and it’s done. And then, get ready to do the whole thing again!

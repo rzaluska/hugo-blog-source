@@ -1,0 +1,15 @@
+title: Minister of 1 Massive Database
+link: http://jaffamonkey.com/4312/minister-of-1-massive-database
+author: jaffamonkey
+description: 
+post_id: 4312
+created: 2011/07/20 06:36:39
+created_gmt: 2011/07/20 10:36:39
+comment_status: open
+post_name: minister-of-1-massive-database
+status: publish
+post_type: post
+
+# Minister of 1 Massive Database
+
+[caption id="attachment_4418" align="aligncenter" width="418" caption="From Brainstruck.com"]![From Brainstruck.com](http://blog.jaffamonkey.com/files/2011/07/cloud-storage-and-computing.jpg)[/caption]Do you remember various members of the Labour party going on about that "1 massive database" (to quote IT expert John Prescott)? That was going to tie all public data together. In ONE. MASSIVE. DATABASE. The ill-conceived idea that any IT consultant worth his/her salt would have recommended against, but large corporate IT service providers decided to nod vigorously in agreement, then waste millions of tax payers money implementing systems that they must have known, did not have a hope of fulfilling the requirements. At best, a fabulously expensive experiment. When there is money to be made from ignorance, you can bet your life that business will take full advantage. And none more so that on IT projects, especially government initiated ones. At high-level decision positions, competency in the industry you are working in is a given. In goverment, a Sports minister can become a Work and Pensions minister within a day. Polictians are simply the voice of a department and advisors. Whoever bandied about the phrase "one massive database" to an extent whereby politicans who probably struggled with email, became database champions. The concept of a single store seems logical enough as a concept, but technologically and architecturally difficult. Plus centralisation of data is a big deal - as whoever is responsible for the centralisation has more control than is necessary or desired. The general feeling is anti-centralisation - so the natural alternative is to think about data in different way, and increase it's portability. Data that resides in one system can be easily read and manipulated by other systems. Here we go again, into the semantic web territory, where all data in perfectly microformated, with multiple cloud web/data services to process and distribute in a myriad of different ways. This is where philosophy is so right and so wrong - you cannot forget the unpredictability and individualism of human beings, who will do things different to be ... well, just different. Maybe the next government phrase could be "1 massive cloud", which is of course a complete contradiction. They have interest in Cloud Computing, as data stored in this way transcends many international privact laws. Makes the current phone-tapping scandal seem a little small. Invasion of privacy is about to take a huge leap forward.

@@ -1,0 +1,20 @@
+title: Using the Agile skeleton
+link: http://jaffamonkey.com/4590/using-the-agile-skeleton
+author: jaffamonkey
+description: 
+post_id: 4590
+created: 2011/10/06 11:23:15
+created_gmt: 2011/10/06 11:23:15
+comment_status: open
+post_name: using-the-agile-skeleton
+status: publish
+post_type: post
+
+# Using the Agile skeleton
+
+Agile provides a skeleton set of rules that you can apply to any other Agile-related methodology - apply them with iron fist, then allow projects to define their own variations, especially at development level. These rules are:- 
+
+  * Full-Time ScrumMaster Identified and Team Members Available to Do Work
+  * Team Agrees to Demonstrate Working Software in No More Than 30 Days
+  * Stakeholders Invited to Demonstration
+That is pretty loose, but get to grips with fundamentals of project team structure, and what is expected high-level, it's a good start to developing your own Agile approach. Don't forget, no methodology takes account of company culture, human resources or budget constrictions. Follow Agile to the letter, and it could prove very costly for you, without adding much comparative benefit. The ScrumMaster role is a vital role, as it is he/she that keeps development on track with user stories, and is first point of contact for the business. This role is a common area of weakness - if you omit the role altogether, then you will simply have a Waterfall project (driven, as it would be, by the Product Owner). Product Owner thinks in terms of milestones, as they will have a stakeholder breathing down their neck. The Scrummaster brings some order to the input/output of requirements. The team members include everyone that drives the daily SDLC, i.e. developers and testers. They may or may not be applying Agile software development method, but any Agile-friendly method is OK to use - best fit for the team and company. Length of Sprints is flexible and driven by realistic vision of what is possible given resources. 2 weeks is a common choice, which is sensible. A broad guide is to assume you need same amount of testing time and development time. 1 week Sprints can work, but difficult to sustain without sizeable team. It is often stated that Agile is intended for smaller projects, and indeed SCRUM is very specific on this (ideal team size 7-12). This is a recognition that Agile was primarily for smaller projects. But if your project is large and complex, you can still apply the Agile skeleton rule, and choose a longer (and some would say more traditional) monthly release cycle. Corporation generally adopt this approach, largely because corporations are a slower machine. It doesn’t matter how dynamic or Agile your development team is. If stakeholders are rarely available, your project will slow up accordingly, as Agile assumes continual stakeholder contribution to the process. Startup companies can adopt Agile more fully, as they have a lot more at stake for project delivery. No project, no funding, no company. So they can afford a more aggressive implementation of Agile, and SCRUM is ideal for an average startup structure. For s start everyone is usually in same building, if not on same floor. Interaction between employees is far more frequent, and feedback is very fast, up and down the chain. I have often thought the way corporations should be thinking is of each project as its own company, rather than attempting a corporation-wide strategy. While one project may suit Agile for software development method, another may be better using kanban (which is more developer-centric). Project methodology should be judged per project. That’s not to say you cannot have an overall Agile strategy in a corporation - just adopt the Agile skeleton as the high-level framework. Then work out the development method to follow - taking parts of several methods, if appropriate.

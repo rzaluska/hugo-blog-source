@@ -1,0 +1,15 @@
+title: Semantic pants
+link: http://jaffamonkey.com/7749/semantic-pants
+author: jaffamonkey
+description: 
+post_id: 7749
+created: 2012/10/26 22:56:48
+created_gmt: 2012/10/26 22:56:48
+comment_status: open
+post_name: semantic-pants
+status: publish
+post_type: post
+
+# Semantic pants
+
+_I should add here, that this is based on a description a non-techie friend gave me,  on how google searching worked._ The semantic web. Take the word pants. User 1: Has a dog and looks up symptoms (possible search string - "dog pants too much") User 2: Buys a lot of pants (possible search string - "bargain pants sale") User 3: Enjoys photos of soiled pants \- hey, it takes all sorts to make a world (possible search string - "dirty mens pants" User 4: From generation who uses word pants to describe something that's not very good. (possible search string - "what political party is the most pants") User 5: Combination of users 1-4 Using the search string to identify a user from the list, "soiled pants" could only User 3; but there is also User 6, who has diarrhoea. It won't make them feel any better if their search returns photos of pants that have seen a lot of action and not much washing. Now of course in some countries, "pants" actually means "trousers", so you have to account for different meanings depending on location. Which the search engine can usually pick up on. They get that right most of the time. So now we have User 7 - an American who likes to buy his pants online.  Yes, at least a search engine can assume user is after male pants.  So take the search string "bargain pants" from a UK location.  The search engine picks up of "bargain" is is reliably associated with shopping related search string .  Could be a man or woman buying for a man.  Or maybe a woman feels more comfortable in pants, or turned on by wearing mens pants.  You can see how complex it can get very quickly.  It's people's little perversions and quirks that will really throw search engines off the track.  If only us annoying users would use the word "Y-Fronts" instead of "pants", it would make search engines lives a little easier.  But you can see how implementing a semantic approach to web searching can quickly get complex. From this rudimentary approach to a semantic web, search engines can start building up profiles. Not logged in? No problem - they record your IP and surfing history anyway. What, you think they need permission? User 5 is why it still doesn't work very well yet. No-one is so simple and straight-forward enough to pigeon-hole so easily. So it's on it's way, and as long as search engines like Google can stop falling over themselves telling us what we want, rather than trying to work it out, we will get there. In the meantime be careful out there, or you may end up with a profile you can't shake off ;) _Interesting note - when I search "pants" on Google UK, the images are 99% trousers._ #fail

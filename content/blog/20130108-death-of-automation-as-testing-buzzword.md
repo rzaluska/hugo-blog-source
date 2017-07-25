@@ -1,0 +1,19 @@
+title: Goodbye to "automation" as testing buzzword
+link: http://jaffamonkey.com/8385/death-of-automation-as-testing-buzzword
+author: jaffamonkey
+description: 
+post_id: 8385
+created: 2013/01/08 04:33:21
+created_gmt: 2013/01/08 04:33:21
+comment_status: open
+post_name: death-of-automation-as-testing-buzzword
+status: publish
+post_type: post
+
+# Goodbye to "automation" as testing buzzword
+
+Why is the testing world a little off-balance recently?  Because test automation is finally becoming mandatory for testers.  Simplistic reasoning maybe, but after 16 years in QA I feel like I have good understanding about people in the testing market.  This has improved over the last couple of year, with an influx of more technically minded people who are enthused about testing and automation. This doesn't mean the "old guard" have left, it was just that the demand for testers increased (even in these direr times). I should say "old" really, as it is not age related.  I have met many 20-something with surprising old fashioned views on development and testing. The surge in demand for test automation skills is a frightening prospect for the less technical amongst testers, but a good progression.  It will never be 100% automation - there are many things that demand an expert eye that tools cannot provide yet.  The rise of test automation profile (a phrase previously only nervously whispered, or said like a question)  is follows the trend in development world, and also the philosophies around more human elements, such as oft-quoted but rarely observed "individuals over processes". Now managers understand they don't have to understand - it is a development/testing process.  What is more important to understand is to foster an environment where it can happen.  You dont put out any confidence but avoiding development or testing concerns with phrases that amount to the same thing  - "we don't have time".  What they mean is that they don't understand what the problem is, but they have more immediate problem of delivering to their client. Trust your team - otherwise what is the point. For test automation to work needs a tighter team, with cross-functional skills.  Testers can help with Continuous Integration efforts as developers can potentially use the scripts for their daily build testing.  testers can utlilise developer unit tests, if the test requirement is better served by that method.   For developers and testers, this means more crossovers into each other roles - two roles, I might add, that still deserve separation - never lose that dynamic. Developers and testers also have to be more adept at communicating.  And I don't just mean in business context, or in a gossip one.  General conversations can improve the dynamic. And by "general conversation", I mean discussions on technologies or new tools or ways of doing things,  It fosters an air of creativity and positive decision-making.  When you lose the blame culture you lose the facades and people become more honest in their opinions and more quick to ask for assistance. So suck it up, testing world - adapt before you become either a bitter successful dinosaur, or on a slow treadmill to no more work. Or change career.  There were and are a lot of testers who view testing as an easy ride.  Their time is definitely coming to an end.  After years of constantly having to defend out corner, it feels like there is more understanding out there about what benefits test professionals can bring. In job market I have noticed that contract jobs that specifically mention "manual testing" or "waterfall" are generally in places in UK I have never heard of.  Maybe that is true indicator of the trend. 
+
+> Goranka Bjedov and Alberto Savoia on the death of testing, and fake software testers
+
+[mp3j track="Testcast@http://www.testcast.net/shows/mp3/Testcast-010-Testing-Is-Dead.mp3" caption="The death of testing, and fake software testers" autoplay="n"]

@@ -1,0 +1,15 @@
+title: Job Title is dead
+link: http://jaffamonkey.com/9384/job-title-is-dead
+author: jaffamonkey
+description: 
+post_id: 9384
+created: 2013/04/01 10:58:38
+created_gmt: 2013/04/01 10:58:38
+comment_status: closed
+post_name: job-title-is-dead
+status: publish
+post_type: post
+
+# Job Title is dead
+
+I have been looking for something to write about that I can title "[xxxx] is dead". And finally found something I feel I could safely damn. A recruiter said to me the other day, "It's not obvious from your resume you have worked in Agile environments". After some quizzing why (after, I have spent the last 12 years almost exclusively on Agile projects), the "problem" was the job titles. I shouldn't be a Senior Tester, I should be an Agile Senior Tester. My history is littered with misleading Job titles, titles not easy to remove as that is how I was hired. Is is OK to change your job title, as you see fit? Or is it down to people searching to be more semantic about it?  Agile is too huge an area, to simply rely on it as a job title tag. An to simply add "Agile" to the beginning of a Job Title seems a little forced. It's a one-to-many relationaship, as a test resource - you adapt depending on the environment, and I am not convinced that being an Agile Tester, precludes you from other approaches. Agile tends to mean a different thing to different companies, and indeed people. Using the Agile label in a job title seems to have become a mandatory item. But I think it belies fact there are many recruiters who do not understand Agile enough, to make judgement calls on what resumes to put forward. Hence CV's are prioritised on Job Titles for Agile-base project work. Maybe more relevant is honest appraisal of the environment, both in terms of culture and technologies, is more useful to secure the right person. Although I have worked the majorty of my career in Agile environments, they fall into 3 distinct categories. 1\. Agile Aspiring The best for me - they have the people, they have the enthusiasm to try and do things better. Even those using some techniqies should be aware that the point of Agile is that it is constant learning process. 2\. Deluded Agile Usually adopting a weak version of Scrum, and lots of Agile talk (little action). Development is not Agile (often lacking unit testing or Continuous integration). 3\. Development is Agile, management a millions miles away. One thing that doesn't change is the job spec - a list of essentials, but largely a wishlist. Of varying length, but more than likely, copy and pasted from somewhere else. It has long been expected of a test resource to be in the form of a QA one-man band. I actually adapted to that expectation well, as I prefer to be an jack of all trades, and constantly learning. It suits me. But a Job Title by itself, is never going to reflect that.

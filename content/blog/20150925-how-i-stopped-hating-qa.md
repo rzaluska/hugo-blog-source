@@ -1,0 +1,33 @@
+title: How I stopped hating QA
+link: http://jaffamonkey.com/11621/how-i-stopped-hating-qa
+author: jaffamonkey
+description: 
+post_id: 11621
+created: 2015/09/25 10:14:01
+created_gmt: 2015/09/25 10:14:01
+comment_status: closed
+post_name: how-i-stopped-hating-qa
+status: publish
+post_type: post
+
+# How I stopped hating QA
+
+Guerilla test management - it became my accidental niche area.  From 2000-2011, I was working in primarily creative, publishing, mobile and media companies in QA/Test Management capacity - usually hands-on (asides pure strategy/management based contracts).  Either welcome or not, I was hired for my pragmatism and multi-disciplined QA skills.  I have built test environments on the sly (not kidding), experienced sabotage, back-stabbing, blame-game defences.  I have managed distributed teams, and have been a lone QA  on multiple projects.  I often had to learn new things, at speed.  What never changes (rarely) is my good-natured optimism, and refusal to allow others negativity to affect me.  But, a few years ago, I had grown tired of my management direction and tired of unhealthy chaotic projects I was hired to improve QA within.  On a personal level, the work felt vague with no focus, and increasing dissatisfaction.
+
+Like most QA people of my experience, I have coding skills, and can create automated tests.  Now building and maintaining test framework is another matter, and demands what simple scripting approach does not, which is coding quality. The advantage of scripting tests is they don't have to be perfect to work. And as most individual tests are throwaway, then it doesn't matter. Does it? Well yes and no. Budget and time constraints cause all manner of corner cutting, that's the reality. But to approach test automation as basic isolated test scripts (and no, I am not impressed by a selenium IDE suite) seems short-sighted.
+
+There is good reason why many testers do not take the plunging into developing in test. Suddenly you will realise your coding skills come more under the general development microscope, you become vulnerable in a sense, because the level of coding skills of most testers is very focused on a small script - rarely concerned with such methods as page objects, or other optimal ways to code tests.   I went into test automation with view to be a better coder, as well as an escape from political bullshit of management roles. And because of my experience, I didn't fear the unknown or vulnerability - two essential assets if you want to carry on learning, rather than live under illusion of "playing it safe". 
+
+To a (blinkered) developer, as a Developer in Test, I am simply another developer who deals with development work they don't want to do.  And not as skilled.  The role of modern tester rarely only includes one task, and testers are expected to self-manage.  Until it's convenient for someone to contradict that.  What irritates me most about my field, is the amount of self-proclaimed experts in it, constantly redefining testing for the sake of it. I can handle the arrogant, the patronising and the lame input to testing effort.  Sometimes it's youthful arrogance, sometimes belligerent self-promotion. The latter are worth little in my book. QA is an area where anyone can feels they can offer expertise, even to a QA expert.  I regard it as comical, and regularly give these types of people room to make themselves look foolish. They never disappoint.
+
+I also diverted from my management path, partly because I saw an end to traditional QA/Test management roles. Not brought about by redefinitions from self-appointed gurus rehashing what was understood before, in a slightly different way. But by the evolution in the understanding of team dynamics.  Everyone is contributing in some way, to the overall quality, and as such, team structure and process  For years many nods have been made to the importance of team, but only in the last few years have I seen concerted efforts around it.  A supportive and communicative team is a valuable thing indeed, but also sensitive. Testers still have a very valued place, but only if they take the leap into automation as a coder, rather than solely a test scripter.
+
+The demands for being a Developer in Test are in some ways greater than "regular" development, as the development of the test app should ideally be faster than the app under test. So getting the framework right to start with is an important step, before moving on to actual coding.  Open source provides us with wonderful tools to assist rapid development, but your framework of extensions/plugins needs testing itself.  As we all know, integration is always THE risk area to focus on in QA. 
+
+When starting as a Developer in Test , prepare to be a beginner, because in a programming respect, you most likely are. And aspiring to be a quality coder, rather than just a coder, means you are setting the bar high to start with. Prepare to learn on the job also, as any other developer has to do (no matter how experienced). Prepare to be part of the development team, an integral QA piece to the project puzzle.  If you can do it, enjoys the same highs and lows developers experience - it hammered home to me, why not everyone can be a developers, as not everyone enjoys the "mind rollercoaster"
+
+I am more than happy to get developer input on my code, as my aim to to be build something of worth and reuse, not simply fill in the time.  My aim in test automation is building a well-coded and reusable framework, that I can actually take pride in. When you delve deeper in test automation, you quickly become aware of need to be a self-managing tester, because you have to maintain not only coding quality, but ensure it maintains velocity with the rest of the project.  Do not under-estimate the importance of creating and maintaining a test automation framework.
+
+Take some inevitable pain at the beginning of setting up the automation test framework (be it BDD, or a project using another approach).  Test automation is not specific to any methodology or approach, but hopefully you will at least be in an environment that understands test automation should be treated the same as other other development.  I personally enjoy the BDD approach and methods; just experiment, to find your niche. I am driven by money as much as most people, but I am still happy to compromise or risk income, for sake of working on the right projects. Keep your mind open, and principles strong ;)
+
+_Rant complete! I will be following this article with practical test automation guides._

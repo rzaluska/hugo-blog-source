@@ -1,0 +1,17 @@
+title: Don't disappear in your own life
+link: http://jaffamonkey.com/8548/dont-disappear-in-your-own-life
+author: jaffamonkey
+description: 
+post_id: 8548
+created: 2013/03/16 00:36:16
+created_gmt: 2013/03/16 00:36:16
+comment_status: open
+post_name: dont-disappear-in-your-own-life
+status: publish
+post_type: post
+
+# Don't disappear in your own life
+
+> We get so comfortable with our life that we don't venture out - so we disappear.
+
+Has testing world disappeared up it's own behind? The predictable anti-climax after the last couple of years fever-pitch movements in Quality Assurance world, led to sudden realisation that we all knew already. You can't take testing out of development equation, and treat it differently - just as you can't do the same with development. Quality Assurance on the other hand can afford to take a higher view, as it's more concerned with overall a project means to an end. The problem was there was too much focus on tools (vital as they are) and a desperate clawing to other methodologies, following the sadly predictable Agile and Scrum backlashes. Even with the sensible realisation that the big ones were guidelines not rulebooks, led to people trying to create "the answer" themselves, creating endless streams of similar approaches to testing. Utterly useless, as approaching testing or development like a "Jack and Jill" style user guide, created by people that are no doubt very skilled, but self-appointed. And whatever they may purport to be, there is a dictatorial element to following their approaches. Similar to how someone with a religious faith may say "We are all God's children" at the same time as thinking "You are all going to hell". The big change was the technical demands on the tester, as well as expectation they can effectively manage themselves. hence why most Test Managers suddenly became entire testing departments, as the bulk of testers in the market did not have those skills. So rolled in a bad reputation of testers, and an "anyone can do it" mentality. The testing world fought back by increasing skills, in technical and project management areas. This made sense, as the whole drive behind Agile (the umbrella of many others, but not an originator) was cohesive self-managing teams with cross-functional skills. Though this was logical, it was applied is an atmosphere of conflicts. It has been a brutal pruning - either people have become disillusioned and slipped into other areas, or simply could not keep up with the demands made in modern testing. The pruning has been as brutal in the development world, but work is not supposed to be a cushy ride. Testing and development cannot be separated anymore. I am not just talking about automation here, it's about a more cohesive team where developers and testers essentially jobshare. My Britishness may cringe at the cheesy employee-rousing marketing about the "importance of team", but you can't escape the fact it's all very true. Even in a management disaster, if you have a strong project team, you can produce a good product. And this highlights the question mark in modern development and project management conundrums, is are those managers doing the most useful tasks, even necessary if that manager level is needed at all.

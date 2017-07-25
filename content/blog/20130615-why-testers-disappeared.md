@@ -1,0 +1,15 @@
+title: Why the good testers disappeared
+link: http://jaffamonkey.com/9501/why-testers-disappeared
+author: jaffamonkey
+description: 
+post_id: 9501
+created: 2013/06/15 10:12:13
+created_gmt: 2013/06/15 10:12:13
+comment_status: open
+post_name: why-testers-disappeared
+status: publish
+post_type: post
+
+# Why the good testers disappeared
+
+... and why they shouldn't have. It is relatively easy to see when and why some form of disillusionment occurred in testing world, after a few years of increasing hype around it. There were many healthy discussions around a tester's place on modern Agile projects, and increased focus on test automation skills. It was when the context-driven school of testing put it's hands up and fairly stated it could not be considered relevant. After all, what stays still in software development? The whole evolution is based on learning from mistakes, and improving programming. It is an interesting time, because once again testing has to reclaim it's position, in the new surge of "testing is dead" mantras. I can imagine why people with good testing expertise left testing - some to development, some in other roles within a project after a certification or two, some completely out of software development entirely. If someone tells you that you are useless, often enough, you will probably start believing it. And to leave any testing tasks solely in the hands of developers and stakeholders is a gamble indeed. Sure, it can work if you have the right developers and committed stakeholders. But that is not the norm. While a development team may have convinced themselves their QA is covered, it is a rocky position to hold when testing is demoted to a smaller task, assigned without forethought. The word "disillusionment" cropped up many times in reasonings to leave testing, but why it was regarded as reason to leave, I don't know. Obviously Tester role has never been considered the most "glamorous" role on a project, and Test Manager routinely viewed as the more lowly managerial role on a project. Testing has evolved as far as development has. In fact, when you think about it, why wouldn't it? But it seems a well-trodden path is being followed again - out with the old, and in with the new. Without checking first whether the new ways actually work, first. And whether there was anything wrong with the "old ways" to start with. Far from being disillusioned, I say "Bring it on!". One of the more strange reasons I gravitated towards testing, was the perception-battling part of it. As well as the opportunity to become a multi-skilled individual. We have a new glut of cheap testers that have entered the marketplace, and that presents a similar but different challenge than before. There enthusiasm for testing that built up over last few years, has been slightly dampened by good test leaders, that permeated networking, backing away from testing. But that shouldn't change anything. Testing is here to stay, as is the value of a tester resource that can test objectively.

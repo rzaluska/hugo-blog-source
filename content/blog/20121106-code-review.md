@@ -1,0 +1,15 @@
+title: Code Review
+link: http://jaffamonkey.com/7768/code-review
+author: jaffamonkey
+description: 
+post_id: 7768
+created: 2012/11/06 13:53:25
+created_gmt: 2012/11/06 13:53:25
+comment_status: open
+post_name: code-review
+status: publish
+post_type: post
+
+# Code Review
+
+It is interesting psychology that people see the worst scenario.   A good example is the dreaded phrase "code review" - but why?  Code review is a common phrase bandied about - and like automated testing, there is a lot more talk than action. The pessimist view would be of a stressed project/development manager poring over every single line of code.  This is inefficient anyway, as we are generally not dealing with procedural based languages languages like COBOL.  Code reviews can take many forms and approach - instead of examining the codes, how about examining the unit tests first? If you have a properly implemented iterative and incremental approach, then granular code reviews should not be necessary. But leaving the ideal world for a moment, what is the best way of ensuring code is up to scratch regards standards?  Hindsight. Lazy coding habits can set in early - there are many ways to implement a function, in an efficient or inefficient manner. Observing web accessibility standards enforces this from the front-end code, but application code is a little different. Though performance testing is not usually a regular testing activity, there is no reason why it should not be. Lets be clear on distinction between performance testing and load testing, as they are often confused as meaning the same thing. Load testing is a TYPE of Performance test. As well as testing the limits of a web application, it highlight functional errors that although may not be causing problems with an end to end process, but cause lag time. My main point is that code review should be integral to the testing process itself. We have a lot of talk about cross-functional skills, how about cross-functional testing? With an GUI-driven or headless browser test automation, this will also highlight standards lapses, such as correctly identifying web elements with Id and name.  Or identifying broken (but working) JavaScript libraries, or calls to external files that are broken. using Web Developer Tools or Firebug browsers add-ons will enable you to continually review UI code for these kind of problems. Reviewing code line by line seems a little self-defeatist, and given the time it would take to do this activity (assuming the end result was worthwhile), you might as well start the project again from scratch. This time, observing coding standards as part of the continual review/improve process.  Applying sound principle of unit testing (or even better, Test Driven Development (TDD)), with policy of code-reuse will ensure code reviews happens as part of end to end process of delivering requirements.

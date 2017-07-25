@@ -1,0 +1,23 @@
+title: Semantic web
+link: http://jaffamonkey.com/3930/finally-i-think-i-get-it
+author: jaffamonkey
+description: 
+post_id: 3930
+created: 2011/04/28 17:45:01
+created_gmt: 2011/04/28 21:45:01
+comment_status: open
+post_name: finally-i-think-i-get-it
+status: publish
+post_type: post
+
+# Semantic web
+
+Probably the best analagy of semantic web I have seen - and from an article from 2003 ... 
+
+> The simple answer is this: The Semantic Web is a machine for creating syllogisms. A syllogism is a form of logic, first described by Aristotle, where "...certain things being stated, something other than what is stated follows of necessity from their being so." [Organon] The canonical syllogism is: Humans are mortal Greeks are human Therefore, Greeks are mortal with the third statement derived from the previous two. The Semantic Web is made up of assertions, e.g. "The creator of shirky.com is Clay Shirky." Given the two statements \- Clay Shirky is the creator of shirky.com \- The creator of shirky.com lives in Brooklyn you can conclude that I live in Brooklyn, something you couldn't know from either statement on its own. From there, other expressions that include Clay Shirky, shirky.com, or Brooklyn can be further coupled. [Clay Shirky’s piece on the Semantic Web](http://www.shirky.com/writings/semantic_syllogism.html)
+
+Since 2003, there have been million and one explanations of the fundamentals of semantic web. Isn't it just the way - anything new gets over-analyzed and dissected - until you are swamped with a million variations on the same thing. Who is right? Well, most could be right as what they define is pretty much the same as within this article. Simplicity always throws us - I don't think it's just me, but I have to fight to contain the more infuriating part of my mind that decides "there must be more to it". There isn't. When someone asks me "how to get into IT", I always respond with "well, what are you interested in?". Looks of puzzlement, or frustration usually follow. Basically we all like a quick answer, a quick route - and the (pointless) attitude occurs a LOT in IT. Every success, be it a career move, or web startup, or large corp starts from something simple ... then you run with it. The idea is not to sit still and ponder, but move. It inspires you? So follow it! Easy to say, I know - we all have that part, why else would people do things like pointlessly shove money into the weekly Lottery machine. So semantic web ... I will try and avoid trap of focussing too much on the explanation and concentrate on implementation. The above example looks simple, but now try and think of a similar one! How about: Dan is Paul's friend Corinne is Dan's friend Corinne is my friend Hmm ... Well, it is logical, but thats about it - logic over real life emotions, and realities. I might of never met Corinne, or she may hate me because sometimes I am too brash. Paul is brash Dan is Paul's friend Corinne is Dan's friend Corrine hates brash people Corinne hates Paul That looks better, though it also may be relevant if I am brash in general, or just feel brash that day. Anyway, I can already see what is happenning - the more you do this the more questions it will raise, like "who are all these people anyway, and why would they have connection with me?". Its could be considered exponential, but we have technology to make those exponentials not so scary :) I can see what it means in broadest sense - and I think the solution would have to include some AI, otherwise the coding of semantic web based systems would take an eternity. But, there is something familiar about this still. "If ... then ... else" - fundamental decision process in programming and in life, in fact. What is interesting to me is how an intelligent semantic web system will gather information, such as personality traits. As with web 2.0, this all depends on web users buy-in, to allow the web to soak up your online activity - I cannot think of another way, AI is hardly going to be at stage of probing our minds, which is a little freaky in itself! It was 2003 to be fair, but he article was a little pessimistic at that time. But 9 years is a long time, and with the surge of cloud computing, and advances in AI programming, it may be not as long as we think. 
+
+**[Web 3.0 explained with a stamp (pt I: the basics)](http://www.slideshare.net/freekbijl/web-30-explained-with-a-stamp)**
+
+View more [presentations](http://www.slideshare.net/) from [Freek Bijl](http://www.slideshare.net/freekbijl)

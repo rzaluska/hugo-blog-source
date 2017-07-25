@@ -1,0 +1,15 @@
+title: what is the difference between QA and Testing?
+link: http://jaffamonkey.com/231/introduction
+author: jaffamonkey
+description: 
+post_id: 231
+created: 2007/01/12 10:02:10
+created_gmt: 2007/01/12 15:02:10
+comment_status: closed
+post_name: introduction
+status: publish
+post_type: post
+
+# what is the difference between QA and Testing?
+
+First of all what is the difference between QA and Testing? Is there one? Standard IEEE definitions are:- TESTING means "quality control" QUALITY ASSURANCE measures the quality of processes used to create a quality product. This is fair assessment, and it is Quality Assurance that this book is focussed on, as testing is simply a derivative a QA process.Â What has inspired/driven me to write this book, is to sum up my experiences into a guide for other QA Managers to deal with the unusual and bizarre - the world of RAD, of which Agile is the most popularist exponent.  Before moving onto this topic, lets see if we can define Agile.Â This is a challenge as the perception of what agile is differs from company to company, and individual to individual. <http://agilemanifesto.org/> This is a good overview of the aims of agile, but the biggest error is to take this methodology and attempt to build a complete project around it. The main problem with methodologies that claim to encompass a complete project lifecycle, is the dangerous assumption everyone is working off the same page; that everyone understands the implications and possible caveats.  Agile has been dogged by theory and tools, rather than focussing on real issue with modern software development - communication.  I have been in several bizarre meeting where the topic has been communication issues.  Unfortunately the upshot of these meetings is usually "lets email even more" or worse "we are right, they are wrong".Â The customer is the driving force of a software project, be it an internal or external one. The raison d'etre of agile is to develop fast, with minimal interference from business.  The focus is on the customer, but the customer is rarely involved in the day-to-day Agile process.  We can see the assumptions mounting up, so rather than following a more critical view of Agile, I am suggesting that development are doing what is required, it is other project members that are not adapting their important roles. The traditional role of QA management, has been adapted over time by necessity, rather than any guidelines.  And the additional responsibilities the QA Manager has, extends into release and project management (these roles have been diluted over time, especially on web/media project.  The question I still have for myself, during consultancy work, is should I be following company policy rather than defining my own path? They hired a manager, and the assumption is that you can think for yourself, and go against the grain if required. QA requires a thick skin, and complete faith in your beliefs!

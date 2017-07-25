@@ -1,0 +1,17 @@
+title: On my soapbox again
+link: http://jaffamonkey.com/2897/on-my-soapbox-again
+author: jaffamonkey
+description: 
+post_id: 2897
+created: 2009/11/07 23:48:15
+created_gmt: 2009/11/07 22:48:15
+comment_status: open
+post_name: on-my-soapbox-again
+status: publish
+post_type: post
+
+# On my soapbox again
+
+> ![blog-revolution](http://blog.jaffamonkey.com/files/2009/11/blog-revolution-150x130.jpg)It is indispensable for us to approach this crisis from a revolutionary perspective, whether within a mass organization, study circles, or when conducting agitation on the street. For the first time in many years all of capitalism’s ugly contradictions are coming to a head, and how history will gaze back on this moment depends heavily on our actions now. [Swimming with the big fish, or leading a new school?](http://mikeely.wordpress.com/2009/03/13/swimming-with-the-big-fish-or-leading-a-new-school/)
+
+_The bully will carry on bullying until you take a positive stance.  History will look back on this period as largely ugly, with little to redeem it.  An turning point where we either get better or get much much worse._ Maybe I am missing something, but it appears as if we the population, are allowing a bunch of self-interested politicians and bankers screw us into the ground. Apparently we own 85% of Royal Bank of Scotland - how gratifying, to know we have the power to go into a board meeting - no, crash into a board meeting and sack it.   What we have in reality is record bankruptcy (personal and business), the worst recession in long time (and isn't over yet by long shot), companies conning us left right and centre, councils conning us left right and centre, and being drowned in political bullsh*t.   And we are still lorded over by a bunch a fatuous politicians, still whining over expenses, with 10 years of ongoing disastrous policies, including killing the army population slowly and deliberately (for fear of looking weak,which they are).  And they lie - lie day in day out.  I would imagine most incompetent political parties are hiding behind "global" credit crunch.  Do you really take their word for it?  You are foolish if you do, and dont even bother with basic thinking.  The current problems are direct result of government/banking greed and incompetence (the two usually go hand in hand).  Not just that - look at activity after - simply more money thrown at banks. - that is their only solution, to artificially prop up a dying capitalist system, because they dont know any other way.  Do you think all countries have done it like this?  If so, then you are just too stupid to even be bothered with.  Capitalism has positive, but it doesn't have to be based on greed and corruption. What that says to me is that we are all a bunch of deluded fools - the question is do we have to be ... the people urge to protest to any significant degree disappeared finally with the Poll Tax.   The final nail for me was seeing pensioners going to courts for standing up against unfair council tax.  What are young people in this country doing?  That is your job.  Sadly, people feel more inspired to demonstrate against an extreme right wing politician appearing on a tv show, and so contradict basic free speech rights, rather than against a government that is slowly killing its population through its ineptitude.

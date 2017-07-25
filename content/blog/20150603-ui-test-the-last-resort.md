@@ -1,0 +1,15 @@
+title: UI test: the last resort
+link: http://jaffamonkey.com/11516/ui-test-the-last-resort
+author: jaffamonkey
+description: 
+post_id: 11516
+created: 2015/06/03 20:52:55
+created_gmt: 2015/06/03 20:52:55
+comment_status: closed
+post_name: ui-test-the-last-resort
+status: publish
+post_type: post
+
+# UI test: the last resort
+
+You can make your life hard doing all test automation using UI tests, or play it smarter, using API services, when the focus of testing is not concerned with actual UI. UI checks are of course always a test requirement, but that does not mean all tests need to be UI, or even the largest percentage. One of strengths of BDD approach to test automation, is in it's use of a natural specification language (Domain Specifc Language) used to define the test scenarios. These mask underlying test code that can be executed at UI, API or Unit level (or combinations within a test script/scenario). Utilising API services is useful for background data creation (though also possible to do database unit-level coding to achieve same results). It can also be used when you want to bundle functional steps into one. For example, instead of following verbose Gherkin lines when filling a form, it could be a simpler one liner: `Given I create new valid registered user` So behind this Gherkin statement line, would be code that quickly register new valid user, via API. This is valid, if we are not testing the form process itself as part of the test, but it is a pre-requisite. The more granular registration will be another Feature. If we follow our principle that Gherkin is code (it is), then the above Gherkin would contain more steps. Below is how it could look, as a pure API test, which probably will exist, as part of earlier registration test requirements. Scenario Outline:User Reigstration Given I am authenticating as "valid user" with "password" password When I send a POST request to "/api/register" with form data: """ email=email@test.com surname=user firstname=Test role=Editor """ Then the response code should be 201 Having a Gherkin one-liner, to bundle up a common process, could mask either UI steps or API steps. One of the main advantages of using API for testing, is speed. In the ideal testing stack, UI should be the narrowing scope of tests overall, with API then Unit tests. By aspiring to this model, redundant unit tests (i.e. tests covered either API or UI tests) are more easily identified, as API tests commonly can cover this area. beware of chasing 100% coverage, and ending up with duplicate/redundant tests to pointlessly manage. UI tests are important, in fact on BDD projects, they can end up more so as they are viewed by all as the key acceptance criteria (i.e. a passing Feature is the definition of done). But it is better to adopt UI test as last resort, unless specifically testing UI elements. The other advantage of testing API, is it will also test backend performance.

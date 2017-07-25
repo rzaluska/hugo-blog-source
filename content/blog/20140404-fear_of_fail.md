@@ -1,0 +1,25 @@
+title: Fear of #fail
+link: http://jaffamonkey.com/10826/fear_of_fail
+author: jaffamonkey
+description: 
+post_id: 10826
+created: 2014/04/04 13:42:44
+created_gmt: 2014/04/04 13:42:44
+comment_status: open
+post_name: fear_of_fail
+status: publish
+post_type: post
+
+# Fear of #fail
+
+![Fail Often](/wp-content/uploads/2014/04/fail-often-p-2405-500x392.gif)I often thought it would be good to have a Behat_In_The_Future build on CI.  Always red, maybe blipping green occasionally, and a constant reminder of work to be done. BDD quickly dissolves into the (just as useful) BDT, or behaviour Driven testing. The enthusiasm for the maintenance of feature files and scenarios, in the drive to do more by consensus quickly dries up. Why Many reasons, but here are a few ...
+
+  * Developers scurry back to the safety of low-risk unit tests (i.e. tests likely to go green)
+  * The client realises (despite recommended model) they are not full-time on project, due to UK business tendency to overload good individuals with too many roles.
+  * The Business Analysts are still in there, but generally not interested in closed stories (against BDD/Lean approach), or worse, inexperience - if you are lucky like me, you will have some BA's who relish the challenge of the approach.
+  * In spite of general agreement that failing test first approach is a good start to development, no-one ultimately likes the concept of fail, albeit it a positive one.
+  * If the specification language doesn't evolve, then people will not be so encouraged to contribute to it's evolution, so it vital to maintain an accessible (and growing) library of statement lines.
+  * As with Agile et al, the buzz quickly dampened by the challenge of implementation and maintenance.
+  * Too many Product Owners, not enough stakeholders (difficult to get realistic consensus on requirement decisions)
+  * No-one likes admin
+QA, on the other hand, needs benchmarks to test against and what better than the granular nature of BDD feature files. If mashed with stricter approaches, changes to stories (post Scrum signoff pattern) mean new user stories are created, otherwise the implication is something was signed off as finished, that wasn't. Firstly, trash the traffic lights system - an antiquated lazy way to jazz up statistics -what is more useful is indication of progress, which is in fact, a never-ending dx/dy curve. To expect 100% clarity in anything in life, is a self-imposed OCD that will never be sated. If the signoffs have to be there, keep the definition looser. As with bug reports, statistics as to number of bugs and priority levels, are an easy way to provide some kind QA-gate for acceptance. Accept a fail as normal course of events, and the focus shifts more usefully into minimising the risk of fails to start with. With BDD we have the know fails, which start when a feature file is first created. The key thing is how long it remains a fail, and after it succeeds, it should remain a pass, or indicates regression. So measuring progress of a feature can be done step by step. And as is common as feature files build, so common actions emerge, so you will more than likely find your new features files end up with kick-start progress, due to previous work. Maintaining the format of the specification language, Gherkin (accepted generally as BDD standard) is crucial for BDD success.  This is how you build a language of communication, specific to domain you are working within.  Quickly common phrases will become apparent, and common actions that could be combined to express requirement in shorter form. QA are well positioned to streamlining BDD tests, and ensuring coverage is kept up.  However you start, it should quickly end up a mix of UI, API and unit-levels tests (such as for database checks).  Forget the 100% unit test coverage - they are usually lost in land of mocks and stubs to point where reality and fantasy lose all meaning.  Statistically, they look great - but are they useful? Hmmm ... It really depend on the developer writing them, as I have seen some style of unit tests that are far more comprehensive and realistic.  These type of developers are ideal for BDD projects, because their approach is already in scope. As an approach, I gravitated to BDD quite naturally, as it fuelled my interest in more dynamic Kanban-style projects.  There is more risk - sometimes architectural changes are needed mid-stream (I can hear the gasps).  No options should remain unconsidered, but should always measured and mitigated.  As with Agile, I feel general tendency of toe-dipping regards BDD, and also Kanban, it's natural companion.  Whilst techies may look down on technophobes, within technology, we have our own phobias around changing the way we do things.  I quickly learnt it was more fun, and I learnt more, by riding on waves, rather than sitting on a beach.  The beach analogy comes from the fact I need a holiday - BDD will make you appreciate a holiday :)

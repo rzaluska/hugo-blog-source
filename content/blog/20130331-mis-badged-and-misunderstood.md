@@ -1,0 +1,24 @@
+title: Mis-badged and misunderstood
+link: http://jaffamonkey.com/8973/mis-badged-and-misunderstood
+author: jaffamonkey
+description: 
+post_id: 8973
+created: 2013/03/31 22:03:21
+created_gmt: 2013/03/31 22:03:21
+comment_status: open
+post_name: mis-badged-and-misunderstood
+status: publish
+post_type: post
+
+# Mis-badged and misunderstood
+
+So many talk in terms "Agile/Scrum", that Scrum became the reluctant flagship of Agile, largely as it was easily implemented on high level. And I have to admit, I was one of those lazy contributing to the lazy mash-up. Scrum was already in use, prior to release of the Agile manifesto, though increased in usage after Agile approach began to take hold. Scrum was perceived as a "matching fit", with it's more modern approach and short Sprints (releases), continuous integration, and strong team dynamic. As methodology it encouraged use of Incremental development approach, while it's focus was on the Iterative project management. It remained as default for many years, on Agile projects, though Incremental (along with mandatory CI) was often overlooked or would quickly become unmaintained. I would argue that Agile has by default, incorporated Scrum, because it's approach lent itself to Agile ethos. Scrum is not an approach derived from Agile, but it did fill the less clear parts of Agile manifesto, around project management role. Though it was still a little too ... iterative, for development which should be incremental, minimise integration risks, and highlight issues early in the cycle. Agile made an assumption, that management is PART of the end to end task requirements delivery process (tasks). And this is correct point of view - the primary concerns on the Agile group was to address development process and improved customer collaboration. Continuous Integration, demands an incremental approach by default, and with effective management, work just as well within Scrum, as Kanban or Agile project management (first published 2005 as an addendum 5 years later):- 
+
+>   * Increase return on investment by making continuous flow of value our focus.
+>   * Deliver reliable results by engaging customers in frequent interactions and shared ownership.
+>   * Expect uncertainty and manage for it through iterations, anticipation and adaptation.
+>   * Unleash creativity and innovation by recognizing that individuals are the ultimate source of value and creating an environment where they can make a difference.
+>   * Boost performance through group accountability for results and shared responsibility for team effectiveness.
+>   * Improve effectiveness and reliability through situation-specific strategies, processes and practices.
+
+I can see a lot more focus, of the original manifesto here. Scrum accidentally addressed the perceived shortfalls in Agile, around project management guides. And it was adaptable enough to be promoted as a Agile method. Many, including myself, while appreciating the overall Agile philosophy, saw potential for many interpretations because of the generalizations (for want of better word). As Agile was a culmination of other approaches, driven by similar aims of improving efficient of IT projects, you had to know what the history is, before understanding what Agile is. Many too Agile as a beginning point, with all that preceded it, obsolete. So Agile fully entered the fashion market, while Scrum plodded steadily in the background of most Agile projects. Scrum has moved onto incorporaing more Kanban style approach for task and people management, so has evolved itself. Scrum and Kanban can sit happily together, and it a scalable approach. Maybe over-simplifying the labelling, is what thing that needs to stop now, and it is better to create your own approach, using intelligent selection from other established approaches. And sometimes different projects, need something different. Transparency is easy to promote as an ideal, but very hard to practice. I believe that is why Scrum is still popular, and demonstrating a "walk before running" approach, that some companies (and people) will need to have, in order to achieve a more hardcore Agile mindset. The Agile manifesto seems even more relevant today, as an umbrella for all new development techniques, the most interesting being in the area of natural language specifications - enabling anyone to create functional code from written requirements. There has been a lot of progress in the this area, and TDD quickly became BDD, another adaptation based on necessity. As with anything, going in with an open mind, and be prepared for surprises (and to learn from them), goes a long way to being Agile.

@@ -1,0 +1,15 @@
+title: Semantic coffee
+link: http://jaffamonkey.com/9741/semantic-coffee
+author: jaffamonkey
+description: 
+post_id: 9741
+created: 2013/06/27 14:20:06
+created_gmt: 2013/06/27 14:20:06
+comment_status: open
+post_name: semantic-coffee
+status: publish
+post_type: post
+
+# Semantic coffee
+
+Seems to me, that the major use of semantic web will be for sales and marketing.  As illustrated by the constant bleating the of the importance of "Big Data" is largely by self-publicists waxing lyrical over the joy of "understanding" our needs. i.e. to sell us stuff.  Creating complex algorithms to process this data into something meaningful, deserves something better than sales. We need more voices in this area, who are not  self-serving, patronising salesmen, in evangelist clothing.  To sell something that someone likes is pretty easy - it doesn't take much "Big Data" dissemination to work out I like coffee, cake, sweets, running, yoga and modern technology. For the first three, just show me a photo, and watch me run to nearest coffee shop/supermarket. [gallery link="file" ids="9745,9751,9747"] No background necessary, just a nice clear photo of what I like, and like regularly. it's not rocket science. So how comes I never see these kind of photos, within supposed sales-intelligent social networking sites. They seem to pander to stereotypes, rather than any relevant data. It's the same problem with recruitment agencies, obsessed as they are with keywords. This is tantamount to useless, unless a unique product name. In IT coffee analogies are frequent, with many software products using coffee metaphors as names. Coffeecup(FTP), Netbeans(IDE), Java(Programming Language), Mocha(Java Decompiler) ... the list is quite endless. No context, then keyword is useless. Surely it doesn't take that much data analysis skill to program that in - in fact I know it isn't. The problem is in connection with that I mention above. Stereotypes. For all the pontification, little is being done to make data useful. What I find really baffling, considering that I have been a parent for last six years, how few parent-related ads I ever get. We are in an era of laziness regards technology implication. The prevalent attitude is if you can create the illusion something exists, that is sufficient. Marketing world has a glut of buzzwords to choose from, and it's invasion has had a very negative effect. When working on web projects over the years, I have seen many a marketing disaster, down to sales people over-selling a product - even adding features on-the-fly. Give the customer unrealistic expectations, and already the product is heading for a fall. I get all the usual suspect ads for 40+ men - hair growth, hair dye, erectile dysfunction, lawnmowers, life insurance, pensions. This thing is, I am not looking for anything in those areas at all. They are wasting their time. I change my status today from "Married" to "Separated". Waiting to see what the impact is on my Facebook targetted ads. Should be be interesting ... though I am sure they won't be surprising.

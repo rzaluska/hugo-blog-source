@@ -1,0 +1,15 @@
+title: This is what "I" think
+link: http://jaffamonkey.com/9071/this-is-what-i-think
+author: jaffamonkey
+description: 
+post_id: 9071
+created: 2013/04/24 18:29:50
+created_gmt: 2013/04/24 18:29:50
+comment_status: open
+post_name: this-is-what-i-think
+status: publish
+post_type: post
+
+# This is what "I" think
+
+I have read a few articles now about how testing should be. Unfortunately they choose only to make radical "language adjustments", spring-boarding from the most negative view of the worst of testing. Well, welcome to the world of re-invention - sometimes just for the sake of it, and mostly to be the next testing luminary (be honest). Most of what I read makes perfect sense, but most is already known. And for a long time - people just ignored it, in favour of an easier workload. What testing has reached is a point of inevitability, that things haven't changed that much, and most of the good stuff was talked about and not done. Either by ignorance or simply out of compliance with prevalent perception of testing. Bad developers do not want testers moving out of scope, voicing opinions on development process, or indeed finding too many issues. Bad testers are drawn to bad developers. So do I have a view of what testing in modern world should be? Or is it really about presenting it in a more modern context? Probably largely the latter. Re-inventing testing seems a tad self-defeatist, as tied in as it is with development. The Agile team included anyone contributing to the project, outside of management - it didn't omit testers, or by same token, it was dismissing developers. The important part of being a modern tester is ability to integrate with the team. And contributing to the team effort - evaluating requirements, maybe a little help with development, building up more tests for effective CI, improvement of requirements process. The modern tester should have more in their armoury than ISEB, or following a guide they found on the web. I enjoyed recent BDD projects, and for myself, this illustrated the place of modern testing, and not just in BDD context. The idea that requirements to code process is an entirely collaborative one, and one which demands more skills than traditionally required. In order to move forward, we need to learn new things anyway. Testing languished in the sidelines, because it was too easy to avoid change and learning, and still find plenty of work. Testers need to voice up more - developers defend their areas with gusto, so why not testers? There is a lot to learn for a new tester, so senior testers are vital to ensure a newer tester is not swamped, which can happen quickly, if testing requirements change/expand rapidly. Then a measurement of experience is needed to evaluate what testing needs to be done, and this is learnt by experience. You can define guidelines for actual testing, but as soon as you nudge to areas of test management, it is prudent to be cautious.

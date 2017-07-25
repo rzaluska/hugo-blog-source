@@ -1,0 +1,23 @@
+title: Scrum & Testing
+link: http://jaffamonkey.com/8111/scrum-testing
+author: jaffamonkey
+description: 
+post_id: 8111
+created: 2013/03/16 00:10:10
+created_gmt: 2013/03/16 00:10:10
+comment_status: open
+post_name: scrum-testing
+status: publish
+post_type: post
+
+# Scrum & Testing
+
+> In fact, a Scrum team need not have a manager at all. In Scrum, the team is ‘self-organizing’. To as large a degree as possible, they manage themselves. Naturally, in large companies, or companies with a lot of ‘managers’ running around, it is common for a Scrum team to have a manager. Frankly, this is often harmful and it is a common cause of Scrum not working very well. http://xprogramming.com/articles/kate-oneal-what-is-scrum/
+
+It is not surprising that the development world has leaned towards manufacturing, given the production-line obsession of business when it comes to IT projects.  So any process that advocates but what could be seen as "streamlining", can be tempting prospect.  As the new buzz shift to Lean, I now think the trend is actually following a pattern that occurs anyway. Sooner or later roles end up reduced to a task rather than a role. This is because roles are largely a collection of tasks, which get simpler and quicker.   In testing, we lost the unhealthy perception of large volumes of test results meant good testing. This was plainly pandering to business anyway - a big mistake. Scrum was a progression on from the traditional project setup, bucking the idea of a central management system, in favour of teams who acted as one machine. The hierarchical system within most companies still judges by seniority of job title, rather than skills. So in a corporation for example it is very easy to become a hotbed of vastly differing management skills. 
+
+> In its literal translation, this (Scrum definition) means there is no programmer either. There is no business analyst. An apt analogy is that everyone is a survivor, whose job is to do (and learn to do) everything needed to help everyone survive. http://programmers.stackexchange.com/questions/179448/why-does-the-scrum-guide-say-no-testers
+
+Scrum is not for people anxious about their level of importance on the project. If their are final decisions to be made, this should be done by the executive member of the project, right? Oh, so wrong. Different problems deserve different skills to resolve them. I am as guilty as anyone, in assumption there is a "the buck stops here" role. If you have grown up in a particular era, it can be very difficult to shake off those assumptions, even if you know they are wrong. Sadly, I notice new generations already clinging onto notions of power within projects - scaling the role ladder. A good Scrum team has cross-functional skills, and a team structure with healthy dynamic.  There are two keys positions in a Scrum team:- A Product Owner  (focussed on delivering the best product for the client) A Scrummaster (responsible for keeping that vision on track with development) You could say this is a divide-and-conquer manoeuvre on the Project Manager role.  Sadly it can be misused in that manner.  But the important thing when when you have more than one person responsible, you end up with consensus approach to solving problems.  How the Scrummaster choose to manage development could be a more structured iteration, or more fluid Kanban Work-In-Progress approach.  The latter encourages continual review and change - an individuals workload is very important to manage.  Too often talented individuals get overloaded, or work assigned to inappropriate person.   The later is no slur - it's about optimising the use of skills available. Don't we need a Test Manager?  A Test Manager on a Scrum project will be testing - the Test Manager role has become what a good tester should be. There are going to be many points where reviews are needed of specification or code. What people want is not always simple, technically. If testers have been doing exploratory testing, they may highlight potential weaknesses, even before the vulnerability is highlighted in the course of development. Or highlight a weak requirement, that needs more specification or amendment. This list is quite endless. 
+
+> Both Kanban and Scrum are rather interesting methodologies that can be applied to various teams. But no matter which you choose, the team should own the methodology and the implementation so that they can make it work for them. Every team and every implementation is different. The key is that when your team differs, make it explicit what it is your team does and why – and reflect regularly on it [Recreating Scrum using Kanban and Explicit Policies](http://blog.coryfoy.com/2011/07/recreating-scrum-using-kanban-and-explicit-policies/)

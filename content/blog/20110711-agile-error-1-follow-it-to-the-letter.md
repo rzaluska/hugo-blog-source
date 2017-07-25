@@ -1,0 +1,15 @@
+title: Agile Error #1 - Follow it to the letter
+link: http://jaffamonkey.com/4383/agile-error-1-follow-it-to-the-letter
+author: jaffamonkey
+description: 
+post_id: 4383
+created: 2011/07/11 17:23:30
+created_gmt: 2011/07/11 21:23:30
+comment_status: open
+post_name: agile-error-1-follow-it-to-the-letter
+status: publish
+post_type: post
+
+# Agile Error #1 - Follow it to the letter
+
+![](http://blog.jaffamonkey.com/files/2011/07/web-20-125x125.jpg)I have been watching Jake 2.0 and I can see why it flopped. A good example of taking a potentially entertaining concept and somehow making it dull. The main characters were weak, the plots plodded in favour of the extremely boring "chemistry" between Jake and some medical bint, who has been clearly placed in show for the love interest. And weak comedy between Jake and his immediate superior. Very very boring, and a shame because the modernization of the Bionic Man character, would still make a good show. The curse the show gave itself to start with, was the "2.0" moniker - fatal - the buzz-phrase to end all buzz-phrases, and the first really fashionable IT term. So an easy Agile analogy case! Take good fundamental base, i.e. the way your company has been working. Adjust methodology framework to company culture and resources, take modern technologies and there you have it - a half-decent Agile implementation. OK, its oversimplified - but fundamentally that what it is all about. Yes, take inspiration and ideas from other places - but your company is your own, the staff are inherent to the company culture. It's vital to approach Agile implementation is manner, where you are not expecting an out-of-the-box solution. The most fatal mistake is to try and invent what Agile means - wheel inventing is my single biggest irritation in the IT world - taking fundamentals and applying a different UI/spin on them. How many issue trackers are out there which fundamentally the same? How much time have you wasted evaluating products that are all the same? Don't make the same mistake that companies did with ISO and IEEE, i.e. overlook the fact these standards are a framework, not a guide to follow using a ruler, with your tongue hanging out the side of your mouth. I found easiest way to view it is Agile as the methodology framework, SCRUM as a "child" methodology. What everyone missed, including myself was that methodologies like SCRUM were originated by an individual for a purpose he had in mind. As it was early on, it became popular - but there is nothing to stop you creating your own. Use Agile as the framework - take elements from other Agile methodologies, then build processes relevant to your company and projects. Just calling your project Agile, having daily meetings is not enough - it can create an illusion for a while, but it will not address any problems. Adopting rapid dev-to-test build and release process will highlight development weaknesses quickly. But they have to be acted on immediately - not left to limp along until things grind to a halt - the equivalent of putting a Porsche engine in a Robin Reliant (excuse the car analogy - they usually annoy me!).

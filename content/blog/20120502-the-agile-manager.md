@@ -1,0 +1,15 @@
+title: The Agile Manager
+link: http://jaffamonkey.com/7014/the-agile-manager
+author: jaffamonkey
+description: 
+post_id: 7014
+created: 2012/05/02 16:20:48
+created_gmt: 2012/05/02 16:20:48
+comment_status: closed
+post_name: the-agile-manager
+status: publish
+post_type: post
+
+# The Agile Manager
+
+There was no specifics around management in Agile originally, only for development approach - though addendum's have been (hurriedly) added over the years. Management issues always existed pre-Agile of course, but over the last 10 years the role of "manager" has become a lot looser than of old. You can have a manager title, and have absolutely no power, responsibility or subordinates. Accountability and Responsibility are two things I believe a management role should have. If a manager doesn't even have one of these things, what use are they? And why is management style so important on Agile projects, specifically? 1968: “Conway’s Law” is coined and summarized as follows: “Any organization that designs a system (defined more broadly here than just information systems) will inevitably produce a design whose structure is a copy of the organization’s communication structure.” It has long had the status of folklore rather than of well-supported scientific result, though recent studies have lent it some academic support. (The social aspects of software development remained largely ignored by academic software engineering until the mid-90’s.) I have learnt a lot from looking backwards recently, as was reading some paper on Incremental and Iterative development (from the 1950's!). Management is about dealing with human beings, so it should advance a lot further from the authoritarian attitude still prevalent. Management is largely still based on "Theory X" (http://www.businessballs.com/mcgregorxytheorydiagram.pdf). Theory X is based on assumption that people don't like to work, therefore have to be coerced/forced in to working. And without generalising too much, I would say that attitude is extremely common. And right there we have anti-Agile from the get-go. Whereas Theory Y is more pro-Agile, which promotes concepts as empowering and giving responsibility. It's so easy to sell Agile concepts and devise processes that look great - but by far the most mammoth task is the ongoing management. And you are right, Agile consultants (in fact many consultants) will avoid dealing with the management, instead focussing on individual tasks and processes. Managing Agile projects certainly was not for amateurs or "to play at" (and I have seen that too frequently). In comparison to older step-down approaches used on projects I used to be a tester on, I was shocked how fast and spectacularly, an Agile project could go wrong. Problems could be blamed developers, tor testers - but ultimately there is supposed to be someone in charge of the project timeline, and who is accountable. Ignoring need for effective Agile management leads to: no transparency, poorly developed product, and subsequent finger-pointing. That sounds like the anti-Agile! ![](/wp-content/uploads/2012/05/x_theory_y.gif)

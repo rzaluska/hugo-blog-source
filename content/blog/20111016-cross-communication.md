@@ -1,0 +1,21 @@
+title: "Cross"-communication
+link: http://jaffamonkey.com/4724/cross-communication
+author: jaffamonkey
+description: 
+post_id: 4724
+created: 2011/10/16 17:24:58
+created_gmt: 2011/10/16 17:24:58
+comment_status: open
+post_name: cross-communication
+status: publish
+post_type: post
+
+# "Cross"-communication
+
+![Cross-Communication](http://1.2.3.13/bmi/blog.jaffamonkey.com/files/2011/10/multiple_clouds2.png)  
+Part of Agile is cross-communication teams and sharing learning experiences (as well as useful code!).  Sharing information across project usually depends how team-player people are, rather than coordinated effort to just do it.   Projects can be running in same room, but be entirely unaware that their own mutual issues.  A wiki can be helpful way for development to share information on new object libraries available, and .  But there is also real value in sharing process experience across teams.  In a corporation you will think this would be ideal environment and opportunity, but project geenrally run is isolated bubbles.  This is to do with corporate culture more than anything else - the paranoia around control and retianing it.  Sharing is sometimes viewed as "giving away" information to the "enemy" - the competitive environment fostered in corporations (which helps to create a self-managed environment) creates companies within a company. Another older, and prevalent problem in corporations are there are a lot of people doing weak work - working week in week out, diligently at their PC's, observing strict work days.  They are perceived as solid, dependable - for no other reaosn than they site at a computer, dont talk much, punctual and reliable ... reliably there.  To these people Agile is a threat, as is every philosophy around it.  We are evolving away from traditional team structures - even corporations are starting to view their project structure differently.  But there is a battle with those who would prefer status quo.  Even something as innocuous as cross-project QA reviews can highlight team weaknesses (as oppose process weaknesses).  Maybe it just from my position of being contractor/consultant, but I don't think any company has to carry dead weight, or simply a mismatched employee. Now a touchy point - there are too many developers that aren't that good in their current role - the same with testers, but there are a hell of a lot more developers than testers.  The emphasis in Agile is on cross-functional teams, with differing areas of expertise and the assumption that the developers communicate and educate each other.  No mean feat, especially if the person hiring isnt aware of these nuances and simply interviews and hires a gang of miscellaneous java developers.  Developers are not machines, they vary in terms of skill, experience, adaptability and temperament.  The developer with pink hair and overloud voice, may grate you - but he also goes beyond his remit, helps other developers, and is unafraid to experiment.  I would want him in my team.  Development is creative business - get hold of creative developers, and with steering you will a vibrant project alive with ideas.  Just one truly creative developer on a team is usually enough to inspire the others. So sharing information within a project is challenging enough - so what is best way to share information across projects? A QA Manager is is ideal position to make this happen, as we are in position of defining and improving processes - of which this is one.  We can traverse the sensitivities within a corporation, as it is difficult to defend case NOT to share information. What tools:  There's a lot out there to help, but something simple is best.  It should be very easy to access!  A few suggestions are:- 
+
+  * Wordpress blog site (many handy plugins to help with features)
+  * Wiki - though some find them off-putting
+  * Confluence - extensive collaboration (which can can also plug into JIRA).
+With any method chosen it is important to rate any information added, so reviews can pull out information based on priority.  Avoid such hideous monters as TFS for sharing information.  Unless TFS is managed and setup professionally, sharing information will be an arduous task.  In any event, there are many different ways to communicate cross-project issues, other than by the coffee machine.

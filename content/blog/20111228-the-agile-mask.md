@@ -1,0 +1,17 @@
+title: The Agile mask
+link: http://jaffamonkey.com/5398/the-agile-mask
+author: jaffamonkey
+description: 
+post_id: 5398
+created: 2011/12/28 18:14:35
+created_gmt: 2011/12/28 18:14:35
+comment_status: open
+post_name: the-agile-mask
+status: publish
+post_type: post
+
+# The Agile mask
+
+> **Give project control to developers, and you will end up with if ... then ... else, with no exit loop.**
+
+If you let development run the show on a project, it's almost certain you will never know when it's going wrong until it falls over. Developer's can be arrogant beasts, and are not quick to put their hands up if there are problems. They may introduce Agile tools, that the business get sold on - but what it is really is a smokescreen. Imagine a project where you are constantly questioning where requirements are, or what the latest ones are. A project where getting answers out of a developer is like proverbial blood and stone. Its a disaster-in-waiting, guaranteed. A good Product Owner and Scrummaster would never have allowed the above to happen. Transparency is key to Agile, and that behaviour is a big fail. Some developers have taken to using Agile, and associated processes and tools, to provide an effective "Agile mask", where ironically, transparency turns opaque, and development process can take a nasty turn. I have seen projects like this before, and it's yet another indication of importance of Agile roles, and that the roles should be filled entirely. No room for amateurs or wannabes - at that level, you need seniority and experience. Well, unless you want to risk the embarrassment of a project that went wrong right under your nose. If someone is guilty of masking issues to level where it can become an expensive failure, you should show them the door. Are you a charity? No. A project consists of people who paid wages to provide development on projects paid for by your clients. Do you really want liars on your team? OK, this can partly be blamed on company blame culture, and fear of being a scapegoat - a lot worse within corporations. But everyone is over-18, and should be able to take a knock or two (even if it means they lose their role and/or job). If you are part of a large company, then the problem can become even more complex - there are developers  inside corporations who may have been hiding for years. They diligently appear for work every day, looking smart, and generally seems to be occupied all day. But what you could have is someone just playing for time and money, and to give them room to basic learn-as-they-go, or maybe even just see how little they can get away with.  A little off-topic, but relevant - it bugs me how poor workers are allowed to be poor workers for so long - who knows how much it costs a company. Don't be fooled - a common mistake is to assume all developers work Agile by default, when surprisingly few do.  To test the water, find out your team's experience with TDD (Test Driven Development).  Generally developers do not like this structured approach, as it hampers their progress to build functioning code (_Hint: they are the not-so-good developers_).  But good developers know the value of the approach, in terms of fulfilling requirements.  Good developers also understand the value of a tester.  If you truly want an Agile company, keep the developers that do work Agile, and the ones keen to update their skills - then lose the rest - I guarantee you will notice development productivity go up within short space of time.  All it take is a few bad apples ...

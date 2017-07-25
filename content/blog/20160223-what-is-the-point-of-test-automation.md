@@ -1,0 +1,15 @@
+title: What is the point of test automation?
+link: http://jaffamonkey.com/11770/what-is-the-point-of-test-automation
+author: jaffamonkey
+description: 
+post_id: 11770
+created: 2016/02/23 22:03:01
+created_gmt: 2016/02/23 22:03:01
+comment_status: closed
+post_name: what-is-the-point-of-test-automation
+status: publish
+post_type: post
+
+# What is the point of test automation?
+
+Easily very little.  Whether it the most heinous and popular of crimes, the throwaway UI tests or (closely followed by) tests with test data and/or inter-test dependencies.  But even if all this is perfect, if it's running on one machine, for one person, it's just a good college project.  Or might as well be, for all the real use you get out of it. The first step, after avoiding the perils of what's outlined above, is to make it bigger. Drive tests using a specification language (i.e. natural language), but don't forget to approach that as code, or too easily becomes a tangled library of accidental repetition.  The advantage here is quickly identifying common steps.  Everyone thinks their website UX is unique, but there is a lot that is common. Generating a good html report (with screenshots of failures), and a junit one for easy processing on systems such as Travis or Jenkins. Which brings me to important point - running tests on CI. Integrating acceptance tests (which I what I generally call tester-generated automated tests).  It's imperative to get maximum benefit from test automation.  The advantage of this approach, is it keeps tests lean and relevant and unique.  With no constrictions, you will no doubt have experienced testers or consultancies, who can generate hundreds of automated tests that provide "wow" factor, simply by quantity.  But run those same tests again and again, and the cracks will soon start to show.  Data dependencies, too many tests need updating with a code change, dependencies on other tests that start a cascade fail.  This is programming, remember, and same risks apply :) While UI and API acceptance testing doesn't replace unit testing, developers find the test framework useful in developing reusable tests (especially flexible API ones). Keeping in mind what is useful, and to who, help focus the mind.  My mind is very prone to veering off rapidly on tangents, so this was simple part of the way I learnt to avoid scatterbrained development. Above all don't play at it, do it. I have little patience for wasting time developing acceptance test frameworks that are unused.  Too many just "want it", but don't actually understand why, they just know it's a "good thing".  Which is why so many go through some consultancies pain before realising it can be a one-person job, well at least to kick-start it. Manual tester are fast becoming a role that has become redundant in many ways, but others do not want to take it on. Hello to some PO's and Stakeholders out there ;) However, test frameworks and automation requires programming skills.  The best way to think about it is that's it's another developer on the team. (or more relevant test frameworks) can help bridge the old requirements to code gap.

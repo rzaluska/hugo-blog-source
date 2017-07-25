@@ -1,0 +1,15 @@
+title: QA & Modern Development
+link: http://jaffamonkey.com/232/introduction-to-book
+author: jaffamonkey
+description: 
+post_id: 232
+created: 2007/01/12 10:08:56
+created_gmt: 2007/01/12 15:08:56
+comment_status: open
+post_name: introduction-to-book
+status: publish
+post_type: post
+
+# QA & Modern Development
+
+First of all what is the difference between QA and Testing?Â Is there one?Â Standard IEEE definitions are:- TESTING means "quality control" QUALITY ASSURANCE measures the quality of processes used to create a quality product. This is fair assessment, and it is Quality Assurance that this book is focussed on, as testing is simply a derivative a QA process.Â What has inspired/driven me to write this book, is to sum up my experiences into a guide for other QA Managers to deal with the unusual and bizarre - the world of RAD, of which Agile is the most popularist exponent.Â Before moving onto this topic, lets see if we can define Agile.Â This is a challenge, as the perception of what agile is differs from company to company, and individual to individual. Â <http://agilemanifesto.org/> This is a good overview of the aims of agile, but the biggest error is to take this methodology and attempt to build a complete project around it. The main problem with methodologies that claim to encompass a complete project lifecycle, is the dangerous assumption everyone is working off the same page; that everyone understands the implications and possible caveats.Â Agile has been dogged by theory and tools, rather than focussing on real issue with modern software development - communication.Â I have been in several bizarre meeting where the topic has been communication issues. Unfortunately the upshot of these meetings is usually "lets email even more" or worse "we are right, they are wrong".Â The customer is the driving force of a software project, be it an internal or external one. TheÂ aim of agile is to develop fast, with minimal interference from traditional business processes.Â The focus is on the customer, but the customer is rarely involved in the day-to-day Agile process. We can see the assumptions mounting up, so rather than following a more critical view of Agile, I am suggesting that development are doing what is required, it is other project members that are not adapting their important roles.Â Firstly to challenge the traditional role of QA management, and discusses what role attributes should remain, what should be adapted, and additional responsibilities the QA Manager has - whether or not this is defined by the company.Â Should I be following company policy, rather than defining my own own?Â They hired a manager, and the assumption is that you can think for yourself, and go against the grain if required. QA requires a thick skin, social aptitude, and complete faith in your beliefs.Â That is why so many testers did not make it from 20th to the 21st century.

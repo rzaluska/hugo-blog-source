@@ -1,0 +1,15 @@
+title: How many ways can you code
+link: http://jaffamonkey.com/7732/how-many-ways-can-you-code
+author: jaffamonkey
+description: 
+post_id: 7732
+created: 2013/01/20 23:36:16
+created_gmt: 2013/01/20 23:36:16
+comment_status: open
+post_name: how-many-ways-can-you-code
+status: publish
+post_type: post
+
+# How many ways can you code
+
+Not surprising our leaning towards manufacturing, given the budget production line obsession of business towards development. The recent story on the cheapest meal, put me in mind of some dole/student classics. Poor mans pizza was rice and ketchup. Anything new can taste interesting, as with the toast sandwich. But you will find after 2/3 experiences, that culinary surprise will dissipate into reality of cheap vinegary tomato flavoured starchy rice. Adding tuna will allay that feeling for a few more meals but ultimately you have to spend more and more to get it to taste nicer. By which point, you may as well have gone for making a decent budget casserole or lasagne. Basically, you can go too cheap. And many saw Agile as a way to do it on the cheap - why? Because the traditional structure of a project was changed, with generally less roles which immediately followed was less people.  First error - assume downsizing was part of Agile solutions!  They don;t need repeating, but the 4 core statement in the Agile manifesto were:- 1\. Individuals and interactions over processes and tools 2\. Working software over comprehensive documentation 3\. Customer collaboration over contract negotiation 4\. Responding to change over following a plan Of the four core Agile Manifesto directive, the overall experience for myself was that: (1) was done the wrong way round, (2) highlighted development wasn't that agile, (3) companies couldn't separate the two and (4) led weak/poor project management.  My favourite of the principles regards development was: Continuous attention to technical excellence and good design enhances agility.   For myself, Agile was about doing things better, not doing things cheaper. With Lean, there isn't so much room for subterfuge or being dogmatic.  A startup illustrates to benefits of Lean (and Kanban), as it is more given to dynamic decision-making and calculated risks. Whereas Agile collated principles from existing, though disparate, methodologies; Lean has far more focused sense of continium and improvement - not principles for development but any kind of engineering, where the process to produce a product is just as important as the product.  To manage such a demanding development flow, Kanban provides ideal based to manage a project.  The "Work in Progress" principle behind Kanban, illustrates acknowledgement how rapidly things can change, and the balance work evenly and maintain a realistic map of progress. Lean and Kanban are deceptively simple, because of course as we all know, management is by far the riskier element on modern web projects.  It takes skill and ability to think on your feet.  Some of us actually enjoy that!

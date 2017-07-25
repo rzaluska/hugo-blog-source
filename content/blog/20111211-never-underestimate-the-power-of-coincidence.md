@@ -1,0 +1,17 @@
+title: Never underestimate the power of coincidence
+link: http://jaffamonkey.com/5323/never-underestimate-the-power-of-coincidence
+author: jaffamonkey
+description: 
+post_id: 5323
+created: 2011/12/11 20:33:06
+created_gmt: 2011/12/11 20:33:06
+comment_status: open
+post_name: never-underestimate-the-power-of-coincidence
+status: publish
+post_type: post
+
+# Never underestimate the power of coincidence
+
+> ### Coincidences are noted after the event, not before
+
+When projects go well, people immediately self-congratulate on the project process, that delivered so well. Our lives are a series of coincidences, that we can choose to misread - either in some abstract form (this must mean something!), or to justify current course of action(s). A project that has done well, may well fall into this category - in IT, we often mistake luck or chance, as direct result of actions we have taken. But it is not so simple - when things go right, it is largely because of direction we have taken, no due to individual processes and/or actions. To analyse too far, is to end up in a downwards spiral of self-absorption.  Agile has raised expectations of how well a project can work - it has raised the bar in terms of quality, and perception of how a project should be executed. It is good to aspire high, and that's an important factor - to aspire, but with awareness that failure is inevitable. And failure is how we learn - fail and learn nothing, now that is a real fail. To fail, learn and move on - that is not a failure, that is a lesson. And with that, welcome to world of software development. A constant movement of failure and learning. Common failures of projects are in failing to manage expectations properly or failure to adopt a proper Agile software development methodology. Or catastrophically, both at same time. And those failures become a real problem if they are masked - you know exactly what I mean by that, I am sure. How many times have you seen projects from the outside that claim to be fully test-driven development, or pure kanban. This is the unintentional sell-job project team members give other people. They are giving out their aspirations though, not reality. A recent example is a test-driven development projects, with a full set of features and test files, but no associated functional code with those test files. In other words, once initial work was done, developers just went on their own sweet merry way in source control. If you are missing an on-the-ball Scrummaster or development manager, you can just watch helplessly when cracks appear, as requirements additions and changes balloon. That can't happen? It does - all the time. Developers no managed will get lazy, and start to do things their own individual way. Your product may end up delivered, on time and within scope - but that is just a coincidence. To effectively learn, you must know the failures and encourage a culture for people to voice up problems (such as maintaining acceptance tests). Remember that a lot of Agile activity is largely by consensus with project team, as everyone has valid point of view. Leave development responsibilities purely to development, and you are asking for trouble. Implement a good ATDD framework, and then no-one will have room to manoeuvre - a fail is a fail, wherever it is in the chain from requirement through to code/test. Your project may APPEAR like it is going well, but keep monitoring - especially you testers! [youtube]http://www.youtube.com/watch?v=98OTsYfTt-c[/youtube]

@@ -1,0 +1,19 @@
+title: Can't see wood for the trees
+link: http://jaffamonkey.com/6969/cant-see-wood-for-the-trees
+author: jaffamonkey
+description: 
+post_id: 6969
+created: 2012/05/03 11:22:29
+created_gmt: 2012/05/03 11:22:29
+comment_status: open
+post_name: cant-see-wood-for-the-trees
+status: publish
+post_type: post
+
+# Can't see wood for the trees
+
+Business needs to move away from [Procrustean](http://en.wikipedia.org/wiki/Procrustes) solutions approach, which inevitably affect the way projects are managed. 
+
+> A Procrustean solution is the undesirable practice of tailoring data to fit its container or some other preconceived structure. A common example from the business world is embodied in the notion that no résumé should exceed one page in length.
+
+Look at any job spec, and you will see this attitude. The person writing the job specs generally lists the experience in technologies and processes, that is required for the role. That spec will never be completely fulfilled, as its firstly unrealistic - the equivalent if a very large fishing net. Secondly, you will simply encourage applicants to embellish and customise their real selves to suit what they think you want. That at least can be changed, but we also need to change the way we educate, and the way we currently think. That seems like an even taller order! I can't directly change the way business operates, but I can change the way I operate, and work on promoting that attitude to others. Business still leans to the [X Theory](http://en.wikipedia.org/wiki/Theory_X_and_theory_Y#Theory_X), assuming that people don't want to work, therefore have to be actively managed and driven. Well, that does sound like they have given up already. You cannot deny there are elements of truth to the assumption, but it is a sliding scale and having Y Theory approach (assuming that work can be a fulfilling experience) would be provide more inspirational environment, and more working done. A start-up is generally closer bond naturally (there are fewer people, and and an "all in it together" feel. Also no room for wallflowers, or unproductive people. So almost self-maintaining. I have worked at poor start-ups (usually started by ex-blue chip), where application of blue chip business philosophy creates a very strained environment. But what is forced by circumstance, is a plot harder to apply in reality. Though we all appreciate the benefits of Kanban, it goes against our fundamental education system. The hardest part to understand is when exactly does the project finish, if management of work can change at any time? Well, that's where skill comes in - project management are supposed to be managing expectations and have skills in planning. After a long time of Agile projects having project management of vastly differing ability, projects have collapsed or succeeded based on the quality of the developer(s). The crunch is you need skilled people. Methodology or tools never fixes that problem. You can have happy workers, but they also have to work effectively. Now this is point where I have been harsh on the business world. Changing to the modern styles of development, let alone the way we interacted with business, was hugely underestimated early on. Some coped by just cherry-picking Agile practices that suited their needs, or even just what they understood. what has become apparent over the years, is that Agile development was rarely ever implemented properly. But because it was under the hood, the project management took the blame. Agile salesspeak includes many references to "efficiency", "speed", "quality" - words business likes to hear. As with any advert, the product rarely matches the glossy ad. But, to be fair, our brains just weren't ready and we need to change the way we educate ourselves and others. Its a tall order - but there's no choice.

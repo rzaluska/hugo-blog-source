@@ -1,0 +1,15 @@
+title: OK, it’s a naughty ...
+link: http://jaffamonkey.com/3594/mark-spoon
+author: jaffamonkey
+description: 
+post_id: 3594
+created: 2011/02/21 21:30:46
+created_gmt: 2011/02/22 02:30:46
+comment_status: open
+post_name: mark-spoon
+status: publish
+post_type: post
+
+# OK, it’s a naughty ...
+
+OK, it’s a naughty, but would buy this in a heartbeat if it was available (even with the occasional radio presenter interference, though for some reason because he speaking in german, it kinda doesnt matter too much. A DJ set from Mark Spoon (RIP) from 1994 – that is a year I have largely forgotten (along with another few :)), but this music stayed with me. Its tunes I heard a lot, but never been mixed like this. Imperfect, intense, messy and some of the bounciest drum sounds ever! [audio:http://blog.jaffamonkey.com/files/Mark_Spoon_-_Live_on_German_Radio_Side_1.mp3] [audio:http://blog.jaffamonkey.com/files/Mark_Spoon_-_Live_on_German_Radio_Side_2.mp3] Full Tracklist (courtesy of [TranceAddict](http://www.tranceaddict.com/forums/showthread/t-387568.html)). 01\. Jam & Spoon - Odyssey To Anyoona [Sony Dance Division] [474 928 9] 02\. Liquid Sky - House Nation [SPV – 050-10705] 03\. Voodoo Suite - Spritual (Groove Mix) [Round & Round] [RR 9226] 04\. Solitaire Gee - Slumberland [Warp] [WAP 32] 05\. Pacha - One Kiss [Flying] [FIN 133] 06\. Club Vibes - Kick It [Strictly Rhythm] [SR 12186] 07\. The Cameleon Project - Salvador [Guerilla] [GREP 003] 08\. Goa Experience - Ekinoxe [Doss House 004] 09\. Resoraz - Art Of Time [Warp] [WAP 37] 10\. Soul Escape - Junction 14 [Slip´n´Slide] [SLIP 5] 11\. Graylock - Acceleration By T.R.A.N.C.E. [STV 005] 12\. Jam & Spoon - Right In The Night (Kid Paul Remix) [Sony Dance Division] [659 855 9] 13\. Ultra Sonic - Anihilating Rhythm [Low Spirit / Fire 105] 14\. Odyssee of Noises - Troya (Mix 93) [Eye Q] [4509 95139-1] 15\. Baphomte - Reconcile [Trigger] [TR 010] 16\. Jim Clarke - Daytona [Noom 104] 17\. Jam & Spoon - Loops Of Infinity [Sony Dance Division] [659 855 9] 18\. Renegade Legion - Friends Or Foes [FNAC 590279] 19\. Sonic Infusion - Unfuture [Eye Q 006] 20\. Ramirez - El Gallinero [Dance Floor Corporation] [DFC 155] 21\. DJ Tom & Norman - Tales Of Mystery [Overdrive] [OVER 036-12] 22\. Apreggiators - Discover Your Innserself [Harthouse] [HH 039] 23\. Bam-Bam - La Casa [Bonzai] [BR 93024] 24\. Jam & Spoon - Right In The Night (Rmx) [Sony Dance Division] [659 855 9] 25\. Jam & Spoon - Follow Me [Sony Dance Division] [659 855 9] 26\. Planetory Assault System - In From The Night [Peacefrog] [PF 102] 27\. Razor´s Edge - Sleepless [Prolekult] [KULT 002] 28\. Union Jack - Two Full Moons And A Trout [Platipus] [PLAT 06] 29\. Sub-Stance - Urban Sea [NOW! 17] 30\. Outsider - My House Is Mine [Spacemate] [SM 1222] 31\. X-Dream Feat. Planet B.E.N. - The 5th Dimension [Tunnel] [TR 006] 32\. Marc et Claude - Deux Petites Differences [Le Petit Prince 93/07] 33\. Van Basten - Magnetic King [Brute 10] 34\. Vernon - Sooner Or Later [Eye Q] [4509-94267-0] 35\. Terminator Benelux - Gravity [HOS 013] 36\. 3 Phase - Rota [Nova Mute] [NOMU 023]

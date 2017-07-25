@@ -1,0 +1,15 @@
+title: "Anonymous"
+link: http://jaffamonkey.com/8244/anonymous
+author: jaffamonkey
+description: 
+post_id: 8244
+created: 2012/12/23 13:52:44
+created_gmt: 2012/12/23 13:52:44
+comment_status: open
+post_name: anonymous
+status: publish
+post_type: post
+
+# "Anonymous"
+
+I have had a few years of frustration at self-proclaimed "web saviours" amounting to little more than scattergun ddos attacks, ftp and database compromises. All, I should say, as easy to protect yourself against. For a start don't use ftp! Switch that service off, and use ssh or a secure ftp protocol to deal with file management. I have had a few more experiences this year dealing with fallout from hacker attacks, along with some communication to some groups and individuals. I have been a little hard on youth, as it is easy to lose focus by getting caught up in a moment. Sometimes I believe hackers confuse the web itself with their targets. Attacking random websites, just because you found back-door access into server or database, seems a little churlish and not in the least bit revolutionary. "Highlighting security flaws" is a pretty weak motivation, as who does it really benefit. The hoster? They nail that particular hole shut and go about their business. Meanwhile the hosters' customers are the ones who sustain the actual damage. ![Anonymous](/wp-content/uploads/2012/12/anonymous.jpg) One of the more publicly known of the more focused hackers is the "The Jester" - he calls himself a (US) Patriot hacker. Maybe not best of starts, but his targets are deliberate - mainly Islamist extremist websites, but occasionally sidesteps onto other projects such as the turgid Westoboro Baptist Church and the [tasteless twitter trolling site](http://www.technewsdaily.com/15982-jester-newtown-twitter.html) that appeared quickly in the wake of the Newtown school shootings. There is an arrogance in the hacker world - as with anything with tech, you get the stars and a million imitation drones. It is easy enough to create a presence on the web and declare yourself and Anonymous hacker. Take credit for other attacks, blame embarrassing boo-boos on other. There is a childish level of "blame culture", but now the "stars" are easier to spot as they carry an agenda is that understandable and to varying degree, morally sound. What currently interests me how few seem to challenge hackers online. For all the umprompted outpourings of opinions, no-one seems to challenge something so prevalent and so potentially damaging for individuals. Are you sure you don't have an opinion? Usually with a little digging you can find responsible party for a website attack. Though there are truly anonymous hackers out there, most will publicise their action in some way. Even if it is just boasting in a readme file! My point is if you don't voice up when you think something is wrong, how will they ever know. "Script kiddies" are getting to be a bit of a curse, rather than any help.

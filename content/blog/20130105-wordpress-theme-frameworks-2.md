@@ -1,0 +1,15 @@
+title: Wordpress theme frameworks
+link: http://jaffamonkey.com/8353/wordpress-theme-frameworks-2
+author: jaffamonkey
+description: 
+post_id: 8353
+created: 2013/01/05 19:55:18
+created_gmt: 2013/01/05 19:55:18
+comment_status: open
+post_name: wordpress-theme-frameworks-2
+status: publish
+post_type: post
+
+# Wordpress theme frameworks
+
+Why Wordpress theme frameworks are a good idea Just to demonstrate why theme frameworks are good idea (especially smart if you are following responsive design principles). [Contact page viewed on parent theme](http://xskills.co.uk/contact/?themedemo=responsive) [Contact page viewed on child theme](http://xskills.co.uk/contact/?themedemo=responsive-child) (derived from parent theme) http://xskills.co.uk/contact/?themedemo=responsive-child http://xskills.co.uk/contact/?themedemo=responsive The contact page has same format, because the "Responsive child" theme, is hooked into the parent theme, "Responsive" and shares same page templates. Now look at same contact page, [using another theme](http://xskills.co.uk/contact/?themedemo=my-life), and you will see what I mean. http://xskills.co.uk/contact/?themedemo=my-life The annoyance with a lot of the premium and free themes is the insular way they are coded.  Sometimes with built-in plugins, and huge array of shortcodes.  Once you have geared all your content to the theme format, changing can be very difficult.  Customising, even more so. The contact form is nowhere to be seen, as the theme doesn't recognize the template so displays default template. Working with parent themes can save a lot of work, by creating child themes (which is a far smaller subset of the parent theme, plus additional features).  A basic child theme is simply a style.css file. So take a theme framework that suits your needs (I can't handhold you all the way :)), and work a child theme to client specifications. There is more than one framework around, but using more than one seems illogical. And the [Responsive](http://themeid.com) one seems to be the best of the responsive theme frameworks.  It will make ongoing website code maintenance a lot easier too! Plugins are less likely to break with subsequent Wordpress releases than themes are. And if a plugin stops working with a new version of Wordpress, it is relatively easy to find alternatives.  This can be done without affecting the overall design and features of a child-themed website. If your nice themeforest theme suddenly becomes redundant as the developer stops updating it, you could be stuck on your current WordPress version for eternity.  Having a stable core parent theme core means it will need updating less, with subsequent WordPress versions. And although deviation from the parent theme is part of the point of a child theme, limit changes to CSS as far as possible.  This will increase the re-usability of the child theme.

@@ -1,0 +1,15 @@
+title: How to code with no standards ... by .NET
+link: http://jaffamonkey.com/5290/how-to-code-with-no-standards-by-net
+author: jaffamonkey
+description: 
+post_id: 5290
+created: 2011/12/09 13:15:54
+created_gmt: 2011/12/09 13:15:54
+comment_status: open
+post_name: how-to-code-with-no-standards-by-net
+status: publish
+post_type: post
+
+# How to code with no standards ... by .NET
+
+Coding standards on .NET projects is traditionally poor - I don't know if this is related to the type of developer who ends up in .NET world, or the awkward nature of the main toolset (Visual Studio). Or a general problem endemic in modern developers - we all have our unfavourite tasks, but we are working in a business - it's not a "pick 'n mix" scenario.  Front-end coding is generally de-prioritised as default, and very few developers are interested in observing coding standards. Even though it is easily proven how poor coding standards affect website performance, accessibility and usability. Its not as though Microsoft ignores the issue - there is extensive documentation around it. Modern developers can often have no experience at all outside their IDE, and if the IDE is rich in libraries and helper objects, you can now have a developer who doesnt have a clue about fundamental concepts and rules. Visual Studio provides .NET developers with rapid development tools - it is simple enough to pick up C# and develop applications, without having general programming expertise. Hence why there are so many "duct tape" developers in the market, helped along by easily-impressed client and project managers.  They seem incapable of even making specific standards compliant sites, such as HTML5. Front-end development is sorely underestimated skill-set. On making site more compliant with XHTML standards http://msdn.microsoft.com/en-us/library/exc57y7e.aspx On making websites accessible http://msdn.microsoft.com/en-us/library/ms228004.aspx From QA perspective, the skipping of standards is general seen as time-saving and generally something to be done later. This is a false economy that can damage your project progress, and create bad client perception. If your client accesses the site in a browser different to the safe norm, then bad browser compatibility standards could make the site look like a dog's dinner. More critically, if addressing standards takes too long, it can compromise testing activity such as performance testing. You could being doing your web application a disservice - remember that it may be running well under the hood, but front-end perception can be very different. .NET developers are often ignorant of coding standards, but there is really no excuse. There is enough information out there -including on Microsoft own site. I find it bizarre when anyone attempts to defend leaving in bad code, on basis that it functionally works, so that's enough. Well, give it time, and those poor coding standards will come and bite you on the proverbial. Tasks such a html standards compliance or accessibility quickly increase in scope and quantity as problem become more deep-seated in the code.

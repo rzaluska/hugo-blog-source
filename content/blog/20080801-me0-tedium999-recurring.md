@@ -1,0 +1,21 @@
+title: me.0 = tedium.999 recurring
+link: http://jaffamonkey.com/827/me0-tedium999-recurring
+author: jaffamonkey
+description: 
+post_id: 827
+created: 2008/08/01 20:43:37
+created_gmt: 2008/08/01 20:43:37
+comment_status: open
+post_name: me0-tedium999-recurring
+status: publish
+post_type: post
+
+<!--Web 2.0 ... encapsulates the idea of the proliferation of interconnectivity and social interactions on the Web ..... Tim O'Reilly regards Web 2.0 as business embracing the web as a platform and using its strengths"-->
+
+# me.0 = tedium.999 recurring
+
+![](http://www.jaffamonkey.co.uk/wp-content/uploads/web2logolarge-150x150.jpg)
+
+> Web 2.0 ... encapsulates the idea of the proliferation of interconnectivity and social interactions on the Web ..... Tim O'Reilly regards Web 2.0 as business embracing the web as a platform and using its strengths" - http://en.wikipedia.org/wiki/Web_2.0
+
+Firstly, I do know that web 2.0 (as a term) is now about 5 years old. We can argue all day on exact dates, but for me it was del.icio.us - I assume everyone has their own relaizaton/inspiration. But the buzzword is STILL permeating through business - in a most cackhanded fashion is most cases, sadly. If I hear the phrase [web me.0](http://www.jaffamonkey.co.uk/2007/03/23/web-me0/) once more I will flip - obviously I wont, its just an expression. As is web me.0. The main reason it p*sses me off, is it is typical of business to invent an annoying buzzword to put down another annoying buzzword. Without thinking and without realising they themselves are victims of the hype element. All of a sudden "syndication", "social networking", "aggregation", and numerous other web 2.0 relevant terms became dirty words. The words of the con-artists. Web 2.0 was a very concrete set of technologies, and a very testable one (therefore real, not a fashion trend!). As well as the technical advances made (and the business approach), a primary success was the increasing engagement of the much maligned web user. Usability and Accessibility became more at the forefront for these new web 2.0 ventures, as the startup mentality is very aware of the fickle nature of the web user - they need enticement and to feel confidence in a website - not alienated. Maybe this is more the difference between larger and smaller companies - larger companies are still struggling with concepts of Agile development and open source - butchering both accordingly. Larger companies move slower by default - the main reason is that a larger companies direction is usually driven by people who have NO IDEA of what the right thing is to do - but know how to talk convincingly to their employees. Larger companies also attract people who dont want to work too hard, and are generally afraid of change - especially if it affects their job. Slight digression, but will support the following theory. People who mock and fear technology evolution are simply afraid of change - change is suspcious, and beause the change is in technology, they are even more suspicious. These are not the companies making innovative websites, and adopting modern pragmatic methodologies - they ride on the back of individual and small start-ups innovation, fail, then blame said innovations for failures. Speaking with confidence on subjects you do not have a clue about is a good talent - but ultimately damaging for the company you are in. This is why companies take years to move forward in web development - as I said, still struggling with concepts such a fast web development. A project with month iterations is NOT Agile. A website that offers one RSS feed does NOT make it web 2.0. So web me.0 .... well, so what? It was all about the poor web users after all, whether as web surfers or as web contributors. Why not a bit of web me.0? The internet operated in a very 1-dimensional and dictatorial fashion for many years since its inception, a series of documents with little interaction. But strangely this is what the web 2.0 dissenters want, whether appropriate or not.

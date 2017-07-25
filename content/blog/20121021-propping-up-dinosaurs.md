@@ -1,0 +1,15 @@
+title: Propping up dinosaurs
+link: http://jaffamonkey.com/7713/propping-up-dinosaurs
+author: jaffamonkey
+description: 
+post_id: 7713
+created: 2012/10/21 00:17:34
+created_gmt: 2012/10/21 00:17:34
+comment_status: open
+post_name: propping-up-dinosaurs
+status: publish
+post_type: post
+
+# Propping up dinosaurs
+
+![The Shining](/wp-content/uploads/2012/10/theshining1.jpg)People are lurching from Facebook  to Google+ , to Tumblr desperately trying to find homes.  But you don't need them.  Time to throw off the training wheels, get a blog on wordpress.com, or some other blogging service.  Or be braver, and set one up yourself with a hosting provider. Twitter got something right that Facebook got so wrong, in terms of future-proofing.  Twitter enables communication, there is not real Twitter world - it is truly a web service.  Facebook is just trying to keep everyone in one massive space, with limited direction, 1000's pointless aimless apps, and spamming, dodgy privacy etc.   In life, there is now more need to be less dependant, and the same online.  taking more control of your online presence is only a good thing. Instead of a clunking behemoth of a web 2.0 networking site, we end up with millions of (admittedly varying quality) websites talking to each other in a various simple and complex ways. WordPress CMS is a personal favourite of mine, and I do feel they have undersold it still in terms of user-friendliness and the huge extensibility of the core product by means of themes and plugins.  A lot of professionals have already followed this route (using WordPress or another CMS), and there is no reason for all not to adopt the same approach for other objectives. Why waste your time filling up someone else website, who don't value your privacy, you as an individual, and provide very little extra value. Ignorance is no defence on the web, it has to be learnt to some degree.  I hope I don't see the invasion of online-based "where there's blame there's a claim" cases.  It is important to consider not just your immediate audience, but the potential audience. How many people have made the error of saying or posting something inappropriate on a social networking site,  and in that moment, forgetting their content could be public to millions in minutes.  Obviously the more famous you are, the fewer minutes! It's simple enough to set up a blog, simple enough to get plugins to do all sorts of aggregation and cross-site posting, most with no technical expertise required. Find other sites comparable to yours, and share content with each other (there's a free WordPress plugin to manage that). Then at least you would find out who your **REAL** friends are. Facebook don't do anything that special, that you couldn't do with WordPress  some choice (free) plugins.  Then simply use social networking services (if you must) as means to an end - the end being YOUR website.  Facebook and Google+  are past-their-sell-by-date cons. The feature image is the The Overlook Hotel carpet - draw what meaning from that you wish; but worth remembering that "all work and no play ..." scene.

@@ -1,0 +1,15 @@
+title: The SCRUM reality show
+link: http://jaffamonkey.com/4439/the-scrum-reality-show
+author: jaffamonkey
+description: 
+post_id: 4439
+created: 2011/09/12 09:30:07
+created_gmt: 2011/09/12 09:30:07
+comment_status: open
+post_name: the-scrum-reality-show
+status: publish
+post_type: post
+
+# The SCRUM reality show
+
+![SCRUM](http://blog.jaffamonkey.com/files/2011/09/Rugby-Scrum-in-the-mud.jpg)There's been numerous [Colemanballs in Private Eye](http://en.wikipedia.org/wiki/Colemanballs), with variations of "its a reality show - dont people realise its not real?". Not as dumb as it sounds - most of those reality shows do have a surreal/unreal feel to them, as a viewer. Having watched a few 3d movies, I think it might be the more picture-like 2D view - not quite reality, as our imgainations are filling in the cracks. Or simply people are being themselves, but more Another reason is the unreality of the setup - these shows are not based on real life, but microcosms of life. This is of course careering to some kind of QA analogy. Colemanball-type comments are as common on an IT project, as they are in sports commentary. Why? The comcepts are simple, so different people are largely re-iterating the same things, just in different ways. And as such, can easily tie themselves in proverbial knots. We are rarely there when the project starts, we land in the middle - people are (on the surface) happy with their process. Or think they are - as with a reality show, introducing a player mid-way through upsets the balance by default. For a little while, project members forget how bad their processes are, and play defensive manoevres for their territory. Work is a game of sorts - people have their routines, their way of doing things. SCRUM projects can be particularly like this - you will notice one running like clockwork, because there is air of busy calm. To real easy way to evaluate SCRUM project, without actually being directly involved is to check the release to test process, and issue management. Both are key to daily efficiency. In order the change things however, it is better to do "from the inside" - no covertness intended here, but in life it is always difficult to give advice on a project that you are not involved with. This is where a QA Manager can be useful, to enable the Test Manager to concentrate on the business of test managing. A QA Manager reviews and defines project process (not just purely testing related). How those processes are applied company-wide is a sales job, and not an easy one. The Test Manager is in the thick of it, and so in much better place to promote and monitor new processes in development and testing. And the image selected is of course a rugby scrum - the word "scrum" applied to the style of daily meetings or "huddles".  I thought it an appropriate image as the comparisons don't end there, as a SCRUM project can easily end up a messy scrabble for the ball, and much tactical pushing and shoving.  Probably worth remebering the analogy only references the scrum; it shouldn't include the whole game!

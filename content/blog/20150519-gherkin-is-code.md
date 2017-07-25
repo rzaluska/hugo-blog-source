@@ -1,0 +1,34 @@
+title: Gherkin is code
+link: http://jaffamonkey.com/11321/gherkin-is-code
+author: jaffamonkey
+description: 
+post_id: 11321
+created: 2015/05/19 14:50:35
+created_gmt: 2015/05/19 14:50:35
+comment_status: closed
+post_name: gherkin-is-code
+status: publish
+post_type: post
+
+# Gherkin is code
+
+Gherkin is code - it's a the single most misunderstood part of BDD and associated tools, most of which use (or at least support) the Gherkin specification language.  I don't doubt this is because it is written in natural language, and so people automatically look for the complication rather than just taking it for what it is.  A structured approach to specification.  Code itself doesn't have to be unreadable, as there is more than one way to write code, and naming conventions for methods, functions, classes and variables can go a long way to making code more readable. Test engineers, should aspire to the same with test automation.  Gherkin is another later of abstraction, which each statement line masks one or more testing methods/functions behind it. Gherkin should be written in natural language, but writing them should not be considered easy, it's takes an business analysts mindset to do them, and Scenario coverage is key. Scenarios are what break the Feature down into step-by-step variations (alternate flows).  It is not uncommon that a User story can result in more than one Feature. 
+    
+    
+    Feature: Some terse yet descriptive text of what is desired
+    In order to realize a named business value
+    As an explicit system actor
+    I want to gain some beneficial outcome which furthers the goal
+            
+    # First scenario for the Feature
+    Scenario: Some determinable business situation
+    Given some precondition
+    And some other precondition
+    When some action by the actor
+    And some other action
+    And yet another action
+    Then some testable outcome is achieved
+    And something else we can check happens too
+    
+
+_[Behat Gherkin Guide](http://docs.behat.org/en/latest/guides/1.gherkin.html)_ The advantage of using Feature format, is it easier to breaks down traditional user stories down into workable (i.e. realistic) chunks of work.  By breaking down Features into Scenarios, cross-Feature work can be quickly identified, as well as "gotcha" type hidden complexities. The aim of a Feature demand more specifics that a user story, though will have the common user story headline format. While no fast and hard rule, if you have 10 Scenarios in a Feature, then consider possibility the feature (and therefore user story) is too large. In more traditional manner, a user story would be broken down into development and devops tasks, by the development team.  Adopting BDD approach alleviates this, and allows development team to judge task work, based on real-life Scenarios, rather than summarised overview alone. The client use Scenarios to define what they want, by defining what they expect to happen. This forms the basis for the test automation that is applied behind the Gherkin. So ideally, we have a Feature, broken down into 1 or more Scenarios, that represents Feature (or User story, if you prefer the term) sign-off. Very simple principle, but ongoing administration and monitoring of Gherkin quality is critical. When developers take on writing BDD Features (though valid) it generally misses the point, which is narrowing the gap between path from requirements to code.  This is always why developer-centric BDD tools do not have Features written in natural language (though still a valid form BDD).  By writing Features is a developer-style, you immediately exclude client from process. So another step in process is introduced which is translating requirements given in traditional form, into Gherkin Features. A little pointless as the project team as a whole (client included), should observe the same basic process for creation/amendments of Gherkin Features. The project can reach a stage when the client trusts the team enough, to break down the Features into Scenarios for them. And there are also cases, where the team does Feature files and Scenarios, for technical work (with business value) or simply to add a Scenario to cover a bugfix or improvement. Gherkin is not rigid in structure, but because tools generally have some common out-of-the-box Gherkin to get you started, this is sometimes assumed as "it", bar adding on more extensions (which bloats your testing app).  You can go far beyond the standard Gherkin, but it can quickly look repetitive. The key is customisations, building your own domain specific language, that client can use to effectively communicate requirements to a developer. What you will find as you progress on a BDD project, as customisation requirements will naturally come to light.  Once you understand the principle of the kick-start Gherkin normally provided with tools, you can create as many new Gherkin steps as you like.  Or should I say, need ... There is no need to rush customisation; it is far better to wait until requirement for it is highlighted, rather t than pre-empt, and risk bloating your BDD test suite. As well as simple customisation, such as adding a combined login process in one step, you can extend existing statements. For example, the popular "I should see" assumes one variable input - so you could extend that function, to process a comma-separated array - for example, if you are checking for the existence of multiple fields. You will be surprised - I have been on one BDD project for over a year, and after a brutal audit of the Behat/Mink framework and code at the go-live point, there was a lot of redundancy (throwaway code is sometimes necessary evil), unused extensions and predictably improvements (this journey never stops :)). But the most interesting part was the Gherkin, with a lot less Gherkin steps than I imagined. I guess we all communicate in very similar ways when it comes to requirements, and there are a lot of common steps. BDD is a journey, and the end-result is a business-relevant Gherkin library. which can be reused - in fact the whole framework can. I have taken a lot of work done, and transferred to other projects too. Invest the time in BDD, and the Gherkin-driven test suite, and you will end up with something of value. Not only as a working executable validation report of the application as a whole, but testing work done that can be easily reused.  And because the nature of BDD demands sometimes different tools to do certain jobs, depending on type of testing, the framework you build is valuable too. Don't discount the all-important learning curve of a BDD project, and just as importantly remember that the Gherkin is the (readable) window on development and testing. Keeps things focused.

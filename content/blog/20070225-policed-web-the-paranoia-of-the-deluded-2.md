@@ -1,0 +1,19 @@
+title: Policed web - the paranoia continues ...
+link: http://jaffamonkey.com/292/policed-web-the-paranoia-of-the-deluded-2
+author: jaffamonkey
+description: 
+post_id: 292
+created: 2007/02/25 13:11:50
+created_gmt: 2007/02/25 13:11:50
+comment_status: open
+post_name: policed-web-the-paranoia-of-the-deluded-2
+status: publish
+post_type: post
+
+# Policed web - the paranoia continues ...
+
+The reaction to the the planned improvements to the web, has astounded me in the levels of resistance. Most of the adverse reactions are based around a paranoia that this is the thin end of a heavier policed internet. As the internet had already become a thriving ground for control freak corporations, insipid viral marketing, email spamming, companies buying their way into top search engine results, I fail to see their point. The web should be a democratic environment. for business and the individual. These new movements will assist quality control - in design, coding and operation. What the resistance do not like is some set of guidelines telling them how they should code, for optimum web compatibility. Well, tough - code right in the first place, then maybe you will not have the headache of having to follow the proposed guidelines. By far the web accessibility (WCAG) guidelines has provoked the most audible reaction, especially from the over-protective mobile industry. The "one web" concept has be widely criticised as narrow thinking, when I belive the opposite to be true. What is narrow minded is developing a website in isolation, assuming that the methods you employ are correct, and that your business is somehow an exception to the rule. The web has been taken for granted, and the proliferation of pointlessly mediuh-ed sites highlights the bad state that website development has reached. Here is an extract from the "internet police" 
+
+> The primary goal of these guidelines is to promote accessibility. However, following them will also make Web content more available to all users, whatever user agent they are using (e.g., desktop browser, voice browser, mobile phone, automobile-based personal computer, etc.) or constraints they may be operating under (e.g., noisy surroundings, under- or over-illuminated rooms, in a hands-free environment, etc.). Following these guidelines will also help people find information on the Web more quickly. These guidelines do not discourage content developers from using images, video, etc., but rather explain how to make multimedia content more accessible to a wide audience.<http://www.w3.org/TR/WAI-WEBCONTENT/>
+
+Hardly a heavy-handed approach, but that is not what the dissenters would have you believe - they believe in developing in their own style, and leave the web/browser/plugins to manage the overhead. Lazy coding, and lazy people do no like change. The needs of the many outweigh the needs of the few - this is the perception of the dissenters. This is a massive contradiction - web accessibility stretches far beyond diabilities - this is about quality coding standards, something forgotten. My role in QA management over the last ten years has seen many changes, and right now it has felt like the wrong people have been in charge for the last few years. There have been other agendas, a raft of barely qualified programmers let loose on the web, an obession with digital media (whether releavtn or not), increased dependency on third-party software to enable a website to function. This is bad coding approach - any programming manual will tell you that. Time for these resistance babies to move aside - if they are not up to the job of helping to improve the web, and help push it forward, then its time for those people to step aside.
