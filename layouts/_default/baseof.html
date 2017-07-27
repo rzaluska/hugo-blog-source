@@ -4,7 +4,7 @@
         {{ partial "head.html" . }}
         <title>
         {{ block "title" . }}
-            {{ .Site.Title }} - {{ .Site.Params.Subtitle }}
+            {{ .Site.Title }} - {{ .Site.Params.Subtitle }} by {{ .Site.Params.Author }}
         {{ end }}
         </title>
     </head>

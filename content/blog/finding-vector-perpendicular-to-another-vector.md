@@ -141,5 +141,5 @@ class Vector:
 
 
 # References
-- [1](http://tutorial.math.lamar.edu/Classes/CalcII/DotProduct.aspx)
-- [2](https://math.stackexchange.com/questions/133177/finding-a-unit-vector-perpendicular-to-another-vector)
+- http://tutorial.math.lamar.edu/Classes/CalcII/DotProduct.aspx
+- https://math.stackexchange.com/questions/133177/finding-a-unit-vector-perpendicular-to-another-vector

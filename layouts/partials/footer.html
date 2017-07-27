@@ -5,7 +5,7 @@
                 <div class="text-center">
                     <p>
                     <a href="http://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Attribution"><img height="30px" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></img></a>
-                    {{ if isset .Site.Params "author" }} {{ .Site.Params.Author }}.{{end}}
+                    {{ if isset .Site.Params "author" }} {{ .Now.Format "2006" }} {{ .Site.Params.Author }}.{{end}}
                     <a href="http://creativecommons.org/licenses/by-sa/4.0/" title="Creative Commons Attribution">Some rights reserved</a>;
                     please attribute properly and link back.
                     </p>

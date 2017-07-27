@@ -40,7 +40,7 @@ blockquote {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .post-title {
@@ -63,13 +63,10 @@ a {
 }
 
 .post-summary-content {
-    font-size: 16px;
+    font-size: 18px;
     padding-left : 40px;
     margin-left : 25px;
     border-left: solid #777;
-}
-
-article {
 }
 
 .bg-blue {
@@ -83,15 +80,6 @@ article {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.postContent h1,
-.postContent h2,
-.postContent h3,
-.postContent h4,
-.postContent h5,
-.postContent h6 {
 }
 
 @media (max-width: 576px) {
@@ -114,4 +102,25 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
+}
+
+
+.btn-black {
+    color: #fff;
+    background-color: #111;
+    border-color: #222;
+}
+
+.btn-black:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #222;
+}
+
+a {
+    word-wrap:break-word;
+}
+
+article {
+    font-size: 20px;
 }

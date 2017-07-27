@@ -4,7 +4,11 @@
         <h1><a class="post-title-list" href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></h1>
     </header>
     <div class="post-summary-content">
-        {{ .Summary }}
-        <a class="btn btn-primary" href="{{ .Permalink }}"><strong>Read more...</strong></a>
+        <p>
+            {{ .Summary }}
+        </p>
+        <p>
+            <a class="btn btn-black" href="{{ .Permalink }}"><strong>Read more...</strong></a>
+        </p>
     </div>
 </article>
