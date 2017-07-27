@@ -4,12 +4,12 @@
 
 {{ define "main" }}
 <div class="row justify-content-center push-navbar">
-    <div style="margin-top:10px" class="col-xl-7 col-lg-8 col-md-11 col-sm-12 col-12">
+    <div style="margin-top:10px" class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
         <article itemprop="articleBody" id="content">
             <header class="post-header">
                 <h1>
                     <p class="post-title">
-                        <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a>
+                    {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
                     </p>
                 </h1>
                 {{ partial "postMeta.html" . }}

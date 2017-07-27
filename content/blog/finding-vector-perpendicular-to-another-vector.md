@@ -15,6 +15,8 @@ recently. The task was given as follows:
 At first glance the task seems to be very difficult. Let's write some
 mathematical equations to help us find solution.
 
+<!--more-->
+
 # Dot product
 First of all we will remind ourselves about dot product operator defined for
 vectors. Given any two vectors @@\vec{A}@@ and @@\vec{B}@@ we define dot product

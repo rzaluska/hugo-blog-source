@@ -45,23 +45,34 @@ body {
 
 .post-title {
     font-weight: bold;
+    font-size: 40pt;
+}
+
+.post-meta {
+    margin-left: 20px;
+}
+
+.post-title-list > a {
+    color: #0065bc;
+    font-weight: bold;
+    font-size: 22pt;
 }
 
 a {
-    color: #043B58;
+    color: #0065bc;
     font-weight: normal;
-}
-
-a:hover {
-    color: #094D72;
 }
 
 .post-summary-content {
     font-size: 16px;
+    padding-left : 40px;
+    margin-left : 40px;
+    border-left: solid #777;
 }
 
 article {
-    font-size: 14pt;
+    font-size: 15pt;
+    line-height: 1.8em;
 }
 
 .bg-blue {
@@ -74,6 +85,7 @@ article {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 576px) {

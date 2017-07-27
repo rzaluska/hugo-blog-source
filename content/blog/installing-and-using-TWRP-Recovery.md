@@ -10,6 +10,8 @@ Redmi Note 4. Now it is the time to install custom Recovery Image and use
 it to flash your desired ROM. Remember that to follow this instructions
 you need to have unlocked bootloader.
 
+<!--more-->
+
 # Warning
 > Custom recovery image will allow you to make deep modifications in your phone
 > software. This includes complete remove of Android operation system (don't

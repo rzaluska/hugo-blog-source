@@ -9,6 +9,8 @@ phone using linux, to sum up I decided to write *definitive* tutorial about it.
 I have collected all informations that were scattered around internet and
 gathered them in one place.
 
+<!--more-->
+
 # Note
 This tutorial is written especially for MTK SOC devices, so if you have locked
 bootlader on other Xiaomi phone that Redmi Note 4 and it is MTK, then you can
