@@ -1,26 +1,24 @@
-{ define "title" }}
-    Blog Posts – {{ .Site.Title }} - {{ .Site.Params.Subtitle }}
+{{ define "title" }}
+Blog Posts – {{ .Site.Title }} - {{ .Site.Params.Subtitle }}
 {{ end }}
 
 {{ define "main" }}
-            <div class="row justify-content-center push-navbar">
-                <div style="margin-top:10px" class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
-                <h1>Blog posts</h1>
-                <hr>
+<div class="row justify-content-center push-navbar">
+    <div style="margin-top:10px" class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
+        <div class="card card-block">
+            <h3 class="card-title">Blog posts</h3>
+            <div class="list-group">
                 {{ range .Data.Pages }}
-                    <div class="row">
-                        <div class="col-9">
-                            <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}::DRAFT{{end}}</a>
-                        </div>
-                        <div class="col-3">
-                            <time class="float-right text-muted">{{ .Date.Format "2 Jan 2006" }}</time></span>
-                        </div>
-                    </div>
-                    <hr>
+                <a class="list-group-item justify-content-between" href="{{ .Permalink }}">
+                            {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
+                            <time class="text-right text-muted">{{ .Date.Format "2 Jan 2006" }}</time></span>
+                </a>
                 {{ end }}
             </div>
         </div>
-{{ end }}
+    </div>
+</div>
 
+{{ end }}
 
 
