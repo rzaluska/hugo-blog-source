@@ -45,14 +45,13 @@ body {
 
 .post-title {
     font-weight: bold;
-    font-size: 40pt;
+    font-size: 25pt;
 }
 
 .post-meta {
-    margin-left: 20px;
 }
 
-.post-title-list > a {
+.post-title-list {
     color: #000;
     font-weight: bold;
     font-size: 22pt;
@@ -66,13 +65,11 @@ a {
 .post-summary-content {
     font-size: 16px;
     padding-left : 40px;
-    margin-left : 40px;
+    margin-left : 25px;
     border-left: solid #777;
 }
 
 article {
-    font-size: 12pt;
-    line-height: 1.8em;
 }
 
 .bg-blue {
@@ -87,6 +84,14 @@ article {
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.postContent h1,
+.postContent h2,
+.postContent h3,
+.postContent h4,
+.postContent h5,
+.postContent h6 {
 }
 
 @media (max-width: 576px) {
