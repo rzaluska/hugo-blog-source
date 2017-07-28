@@ -9,7 +9,7 @@
             <h3 class="card-title">Blog posts</h3>
             <div class="list-group">
                 {{ range .Data.Pages }}
-                <a style="color:#000" class="list-group-item justify-content-between" href="{{ .Permalink }}">
+                <a style="font-size:18px" class="list-group-item justify-content-between" href="{{ .Permalink }}">
                             {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
                             <time class="text-right text-muted">{{ .Date.Format "2 Jan 2006" }}</time></span>
                 </a>
