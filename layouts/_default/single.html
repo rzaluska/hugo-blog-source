@@ -7,10 +7,10 @@
     <div style="margin-top:10px" class="col-xl-7 col-lg-8 col-md-11 col-sm-12 col-12">
         <article itemprop="articleBody" id="content">
             <header class="post-header">
-                {{ partial "postMeta.html" . }}
                 <h1>
                     {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
                 </h1>
+                {{ partial "postMeta.html" . }}
             </header>
             <hr>
             <div class="postContent">
