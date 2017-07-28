@@ -13,7 +13,7 @@ list of reasons why I think that Go is good programming language.
 # Simple and concise syntax
 
 The syntax is similar to that used in scripting languages. You don't need to set
-variable types because they can be automatically deducted. Everything is written
+variable types because they can be automatically infered. Everything is written
 down explicitly and there is no operator overloading. Functions also can't
 be overloaded, which makes finding ones that will be suitable for given argument
 types set easier.
@@ -25,7 +25,7 @@ Have a look at some examples of variables usage:
 
 ```go
 var a int // declare a is int and has value of 0
-a := 0 // declare and initialize a (compiler will deduct that a is int)
+a := 0 // declare and initialize a (compiler will infer that a is int)
 
 var b string = "abc" // b is string and has value of "abc"
 var b = "abc" // you can omit type
@@ -45,7 +45,7 @@ g = f  // this line will cause compilation error
 ```
 
 Go has few keywords and simple but powerful control structures
-so it is very easy to read understand and  explore other people's code.
+so it is very easy to read, understand and explore other people's code.
 Most Go projects have relatively flat file structure so you don't need search
 for files hidden deeply in directory tree.
 
