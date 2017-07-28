@@ -1,6 +1,7 @@
 +++
-draft = true
+date = "2017-07-28T15:40:00+02:00"
 title = "Reasons why I like Go"
+tags = ["go"]
 +++
 
 Let' s talk about Go and why I like it. Go is small and interesting programming
