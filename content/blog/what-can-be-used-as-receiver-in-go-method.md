@@ -1,8 +1,9 @@
 +++
-title = "What can be used as receiver in Go ?"
+title = "What can be used as receiver in Golang functions?"
 date = 2017-07-29T19:21:20+02:00
 draft = true
-slug = "what-can-be-receiver-in-go"
+slug = "receiver-in-golang-functions"
+tags = ["go"]
 +++
 
 In this post I will show what kind of Go primitives can be used
@@ -119,3 +120,6 @@ different things in Go.
 # Methods
 
 # Interfaces
+
+# Scope of possible types
+only types from same package, no build in types

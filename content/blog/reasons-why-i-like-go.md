@@ -1,4 +1,5 @@
 +++
+
 date = "2017-07-28T15:40:00+02:00"
 title = "Reasons why I like Golang"
 tags = ["go"]
@@ -43,6 +44,12 @@ f := "test"
 g := 1
 g = f  // this line will cause compilation error
 ```
+
+This is very import feaure of Go and is adventage over languages
+that don't check types during compile time. For example in Pyton
+types are checked during runtime. This my lead to situations
+where typos in varibles or fields names are causing errors
+when program is already running.
 
 Go has few keywords and simple but powerful control structures
 so it is very easy to read, understand and explore other people's code.
