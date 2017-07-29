@@ -1,13 +1,14 @@
 +++
 
 date = "2017-07-28T15:40:00+02:00"
-title = "Reasons why I like Golang"
+title = "Reasons why I like Go"
 tags = ["go"]
 +++
 
-Let' s talk about Go and why I like it. Go is small and interesting programming
-language. It is created with simplicity in mind. In this post I will present you
-list of reasons why I think that Go is good programming language.
+Let' s talk about Go (also known as Golang) and why I like it. Go is small and
+interesting programming language. It is created with simplicity in mind. In this
+post I will present you list of reasons why I think that Go is good programming
+language.
 
 <!--more-->
 
