@@ -1,8 +1,8 @@
 +++
-title = "What can be used as receiver in Golang functions?"
+title = "What can be used as receiver in Go functions?"
 date = 2017-07-29T19:21:20+02:00
 draft = true
-slug = "receiver-in-golang-functions"
+slug = "receivers-in-go-functions"
 tags = ["go"]
 +++
 
