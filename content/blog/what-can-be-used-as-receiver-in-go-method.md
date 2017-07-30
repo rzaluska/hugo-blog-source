@@ -1,6 +1,6 @@
 +++
 title = "What can be used as receiver in Go functions?"
-date = 2017-07-30T16:50:00+02:00
+date = 2017-07-30T17:20:00+02:00
 slug = "receivers-in-go-functions"
 tags = ["go"]
 +++
