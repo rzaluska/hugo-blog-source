@@ -124,3 +124,18 @@ a {
 article {
     font-size: 20px;
 }
+
+.prev,
+.next {
+	width: 50%;
+}
+
+.prev {
+	float: right;
+	text-align: right;
+}
+
+.next {
+	float: left;
+	text-align: left;
+}

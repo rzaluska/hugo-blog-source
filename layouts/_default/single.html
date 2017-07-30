@@ -17,6 +17,22 @@
             {{ .Content }}
             </div>
         </article>
+        {{ if .PrevInSection | or .NextInSection -}}
+        <nav class="post-nav">
+            {{ if .PrevInSection -}}
+            <div class="next">
+                <a class="btn btn-black" href="{{ .PrevInSection.Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post</a>
+            </div>
+            {{- end }}
+
+            {{ if .NextInSection -}}
+            <div class="prev">
+                <a class="btn btn-black" href="{{ .NextInSection.Permalink }}">Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            {{- end }}
+        </nav>
+        <div style="clear: both;"></div>
+        {{ end }}
         {{ partial "disqus.html" . }}
     </div>
 </div>
