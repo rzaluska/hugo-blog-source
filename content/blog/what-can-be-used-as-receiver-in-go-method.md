@@ -1,12 +1,12 @@
 +++
-title = "What can be used as receiver in Go functions?"
+title = "What can be used as method receiver in Go?"
 date = 2017-07-30T17:20:00+02:00
-slug = "receivers-in-go-functions"
+slug = "method-receiver-types-in-go"
 tags = ["go"]
 +++
 
 In this post I will show what kind of Go primitives can be used
-as function receivers. If you learned Go or just started learning
+as Go method receiver argument. If you learned Go or just started learning
 you already probably know that you can pass struct
 as receiver type. But there is more. Function receivers are
 capable of enhance other things in Go.
