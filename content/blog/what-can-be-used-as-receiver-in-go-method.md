@@ -5,17 +5,17 @@ slug = "method-receiver-types-in-go"
 tags = ["go"]
 +++
 
-In this post I will show what kind of Go primitives can be used
-as Go method receiver argument. If you learned Go or just started learning
-you already probably know that you can pass struct
+In this post, I will show what kind of Go primitives can be used
+as Go method receiver argument. If you learned Golang or just started learning
+you already probably know that you can pass a struct
 as receiver type. But there is more. Function receivers are
-capable of enhance other things in Go.
+capable of enhancing other things in Go.
 
 <!--more-->
 
-# What is function receiver ?
-In the beginning we will establish and remind ourselves what
-exactly is function receiver. Let's take simple example:
+# What is function receiver?
+In the beginning, we will establish and remind ourselves what
+exactly is function receiver. Let's take a simple example:
 
 ```go
 package main
@@ -38,7 +38,7 @@ func main() {
 }
 ```
 
-I will explain what is happening here. First of all we define
+I will explain what is happening here. First of all, we define
 `type A` to be `struct` which has two fields `i` and `j` of type int.
 
 ```go
@@ -47,8 +47,8 @@ type A struct {
 }
 ```
 
-Next we define function `sumFields` but its definition is little
-different that normal one
+Next, we define function `sumFields` but its definition is little
+different than a normal one
 
 ```go
 func (a A) sumFields(k int) int {
@@ -79,12 +79,12 @@ This argument is our **receiver**.
 
 > **Answer**: No it can't. If you write `func (a A, b B) f() {}`
 > it will produce compile error `method has multiple receivers`.
-> You need to treat function receivers as way to turn it into method
+> You need to treat function receivers as the way to turn it into method
 > of given type. Just like in object oriented programming. So
 > to simplify, our receiver can be compared to `this` or `self`
 > keyword from object oriented languages.
 
-Take closer look at usage of our new method.
+Take a closer look at the usage of our new method.
 
 ```go
 func main() {
@@ -95,7 +95,7 @@ func main() {
 ```
 
 We create new variable `a` and call `sumFields` on it like
-if we would use method on object in object oriented programming.
+if we would use a method on the object in object oriented programming.
 We pass `10` as argument named `k` which is defined next to function
 name.
 
@@ -103,13 +103,13 @@ name.
 func (a A) sumFields(k int) int
 ```
 
-The result of program is obviously `15`.
+The result of the program is obviously `15`.
 
 # Struct as receiver
-In the first example I have used struct type as receiver.
-This is most common way of declaring that given method
+In the first example, I have used struct type as a receiver.
+This is the most common way of declaring that given method
 extends type. If we declare our receiver like this then we
-will get copy of struct to our method. To illustrate this, small
+will get a copy of struct to our method. To illustrate this, a small
 example will be the best.
 
 ```go
@@ -136,19 +136,19 @@ func main() {
 }
 ```
 
-First of all we create simple structure type `A`. We add two methods
-to it `add()` and `get()`. Notice that this methods receive struct
+First of all, we create simple structure type `A`. We add two methods
+to it `add()` and `get()`. Notice that these methods receive struct
 copy as their receiver argument. We call `add()` method. And
 then `get()` method.
-As you may expect output of this program is `2`. This is because
-`add()` method modifies copy of our struct not our original struct.
+As you may expect the output of this program is `2`. This is because
+`add()` method modifies the copy of our struct not our original struct.
 
 So the conclusion, of when to utilize struct as receiver type, is
 to use it when you don't want to allow any modifications of your
 original object.
 
 Note that when your struct contains reference as one of its
-members, then despite the fact that we pass struct as copy
+members, then despite the fact that we pass a struct as copy
 the reference is the same. Another example illustrates it.
 
 ```go
@@ -189,15 +189,14 @@ main.A{i:2, b:[]uint8{0xa}}
 
 As you can see we passed struct to method as copy but method was
 able to modify original object pointer by reference
-inside struct (`[]byte` slice in this example gets modified from `{0x0}`
+inside a struct (`[]byte` slice in this example gets modified from `{0x0}`
 to `{0xa}`)
 
 # Struct pointer as receiver
-Functions receivers can be also struct pointes. Remember that
-struct of given type and pointer to that struct are two
-different things in Go. As you may guess by passing pointer to
-struct as receiver type we give our method ability to modify
-all fields of original struct.
+Functions receivers can be also struct pointers. Remember that struct of given
+type and pointer to that struct are two different things in Go. As you may guess
+by passing a pointer to the struct as receiver type we give our method ability
+to modify all fields of the original struct.
 
 ```go
 package main
@@ -224,8 +223,8 @@ func main() {
 
 ```
 
-In this example we define that our `add()` function will
-be metod of type `*A`.
+In this example, we define that our `add()` function will
+be a method of type `*A`.
 
 ```go
 func (a *A) add() {
@@ -234,7 +233,7 @@ func (a *A) add() {
 ```
 
 Our function receives reference to original object and it is able
-to modify it. The output of program is:
+to modify it. The output of a program is:
 
 `
 main.A{i:2}
@@ -249,11 +248,10 @@ Exactly what we expected.
 
 
 # Functions
-In Go even functions can be receivers and can have methods. This can be
+In Go, even functions can be receivers and can have methods. This can be
 used to enhance function with simple decorators. They can be
 used for example for logging errors or measuring execution time.
-The following,
-simple example explains usage of functions as receiver types.
+The following, simple example explains the usage of functions as receiver types.
 
 ```go
 package main
@@ -294,14 +292,14 @@ func main() {
 }
 ```
 
-First of all we declare that `F` is type of function that takes string
+First of all, we declare that `F` is type of function that takes string
 and returns string.
 
 ```go
 type F func(string) string
 ```
 
-Next we add methods for type `F`.
+Next, we add methods for type `F`.
 
 ```go
 func (f F) upperCase(s string) string {
@@ -323,13 +321,13 @@ as receiver type argument, is to:
 - call it `f(s)`
 - use other methods defined for it `f.lowerCase(s)`
 
-Obviously it is like that because functions
+Obviously, it is like that because functions
 does not have fields like structs.
 
-Last thing is to define function that will be compatible with
+The last thing is to define function that will be compatible with
 `F` type. It must have one `string` argument and return `string`.
 This simple function that concatenates string with itself is
-good candidate to use as `F` type:
+a good candidate to use as `F` type:
 
 ```go
 func doubleString(a string) string {
@@ -337,9 +335,9 @@ func doubleString(a string) string {
 }
 ```
 
-In main function we create new variable of type `F`. We convert `doubleString`
+In the main function, we create a new variable of type `F`. We convert `doubleString`
 function to this type. The conversion is possible because `doubleString`
-function is coherent with type `F`.
+the function is coherent with type `F`.
 
 ```go
 func main() {
@@ -372,24 +370,24 @@ aa
 aaAA
 `
 
-Take a closer look at syntax of calling methods of function.
+Take a closer look at the syntax of calling methods of function.
 It is similar to that used with structs. This is because
 in Go `functions` are types just like `structs` so they are treated
 the same.
 
 
-In Go defining methods for functions is very popular idiom
+In Go defining methods for functions is a very popular idiom
 and it is used in a lot of places. This pattern allows
-to utilize decorator pattern in very efficient way.
+utilizing decorator pattern in a very efficient way.
 I am not going to write about it here
-beacause this topic is so broad, that it deserves separate blog post.
+because this topic is so broad, that it deserves a separate blog post.
 
 # Package scope
-In previous examples we used only one package. Things are different
-when we use more packages. In Go we can define new methods for type
-only when it is in same package that method definition.
+In previous examples, we used only one package. Things are different
+when we use more packages. In Go, we can define new methods for type
+only when it is in the same package that method definition.
 
-Let's take this project structure as example:
+Let's take this project structure as an example:
 
 ```bash
 ├── main.go
@@ -398,7 +396,7 @@ Let's take this project structure as example:
         └── lib.go
 ```
 
-We have main and lib packages. Individual files looks like this:
+We have main and lib packages. Individual files look like this:
 
 `main.go`
 
@@ -429,21 +427,21 @@ type A struct {
 }
 ```
 
-In `lib` package we define type `A`. This struct have one field `I int`
-which name starts from upper case letter so this field is accessible from
+In `lib` package we define type `A`. This struct has one field `I int`
+which name starts with upper case letter so this field is accessible from
 other packages.
 
-In `main` packages we try to define new method for type `A`. The result is
+In `main` packages we try to define a new method for type `A`. The result is
 compiler error
 `cannot define new methods on non-local type lib.A`.
 
-So as you can see we can define new methods only for types in same package.
+So as you can see we can define new methods only for types in the same package.
 This is the reason why we can't define new methods for build in types (like
 `int` `string` `byte` etc.).
 
 # Use type redefinition
-But there is solution. We can create type redefinition and refer to it instead of
-to original type. Next example illustrates way of adding new method for
+But there is a solution. We can create type redefinition and refer to it instead of
+to original type. Next example illustrates the way of adding a new method for
 build in `int` type.
 
 ```go
@@ -474,7 +472,7 @@ inside our package.
 type Int int
 ```
 
-Next we add new method for type `*Int`. Inside it
+Next, we add a new method for type `*Int`. Inside it,
 we cast `Int` to `int` to be able to use `+` operator defined for `int`.
 ```go
 func (i *Int) add() {
@@ -482,7 +480,7 @@ func (i *Int) add() {
 }
 ```
 
-The output of program is:
+The output of a program is:
 
 `
 1
@@ -496,18 +494,18 @@ We successfully enhanced build in type with new functionality (not super
 useful in this example).
 
 
-# What can't be used as receiver ?
+# What can't be used as the receiver?
 We can't use the following things as receiver types:
 
 - **methods** - if we define method on object type it can't
-    be used as receiver type just like normal function.
+    be used as receiver type just like a normal function.
 - **interfaces** - in Go interfaces are defining set of actions
-    possible for type. They are not defining actual implementation.
+    possible for the type. They are not defining actual implementation.
     That's why they can't be used as receivers for methods, because
     methods are about implementation.
 
 # Summary
-In this post I presented what kinds of objects in Go can be used
+In this post, I presented what kinds of objects in Go can be used
 as function receiver arguments. As you can see various types
 of receivers and methods in Go
 are very usable and they are complementing normal functions.
