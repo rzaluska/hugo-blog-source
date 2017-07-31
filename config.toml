@@ -4,9 +4,8 @@ title = "Write in Go"
 disqusShortname = "writeingo"
 
 [params]
-  subtitle = "Blog about Golang"
-  author = "Radek Załuska"
-  description = "Blog about Go programming language"
+  author = "Radosław Załuska"
+  description = "Blog about Golang"
   googleAnalytics = "UA-97780102-1"
   ISO8601 = "2006-01-02T15:04:05CEST"
   [params.social]
