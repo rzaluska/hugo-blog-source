@@ -5,18 +5,25 @@ url = "about"
 +++
 
 # About me
-Hello, my name is Radek and I am from Poland.  My main interests are programming
-in various languages and reverse engineering. I use [<i class="fa fa-linux"
-aria-hidden="true"></i> arch linux](https://www.archlinux.org/) at every day
-basis.  My favourite programming language is [Go](https://golang.org/).  I have
+Hello, my name is Radek and I am from Poland.
+
+My main interests are programming
+in various languages and reverse engineering.
+My favourite programming language is [Go](https://golang.org/).  I have
 switched to it from Python. I use this two programming languages most often so
-this blog will be dedicated to them. I am also big fan of
+this blog will be dedicated to them.
+
+As my hobby, I sometimes reverse engineer software written in C, C++, and Java. So in this blog
+I will show also how to rewrite compiled programs using Golang.
+
+I am also big fan of
 [Docker](https://www.docker.com/).
 I have created several server setups using docker compose.
 
 Currently I am studying Computer Science at Master’s academic degree.
 
-I hope this blog it will be intresting for many people.
+I use [<i class="fa fa-linux" aria-hidden="true"></i>Arch Linux](https://www.archlinux.org/) at every day
+basis, and I have big experience working as Linux administrator.
 
 # You can find me on:
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/LuXuryPro)
@@ -39,22 +46,23 @@ You can contact me using email: <a href="http://www.google.com/recaptcha/mailhid
     - **Python**
     - Haskell
     - algorithms
-- Android from advanced user perspective:
-    - developing apps
-    - custom roms
-    - rooting
-- Linux:
-    - tips and tricks
-    - tutorials
-    - command line usage
-    - developing apps
 - Reverse engineering:
     - basic assembly
     - reversing games
     - cheats
     - cracking binary formats
+    - **reverse engineering from C/C++ to Golang**
+- Linux:
+    - tips and tricks
+    - tutorials
+    - command line usage
+    - developing apps
+- Android from advanced user perspective:
+    - developing apps
+    - custom roms
+    - rooting
 - Other:
     - astronomy
     - math
 
-
+I hope this blog it will be intresting for many people.
