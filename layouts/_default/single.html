@@ -1,5 +1,5 @@
 {{ define "title" }}
-    {{ .Title }} -
+    {{ .Title }} - {{ .Site.Title }} Blog
 {{ end }}
 
 {{ define "main" }}
@@ -15,6 +15,16 @@
             {{ .Content }}
             </div>
         </article>
+        <h4>Share:</h4>
+        <div class="social-share">
+        <span class="twitter">
+            <a style="display:inline-block" data-size="large" class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
+	    </span>
+        <span class="reddit">
+            <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location) + '&title={{ .Title }}';return false"> <img height="25px" width="150px" src="//www.redditstatic.com/spreddit7.gif" alt="submit to reddit" border="0" /> </a>
+	    </span>
+        </div>
+        <hr>
         {{ if .PrevInSection | or .NextInSection -}}
         <nav class="post-nav">
             {{ if .PrevInSection -}}

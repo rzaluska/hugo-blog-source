@@ -272,3 +272,12 @@ a.sidebar-nav-item:focus {
 code {
     color: #9d0000;
 }
+
+.social-share span {
+	display: inline-block;
+	width: 80px;
+}
+
+.reddit {
+    margin-bottom: -18px;
+}
