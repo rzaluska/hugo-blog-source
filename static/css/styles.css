@@ -41,7 +41,7 @@ blockquote {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #333;
+    color: #222;
 }
 
 .post-title {
@@ -224,7 +224,7 @@ a.sidebar-nav-item:focus {
 }
 
 .content {
-  padding-top:    1rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
