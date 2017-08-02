@@ -7,7 +7,7 @@ tags = ["go"]
 
 In this post, I will show what kind of Go primitives can be used
 as Go method receiver argument. If you learned Golang or just started learning
-you already probably know that you can pass a struct
+you probably already know that you can pass a struct
 as receiver type. But there is more. Function receivers are
 capable of enhancing other things in Go.
 
