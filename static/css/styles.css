@@ -147,6 +147,10 @@ article {
   html {
     font-size: 20px;
   }
+  p {
+    font-size: 22px;
+    line-height: 1.6;
+  }
 }
 
 
