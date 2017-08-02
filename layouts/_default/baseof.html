@@ -8,15 +8,14 @@
             {{ .Site.Title }} - {{ .Site.Params.Description }} by {{ .Site.Params.Author }}
         </title>
     </head>
-    <body class="max-h-flex-column">
-        {{ partial "navbar.html" . }}
-        <main class="flex-fill">
-            <div class="container">
+    <body>
+        {{ partial "sidebar.html" . }}
+        <main>
+            <div class="content container">
                 {{ block "main" . }}
                 {{ end }}
             </div>
         </main>
-        {{ partial "footer.html" . }}
         {{ partial "js_list.html" . }}
     </body>
 </html>

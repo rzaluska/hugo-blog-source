@@ -3,14 +3,18 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="row justify-content-center push-navbar">
-    <div style="margin-top:10px" class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
         <h1 id="title">Posts with tag {{ .Title }}:</h1>
-            <ul>
+        <ul>
         {{ range .Data.Pages }}
-                <li> <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}::DRAFT{{end}}</a> <time class="pull-right text-muted">{{ .Date.Format "Mon, 2 Jan 2006" }}</time> </li>
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}::DRAFT{{end}}</a>
+                    <time style="float:right;">{{ .Date.Format "2 Jan 2006" }}</time>
+                </li>
         {{ end }}
             </ul>
-    </div>
-</div>
 {{ end }}
+
+
+
+
+

@@ -3,18 +3,17 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="row justify-content-center push-navbar">
-    <div style="margin-top:10px" class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
-        <div class="card card-block">
-            <h3 class="card-title">All tags:</h3>
-            <div class="list-group">
+            <h3>All tags:</h3>
+            <ul>
                 {{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
+                <li>
                 <a href="/tags/{{ $value.Name | urlize }}" class="list-group-item">
-                    <span><i class="fa fa-tags"></i></span> {{ $value.Name | humanize }}
-                    <span style="margin-left: auto;" class="badge text-right badge-primary">{{ $value.Count }} </span>
+                    <span><i class="fa fa-tags"></i></span> {{ $value.Name }}
+                    <span style="float:right">{{ $value.Count }} </span>
                 </a>
+                </li>
                 {{ end }}
-            </div>
+            </ul>
         </div>
     </div>
 </div>

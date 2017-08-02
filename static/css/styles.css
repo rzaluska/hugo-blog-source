@@ -54,7 +54,6 @@ body {
 
 .post-title-list {
     font-weight: bold;
-    font-size: 22pt;
 }
 
 a {
@@ -71,11 +70,6 @@ a {
 
 .bg-blue {
     background-color: #12628f;
-}
-
-.hljs {
-    font-size: 14px;
-    line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -109,9 +103,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     background-color: #111;
     border-color: #222;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .btn-black:hover {
+    padding: 6px;
     color: #fff;
     background-color: #333;
     border-color: #222;
@@ -138,4 +135,126 @@ article {
 .next {
 	float: left;
 	text-align: left;
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+}
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #fff;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 3.0rem;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 48em) {
+.sidebar-nav li {
+    display: inline;
+    margin: 10px;
+}
+}
+
+
+
+.sidebar-nav-item {
+  display: block;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+    max-width: 38em;
+    padding: 0 1em;
+    text-align: left;
+  }
+}
+
+.content {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+.nav-icon {
+    margin: 10px;
+}
+
+.nav-icon:hover {
+    color: #aaa;
+}
+
+.small {
+    font-size: 70%;
+}
+
+.follow-me {
+    margin-bottom: 0.1rem;
+    margin-left: 1rem;
 }

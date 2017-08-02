@@ -3,18 +3,17 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="row justify-content-center push-navbar">
-    <div style="margin-top:10px" class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
-        <div class="card card-block">
-            <h3 class="card-title">Blog posts</h3>
-            <div class="list-group">
+            <h1>Blog posts</h1>
+            <ul>
                 {{ range .Data.Pages }}
-                <a style="font-size:18px" class="list-group-item justify-content-between" href="{{ .Permalink }}">
+                <li>
+                <a href="{{ .Permalink }}">
                             {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
-                            <time class="text-right text-muted">{{ .Date.Format "2 Jan 2006" }}</time></span>
                 </a>
+                            <time style="float:right">{{ .Date.Format "2 Jan 2006" }}</time>
+                </li>
                 {{ end }}
-            </div>
+            </ul>
         </div>
     </div>
 </div>
