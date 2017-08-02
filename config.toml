@@ -1,4 +1,4 @@
-baseURL = "https://writeingo.com/"
+baseURL = "https://www.writeingo.com/"
 languageCode = "en-us"
 title = "Write in Go"
 disqusShortname = "writeingo"

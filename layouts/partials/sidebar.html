@@ -7,7 +7,6 @@
       </p>
     </div>
 
-    <hr>
     <ul class="sidebar-nav">
         <li><a href="/blog/"><i class="fa fa-pencil-square" aria-hidden="true"></i> Posts</a></li>
         <li><a href="/tags/"><i class="fa fa-tags" aria-hidden="true"></i> Tags</a></li>
@@ -16,30 +15,27 @@
     </ul>
 
     <div class="sidebar-nav sidebar-sticky">
-        <h4 style="color:#fff">
-            Follow me:
-        </h4>
-        <div class="follow-me">
-            <a class="twitter-follow-button" href="https://twitter.com/writeingocom">Follow@writeingocom</a>
+        <div class="follow-icons">
+            <h4 style="color:#fff">
+                Follow me:
+            </h4>
+            <div class="follow-me">
+                <a class="twitter-follow-button" href="https://twitter.com/writeingocom">Follow@writeingocom</a>
+            </div>
+            <div class="follow-me">
+                <a class="github-button" href="https://github.com/LuXuryPro" data-show-count="true" aria-label="Follow @LuXuryPro on GitHub">Follow @LuXuryPro</a>
+            </div>
+            <div class="follow-me">
+                <a href="https://stackoverflow.com/users/8307258/radek-załuska"><i class="fa fa-lg fa-stack-overflow" aria-hidden="true"></i></a>
+            </div>
         </div>
-        <div class="follow-me">
-            <a class="github-button" href="https://github.com/LuXuryPro" data-show-count="true" aria-label="Follow @LuXuryPro on GitHub">Follow @LuXuryPro</a>
-        </div>
-        <div class="follow-me">
-            <a href="https://stackoverflow.com/users/8307258/radek-załuska"><i class="fa fa-lg fa-stack-overflow" aria-hidden="true"></i></a>
-        </div>
-        <hr>
         <p class="small">
         This blog is proudly powered by
         <a href="https://gohugo.io/">Hugo</a>.
-        </p>
-        <p class="small">
         The Go gopher was designed by Renee French and licensed under the Creative Commons 3.0 Attributions license.
-        </p>
-        <p class="small">
         &copy; {{ now.Format "2006"}}
-        {{ $.Site.Params.Author }}.
-        <br>All rights reserved.
+        <br>
+        {{ $.Site.Params.Author }}. All rights reserved.
         </p>
     </div>
   </div>
