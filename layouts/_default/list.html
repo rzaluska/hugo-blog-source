@@ -1,3 +1,5 @@
 {{ define "main" }}
-        {{ partial "post-list.html" . }}
+    {{ range where .Site.Pages "Section" "blog" }}
+        {{ .Render "summary" }}
+    {{ end }}
 {{ end }}

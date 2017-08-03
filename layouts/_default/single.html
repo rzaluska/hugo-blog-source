@@ -5,42 +5,43 @@
 {{ define "main" }}
         <article itemprop="articleBody" id="content">
             <header class="post-header">
+                {{ partial "postMeta.html" . }}
                 <h1 class="title">
                     {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
                 </h1>
-                {{ partial "postMeta.html" . }}
             </header>
             <hr>
             <div class="postContent">
             {{ .Content }}
             </div>
         </article>
-        <h4>Share:</h4>
+        <strong>Share:</strong>
         <div class="social-share">
-        <span class="twitter">
-            <a style="display:inline-block" data-size="large" class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
-	    </span>
-        <span class="reddit">
-            <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location) + '&title={{ .Title }}';return false"> <img height="25px" width="150px" src="//www.redditstatic.com/spreddit7.gif" alt="submit to reddit" border="0" /> </a>
-	    </span>
+        <a style="display:inline-block" data-size="large" class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
         </div>
         <hr>
         {{ if .PrevInSection | or .NextInSection -}}
-        <nav class="post-nav">
+        <nav id="bottom" class="post-nav">
             {{ if .PrevInSection -}}
-            <div class="next">
-                <a class="btn btn-black" href="{{ .PrevInSection.Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post</a>
-            </div>
+            <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post</a>
             {{- end }}
 
             {{ if .NextInSection -}}
-            <div class="prev">
-                <a class="btn btn-black" href="{{ .NextInSection.Permalink }}">Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
+            <a href="{{ .NextInSection.Permalink }}">Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             {{- end }}
         </nav>
         <div style="clear: both;"></div>
         {{ end }}
         {{ partial "subscrible-form.html" }}
         {{ partial "disqus.html" . }}
+        <a href="#top">
+            <div class="flex-col">
+                <div>
+                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                </div>
+                <div>
+                    Go to top
+                </div>
+            </div>
+        </a>
 {{ end }}
