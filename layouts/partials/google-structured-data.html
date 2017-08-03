@@ -38,7 +38,7 @@
     "articleSection" : "{{ .Section }}",
     "name" : "{{ .Title }}",
     "headline" : "{{ .Title }}",
-    "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+    "description" : "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ end }}{{ end }}",
     "inLanguage" : "en-US",
     "author" : "{{ .Site.Params.author }}",
     "creator" : "{{ .Site.Params.author }}",
