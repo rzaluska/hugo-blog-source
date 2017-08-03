@@ -5,7 +5,7 @@
 {{ define "main" }}
         <article itemprop="articleBody" id="content">
             <header class="post-header">
-                <h1>
+                <h1 class="title">
                     {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
                 </h1>
                 {{ partial "postMeta.html" . }}

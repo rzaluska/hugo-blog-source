@@ -1,36 +1,26 @@
-.navbar-brand {
-    line-height:12px;
-    padding-top:20px;
-    padding-bottom:5px;
+.column {
+    max-width: 700px;
+    margin: auto;
 }
 
-.navbar-brand small {
-    margin-top: 5px;
-    text-align: right;
-    display:block;
-    font-size:10px;
-}
-
-.list-group-item:hover {
-    background-color: #f5f5f5;
-}
-
-footer {
-    background-color: #ddd;
-    padding-top: 20px;
-    padding-bottom: 1px;
-    margin-top: 10px;
-}
-
-.flex-fill {
-    flex: 1;
-}
-
-.max-h-flex-column {
+.navbar {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0em;
+    max-width: 800px;
+    margin: auto;
 }
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: 0em 0.1em;
+    display: inline-block;
+}
+
 
 blockquote {
     padding: 0.5rem 1rem;
@@ -41,243 +31,46 @@ blockquote {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #222;
 }
 
-.post-title {
-    font-weight: bold;
-    font-size: 25pt;
-}
 
-.post-summary-header .post-meta {
-    margin-left:20px;
-}
-
-.post-title-list {
-    font-weight: bold;
-}
-
-a {
-    color: #39619e;
-    font-weight: normal;
-}
-
-.post-summary-content {
+article {
     font-size: 18px;
-    padding-left : 40px;
-    margin-left : 25px;
-    border-left: solid #777;
 }
 
-.bg-blue {
-    background-color: #12628f;
+.title {
+    font-size: 32px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-}
-
-@media (max-width: 576px) {
-    .container {
-        margin-left: 0;
-        margin-right: 0;
+@media (min-width: 700px) {
+    html {
+        font-size: 20px;
+    }
+    article {
+        font-size: 21px;
+    }
+    .title {
+        font-size: 40px;
     }
 }
 
-.default {
-    top: 0;
-}
-.fixed {
-    top: -80px;
-}
-
-.hidding-header {
-    z-index: 1030;
-    position: sticky;
-    transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -webkit-transition: all 0.3s linear;
-}
-
-
-.btn-black {
-    color: #fff;
-    background-color: #111;
-    border-color: #222;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.btn-black:hover {
-    padding: 6px;
-    color: #fff;
-    background-color: #333;
-    border-color: #222;
-}
-
-a {
-    word-wrap:break-word;
-}
-
-article {
-    font-size: 20px;
-}
-
-.prev,
-.next {
-	width: 50%;
-}
-
-.prev {
-	float: right;
-	text-align: right;
-}
-
-.next {
-	float: left;
-	text-align: left;
-}
-
-@media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
-}
-@media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
-  p {
-    font-size: 22px;
+p {
     line-height: 1.6;
-  }
 }
-
-
-.sidebar {
-  text-align: center;
-  padding: 1rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
-}
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-}
-
-/* Sidebar links */
-.sidebar a {
-  color: #fff;
-}
-
-/* About section */
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-size: 3.0rem;
-}
-
-/* Sidebar nav */
-.sidebar-nav {
-  padding-left: 0;
-  list-style: none;
-}
-
-.sidebar-nav li {
-    margin-bottom: 10px;
-}
-
-
-@media (max-width: 48em) {
-.sidebar-nav li {
-    display: inline;
-    margin: 10px;
-}
-}
-
-
-
-.sidebar-nav-item {
-  display: block;
-}
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
-
-
-@media (min-width: 48em) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-    max-width: 38em;
-    padding: 0 1em;
-    text-align: left;
-  }
-}
-
-.content {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-@media (min-width: 48em) {
-  .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
-  }
-}
-
-.nav-icon {
-    margin: 10px;
-}
-
-.nav-icon:hover {
-    color: #aaa;
-}
-
-.small {
-    font-size: 50%;
-}
-
-.follow-me {
-    margin-bottom: 0.1rem;
-    margin-left: 1rem;
-}
-
-.follow-icons {
-    margin-bottom: 1rem;
-}
-
 
 code {
     color: #9d0000;
 }
 
-.social-share span {
-	display: inline-block;
-	width: 80px;
+pre {
+    font-size: 70%;
 }
 
-.reddit {
-    margin-bottom: -18px;
+a {
+    color: #39619e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

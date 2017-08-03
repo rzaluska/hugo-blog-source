@@ -9,8 +9,8 @@
         </title>
     </head>
     <body>
-        {{ partial "sidebar.html" . }}
-        <main>
+        {{ partial "navbar.html" . }}
+        <main class="column">
             <div class="content container">
                 {{ block "main" . }}
                 {{ end }}
