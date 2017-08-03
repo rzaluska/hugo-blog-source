@@ -67,6 +67,7 @@ p {
 }
 
 code {
+    font-family: 'Source Code Pro', monospace;
     color: #9d0000;
     background-color: #f9f9f9;
 }
