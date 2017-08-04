@@ -44,6 +44,7 @@ html {
 article {
     color: #333;
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .title {
@@ -60,10 +61,6 @@ article {
     .title {
         font-size: 45px;
     }
-}
-
-p {
-    line-height: 1.5;
 }
 
 code {
