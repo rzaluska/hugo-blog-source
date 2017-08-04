@@ -14,7 +14,7 @@ language.
 # Simple and concise syntax
 
 The syntax is similar to that used in scripting languages. You don't need to set
-variable types because they can be automatically inferred. Everything is written
+variables types because they can be automatically inferred. Everything is written
 down explicitly and there is no operator overloading. Functions also can't
 be overloaded, which makes finding ones that will be suitable for given argument
 types set easier.
@@ -96,7 +96,7 @@ don't need any special tools to write Go code. A good text
 editor will be enough, but if you want some additional features you can always
 use small plugins.
 
-If you are Vim or NeoVim user (like me) I can recommend this two:
+If you are Vim or NeoVim user (like me) I can recommend this two addons:
 
 - https://github.com/zchee/deoplete-go - code autocompletion
 - https://github.com/fatih/vim-go - other types of goodies (variable rename,
@@ -187,7 +187,7 @@ In Go concurrency is the first class citizen. There are special keywords that ar
         wg.Wait()
     }
 - chan - in go you can communicate with other concurrent functions using
-    channels. They are preferred way of safe synchronizing access to shared data.
+    channels. They are a preferred way of safe synchronizing access to shared data.
 - select - this keyword allows to use a group of channels at once
 
 # Brings some interesting concepts
@@ -208,4 +208,3 @@ Some of them are:
 I presented a list of reasons why I think that Go is a good language. Some of the readers may have other opinions and I respect them. Nevertheless, I hope that
 this article gives everybody good collection of stand out Go features and some
 of the readers may give Go a try.
-
