@@ -13,7 +13,7 @@ capable of enhancing other things in Go.
 
 <!--more-->
 
-# What is function receiver?
+# What is a method receiver?
 In the beginning, we will establish and remind ourselves what
 exactly is function receiver. Let's take a simple example:
 
