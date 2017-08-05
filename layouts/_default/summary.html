@@ -1,7 +1,7 @@
 <article style="margin-bottom:50px">
     <header> 
         {{ partial "postMeta.html" . }}
-        <h1><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></h1>
+        <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></h1>
     </header>
     <div>
         <p>

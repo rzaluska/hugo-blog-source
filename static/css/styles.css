@@ -33,7 +33,7 @@ blockquote {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: sans-serif;
 }
 
 html {
@@ -42,35 +42,28 @@ html {
 
 
 article {
-    color: #333;
-    font-size: 18px;
-    line-height: 1.5;
+    color: #242729;
 }
 
-.title {
-    font-size: 32px;
-}
 
 @media (min-width: 700px) {
     html {
-        font-size: 20px;
-    }
-    article {
-        font-size: 21px;
+        font-size: 15px;
+        line-height: 1.3;
     }
     .title {
-        font-size: 45px;
+        font-size: 32px;
     }
 }
 
 code {
-    font-family: 'Source Code Pro', monospace;
+    font-family: monospace;
     color: #9d0000;
     background-color: #f9f9f9;
 }
 
 pre {
-    font-size: 70%;
+    font-size: 80%;
 }
 
 a {
