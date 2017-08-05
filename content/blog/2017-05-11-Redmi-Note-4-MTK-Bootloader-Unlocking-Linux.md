@@ -2,6 +2,7 @@
 date = "2017-05-11T16:11:58+05:30"
 title = "Redmi Note 4 MTK Bootloader Unlocking using Linux"
 tags = ["android", "bootloader"]
+hl = true
 +++
 
 After long and tedious process of unlocking bootloader in my Xiaomi Redmi Note 4

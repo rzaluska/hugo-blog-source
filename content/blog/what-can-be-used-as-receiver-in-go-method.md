@@ -3,6 +3,7 @@ title = "What can be used as method receiver in Go?"
 date = 2017-07-30T17:20:00+02:00
 slug = "method-receiver-types-in-go"
 tags = ["go"]
+hl = true
 +++
 
 In this post, I will show what kind of Go primitives can be used

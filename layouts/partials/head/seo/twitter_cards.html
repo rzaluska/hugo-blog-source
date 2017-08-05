@@ -11,3 +11,6 @@
 	{{ $author := index .Site.Params.authors .Params.author }}
 	{{ with $author.twitter }}<meta name="twitter:creator" content="@{{ $author.twitter }}"/>{{ end }}
 {{ end }}
+<meta name="twitter:creator" content="@{{ $.Site.Params.Social.Twitter }}"/>
+
+

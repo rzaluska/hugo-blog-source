@@ -4,6 +4,7 @@ draft = false
 title = "Finding vector perpendicular to another vector"
 tags = ['3D', 'math']
 useTex = true
+hl = true
 +++
 
 Hello, in this post I will present solution for math problem I stumbled upon

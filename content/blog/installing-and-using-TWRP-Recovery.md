@@ -3,6 +3,7 @@ date = "2017-05-30T12:33:05+02:00"
 draft = false
 title = "Installing and using TWRP Recovery for Xiaomi Redmi Note 4 MTK"
 tags = ["twrp", "xiaomi", "android"]
+hl = true
 +++
 
 In the last post I have presented you way of unlocking bootloader in Xiaomi

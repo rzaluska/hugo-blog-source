@@ -1,30 +1,9 @@
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
-
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-
-<!-- Place this tag in your head or just before your close body tag. -->
-<script src="https://buttons.github.io/buttons.js"></script>
-
-<!-- bootstrap and friends -->
-<script src="/js/jquery.min.js"></script>
-
-<!-- highlight.js -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/go.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+{{ if $.Params.hl }}
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/go.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+{{ end }}
 
 {{ if $.Params.UseTex }}
     <!-- KaTeX.js -->
@@ -44,5 +23,20 @@
     </script>
 {{ end }}
 
-<script src="/js/common.js"></script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 
