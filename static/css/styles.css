@@ -11,6 +11,8 @@
     align-items: center;
     padding-top: 0.5em;
     padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     max-width: 800px;
     margin: auto;
 }
@@ -33,6 +35,7 @@ blockquote {
 }
 
 body {
+    margin: 0px;
     font-family: 'Lato', sans-serif;
 }
 
