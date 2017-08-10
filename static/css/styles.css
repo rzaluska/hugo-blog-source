@@ -12,19 +12,19 @@
     left: 0;
     right: 0;
     width: 100%;
+    background-color: rgba(193, 232, 255, 0.9);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0.5em;
+    padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
     max-width: 800px;
     margin: auto;
-    background-color: rgba(193, 232, 255, 0.9);
 }
 
 .navbar-nav {
@@ -106,4 +106,9 @@ a:hover {
 
 .post-meta {
     margin-bottom: -25px;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
 }
