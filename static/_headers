@@ -2,7 +2,7 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src 'unsafe-inline' data: 'self' www.google-analytics.com ajax.googleapis.com cdnjs.cloudflare.com *.cloudfront.net fonts.googleapis.com *.amazonaws.com *.disqus.com *.twitter.com;
+  Content-Security-Policy: default-src 'unsafe-inline' data: 'self' www.google-analytics.com ajax.googleapis.com cdnjs.cloudflare.com *.cloudfront.net fonts.googleapis.com *.amazonaws.com *.disqus.com disqus.com *.twitter.com cdn-images.mailchimp.com fonts.gstatic.com *.disquscdn.com;
   Referrer-Policy: no-referrer-when-downgrade
 
 
