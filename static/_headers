@@ -2,7 +2,7 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src https:
+  Content-Security-Policy: default-src 'unsafe-inline' data: 'self' www.google-analytics.com ajax.googleapis.com cdnjs.cloudflare.com;
   Referrer-Policy: no-referrer-when-downgrade
 
 
