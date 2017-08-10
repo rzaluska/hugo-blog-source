@@ -3,5 +3,6 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Content-Security-Policy: default-src https:
+  Referrer-Policy: no-referrer-when-downgrade
 
 
