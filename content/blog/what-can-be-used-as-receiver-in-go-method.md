@@ -14,7 +14,7 @@ capable of enhancing other things in Go.
 
 <!--more-->
 
-# What is a method receiver?
+## What is a method receiver?
 In the beginning, we will establish and remind ourselves what
 exactly is function receiver. Let's take a simple example:
 
@@ -106,7 +106,7 @@ func (a A) sumFields(k int) int
 
 The result of the program is obviously `15`.
 
-# Struct as receiver
+## Struct as receiver
 In the first example, I have used struct type as a receiver.
 This is the most common way of declaring that given method
 extends type. If we declare our receiver like this then we
@@ -193,7 +193,7 @@ able to modify original object pointer by reference
 inside a struct (`[]byte` slice in this example gets modified from `{0x0}`
 to `{0xa}`)
 
-# Struct pointer as receiver
+## Struct pointer as receiver
 Functions receivers can be also struct pointers. Remember that struct of given
 type and pointer to that struct are two different things in Go. As you may guess
 by passing a pointer to the struct as receiver type we give our method ability
@@ -248,7 +248,7 @@ So you can see that value of field `i` gets modified from `2` to `3`.
 Exactly what we expected.
 
 
-# Functions
+## Functions
 In Go, even functions can be receivers and can have methods. This can be
 used to enhance function with simple decorators. They can be
 used for example for logging errors or measuring execution time.
@@ -383,7 +383,7 @@ utilizing decorator pattern in a very efficient way.
 I am not going to write about it here
 because this topic is so broad, that it deserves a separate blog post.
 
-# Package scope
+## Package scope
 In previous examples, we used only one package. Things are different
 when we use more packages. In Go, we can define new methods for type
 only when it is in the same package that method definition.
@@ -440,7 +440,7 @@ So as you can see we can define new methods only for types in the same package.
 This is the reason why we can't define new methods for build in types (like
 `int` `string` `byte` etc.).
 
-# Use type redefinition
+## Use type redefinition
 But there is a solution. We can create type redefinition and refer to it instead of
 to original type. Next example illustrates the way of adding a new method for
 build in `int` type.
@@ -495,7 +495,7 @@ We successfully enhanced build in type with new functionality (not super
 useful in this example).
 
 
-# What can't be used as the receiver?
+## What can't be used as the receiver?
 We can't use the following things as receiver types:
 
 - **methods** - if we define method on object type it can't
@@ -505,7 +505,7 @@ We can't use the following things as receiver types:
     That's why they can't be used as receivers for methods, because
     methods are about implementation.
 
-# Summary
+## Summary
 In this post, I presented what kinds of objects in Go can be used
 as function receiver arguments. As you can see various types
 of receivers and methods in Go

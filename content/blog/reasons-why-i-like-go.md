@@ -12,7 +12,7 @@ language.
 
 <!--more-->
 
-# Simple and concise syntax
+## Simple and concise syntax
 
 The syntax is similar to that used in scripting languages. You don't need to set
 variables types because they can be automatically inferred. Everything is written
@@ -87,7 +87,7 @@ language and add unnecessary complexity
 This features make Go a language of short learning time and with ease to master.
 It is very accessible for both for experienced and fresh programmers.
 
-# Text editor oriented
+## Text editor oriented
 Vim + 2 plugins are more than enough to effectively develop using Go.
 You don't need any type of IDE which will load itself for five minutes.
 The set of tools that come with Go is designed to work with any kind
@@ -106,7 +106,7 @@ If you are Vim or NeoVim user (like me) I can recommend this two addons:
 They are wrappers around standard Go commands. They will allow you to interact with Go
 toolset without leaving text editor.
 
-# One way of doing things
+## One way of doing things
 Go philosophy is convention over configuration. From syntax point of view we
 have only one type of loop - the for loop. But you can use it to achieve a lot
 of things:
@@ -127,7 +127,7 @@ for i := 0; i < n; i++ {
 }
 ```
 
-# Fast compilation to machine code
+## Fast compilation to machine code
 Go compiles to native code really fast. You can feel like if you are working with scripting
 language where there is no compilation step. Go produces statically linked
 binaries. You can run them on your target machine without any additional
@@ -135,7 +135,7 @@ dependencies. The obvious disadvantage of static compilation is that it produces
 big executables. I think it is not always problem today when you can have the 4TB disc at your stationary home computer,
 and even more in servers.
 
-# Excellent tooling
+## Excellent tooling
 Go is created together with the set of official tools that help with development.
 You don't need to choose and configure compiler.
 You don't need to write any kind of additional scripts (Makefiles)
@@ -161,7 +161,7 @@ tools are:
     In Go, there are no more formatting wars because everybody just runs Go fmt on
     their code and it gets tidy up.
 
-# Concurrency
+## Concurrency
 In Go concurrency is the first class citizen. There are special keywords that are built into language:
 - go - this one allows you to call function concurrent to actual instruction
     sequence.
@@ -191,7 +191,7 @@ In Go concurrency is the first class citizen. There are special keywords that ar
     channels. They are a preferred way of safe synchronizing access to shared data.
 - select - this keyword allows to use a group of channels at once
 
-# Brings some interesting concepts
+## Brings some interesting concepts
 Some of them are:
 
 - Struct and interface embedding instead of inheritance.
@@ -205,7 +205,7 @@ Some of them are:
     allows you to delay execution of some code to the moment of the surrounding
     function return.
 
-# Conclusion
+## Conclusion
 I presented a list of reasons why I think that Go is a good language. Some of the readers may have other opinions and I respect them. Nevertheless, I hope that
 this article gives everybody good collection of stand out Go features and some
 of the readers may give Go a try.

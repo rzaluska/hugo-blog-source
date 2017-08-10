@@ -18,7 +18,7 @@ mathematical equations to help us find solution.
 
 <!--more-->
 
-# Dot product
+## Dot product
 First of all we will remind ourselves about dot product operator defined for
 vectors. Given any two vectors @@\vec{A}@@ and @@\vec{B}@@ we define dot product
 as following equation:
@@ -28,7 +28,7 @@ Where @@\vec{A}_i@@ and @@\vec{B}_i@@ are @@i@@-th components of @@N@@ dimension
 vectors. As we can see dot product is only defined for vectors that are the same
 size. In other words we can't compute dot product for pair of 2D and 3D vector directly.
 
-## Angle between vectors
+### Angle between vectors
 Using dot product we can compute angle between vectors. Let's write formula
 that will allow us to make this calculation:
 
@@ -37,7 +37,7 @@ $$\vec{A} \cdot \vec{B} = ||\vec{A}|| * ||\vec{B}|| * \cos(\theta)$$
 so the angle @@\theta@@ is given by
 $$\theta = \cos^{-1}\left(\frac{\vec{A} \cdot \vec{B}}{||\vec{A}|| * ||\vec{B}||}\right)$$
 
-## Perpendicular vectors
+### Perpendicular vectors
 If vectors have to be perpendicular to each other the angle between them needs to be equal
 @@90^\circ@@ (@@\frac{\pi}{4}@@).
 
@@ -55,7 +55,7 @@ It is only true when both @@\vec{A}@@ and @@\vec{B}@@ have length not equal
 to @@0@@. This equation tells us that if vectors will satisfy it,
 then angle between them is equal to @@90^\circ@@ (@@\frac{\pi}{4}@@).
 
-# 2D example
+## 2D example
 Let's suppose we have vector @@\vec{A} = (A_x, A_y)@@ and we want to find vector that is
 perpendicular to it. Starting with formula:
 $$\vec{A} \cdot \vec{U} = 0$$
@@ -90,7 +90,7 @@ $$\vec{U} = \left(-\left(\frac{\vec{A}_y}{\vec{A}_x}\right), 1\right)$$
 If both @@\vec{A}_x@@ and @@\vec{A}_y@@ are equal to @@0@@ then we can't find perpendicular vector
 because @@\vec{A}@@ has a length of @@0@@.
 
-# 3D example
+## 3D example
 After showing 2D example 3D one will be more understandable. Now let's suppose we have vector
 @@\vec{A} = (A_x, A_y, A_z)@@ and we want to find vector that is perpendicular to it.
 Let's state that unknown vector is @@\vec{U} = (U_x, U_y, U_z)@@.
@@ -118,7 +118,7 @@ $$\vec{U} = \left(1, 1, -\left(\frac{\vec{A}_x +
 But only if @@\vec{A}_z@@ is not equal @@0@@. If that is not the case then you need to choose
 another component of @@\vec{U}@@ and set it arbitrarily to @@1@@.
 
-# Final python example code
+## Final python example code
 To sum up I prepared simple Python method that will compute vector perpendicular to another for 3D
 case. It can be easily inserted into existing implementation of vector class.
 
@@ -141,6 +141,6 @@ class Vector:
 ~~~
 
 
-# References
+## References
 - http://tutorial.math.lamar.edu/Classes/CalcII/DotProduct.aspx
 - https://math.stackexchange.com/questions/133177/finding-a-unit-vector-perpendicular-to-another-vector

@@ -13,13 +13,13 @@ you need to have unlocked bootloader.
 
 <!--more-->
 
-# Warning
+## Warning
 > Custom recovery image will allow you to make deep modifications in your phone
 > software. This includes complete remove of Android operation system (don't
 > worry it can be installed again). So if you don't exactly know what you are
 > doing then don't install custom recovery and stay with official MIUI updates.
 
-# Choosing Recovery Image
+## Choosing Recovery Image
 Before you download any files you must decide if you will use custom recovery
 together with official ROM. If the answer is **yes** then you should download
 latest version of **Cofface TWRP**. I recommend this version also for users
@@ -28,13 +28,13 @@ for Xiaomi Redmi Note 4 MTK but I haven't tested it
 (https://www.androidfilehost.com/?fid=24694152805484974). It is also worth mentioning
 that there is no official TWRP for this phone (https://twrp.me/Devices/).
 
-# Warning
+## Warning
 > If you want to use official Xiaomi ROMs then remember - never flash
 > Global or China Stable version. If you do so then it will lock you bootloader
 > again.
 
-# Installing TWRP Recovery
-## Installation Steps to follow
+## Installing TWRP Recovery
+### Installation Steps to follow
 
 1. Go to https://www.androidfilehost.com/?fid=385035244224401067 and download
 recovery image.
@@ -76,7 +76,7 @@ recovery image.
     flashing TWRP again.
 14. You are done TWRP is successfully installed.
 
-# Using TWRP
+## Using TWRP
 You can use your new recovery for:
 
 - Installing custom and official ROMs
@@ -85,7 +85,7 @@ You can use your new recovery for:
 
 I will show you how to install custom ROM, because it is somewhat complicated.
 
-## Flashing Xiaomi.eu ROM
+### Flashing Xiaomi.eu ROM
 After installing recovery it's time to flash custom ROM. I recommend using
 https://xiaomi.eu/ ROMs, because they are close to global version of MIUI
 and they will never lock your bootloader. This ROMs have, a lot of additional
@@ -116,7 +116,7 @@ pick latest forum thread.
 15. At the moment when MIUI Creator appears, Xiaomi.eu ROM installation if finished
 16. Enjoy your new ROM
 
-## Rooting phone
+### Rooting phone
 With help of TWRP recovery rooting Xiaomi Redmi Note 4 phone is very easy process.
 
 1. Download SuperSU https://download.chainfire.eu/1021/SuperSU/SR3-SuperSU-v2.79-SR3-20170114223742.zip
@@ -141,6 +141,6 @@ With help of TWRP recovery rooting Xiaomi Redmi Note 4 phone is very easy proces
 13. Enjoy your rooted device
 
 
-# References
+## References
 - http://en.miui.com/thread-352104-1-1.html
 - https://forum.xda-developers.com/redmi-note-4/development/cofface-redmi-note4-twrp-recovery-t3457394
