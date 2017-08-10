@@ -3,6 +3,15 @@
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 130px;
+}
+
+.fix-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 .navbar {
@@ -15,6 +24,7 @@
     padding-right: 1em;
     max-width: 800px;
     margin: auto;
+    background-color: rgba(193, 232, 255, 0.9);
 }
 
 .navbar-nav {
@@ -53,6 +63,9 @@ article {
     .title {
         font-size: 32px;
     }
+    .column {
+        margin-top:100px;
+    }
 }
 
 code {
@@ -81,10 +94,10 @@ a:hover {
 }
 
 .flex-col {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .text-muted {
