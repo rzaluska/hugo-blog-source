@@ -4,16 +4,20 @@
 
 {{ define "main" }}
             <h1>Blog posts</h1>
+            {{ range .Data.Pages.GroupByDate "2006" }}
+            <h2><u>{{ .Key }}:</u></h2>
             <ul>
-                {{ range .Data.Pages }}
-                <li>
-                <a href="{{ .Permalink }}">
-                            {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
-                </a>
-                            <time style="float:right">{{ .Date.Format "2 Jan 2006" }}</time>
-                </li>
+                {{ range .Pages }}
+                    <li style="display: flex; justify-content: space-between;">
+                    <a href="{{ .Permalink }}">
+                                {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
+                    </a>
+                    <time style="white-space: nowrap;">{{ .Date.Format "2 Jan 2006" }}</time>
+                    </li>
+                    <hr>
                 {{ end }}
             </ul>
+            {{ end }}
         </div>
     </div>
 </div>
