@@ -1,8 +1,8 @@
 .column {
-	max-width: 33em;
+	max-width: 35em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 120px;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -20,12 +20,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     max-width: 800px;
     margin: auto;
+}
+
+.brand {
+    font-size: 0.7em;
 }
 
 .navbar-nav {
@@ -49,23 +53,34 @@ body {
     background-color: #fafafa;
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 article {
     color: #333;
+    line-height: 1.4;
 }
 
 @media (min-width: 700px) {
-    body {
-        font-size: 18px;
-        line-height: 1.4;
-    }
     .title {
         font-size: 32px;
     }
     .column {
-        margin-top:110px;
+        margin-top:120px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        max-width: 800px;
+        margin: auto;
+    }
+    .brand {
+        font-size: 1em;
     }
 }
 
