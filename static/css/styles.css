@@ -65,9 +65,6 @@ article {
     .title {
         font-size: 32px;
     }
-    .column {
-        margin-top:120px;
-    }
     .navbar {
         display: flex;
         justify-content: space-between;
