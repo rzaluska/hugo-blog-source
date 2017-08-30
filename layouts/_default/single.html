@@ -16,7 +16,7 @@
         </article>
         <strong>Share:</strong>
         <div class="social-share">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large"> Tweet</a>
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}&via={{ .Site.Params.Social.Twitter }}" data-size="large"> Tweet</a>
         </div>
         <hr>
         {{ if .PrevInSection | or .NextInSection -}}

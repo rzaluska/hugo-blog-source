@@ -52,13 +52,15 @@ blockquote {
 body {
     background-color: #fafafa;
     margin: 0px;
+    font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
 }
 
-article {
+
+article p, ul {
     color: #333;
-    line-height: 1.4;
+    line-height: 1.5;
+    font-family: 'Merriweather', serif;
 }
 
 @media (min-width: 700px) {
@@ -84,7 +86,8 @@ article {
 code {
     font-family: 'Source Code Pro', monospace;
     color: #9d0000;
-    background-color: #f9f9f9;
+    background-color: #eee;
+    font-style: normal;
 }
 
 pre {
@@ -114,11 +117,11 @@ a:hover {
 }
 
 .text-muted {
-    color: #444;
+    color: #555;
 }
 
 .post-meta {
-    margin-bottom: -25px;
+    margin-bottom: -20px;
 }
 
 .logo {

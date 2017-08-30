@@ -204,8 +204,8 @@ After wizard is done:
 
 ## What to do next ?
 Now when you have your bootloader unlocked you will probably want to **flash
-custom Recovery** to manage your ROMS. This process will be described in next
-post.
+custom Recovery** to manage your ROMS. This process will be described in
+[next post]({{< relref "installing-and-using-TWRP-Recovery.md" >}}).
 
 ## References
 - <https://forum.xda-developers.com/redmi-note-4/how-to/guide-redmi-note-4-unlock-bootloader-t3517806>
