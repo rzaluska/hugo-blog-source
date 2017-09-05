@@ -20,8 +20,9 @@ mathematical equations to help us find solution.
 
 ## Dot product
 First of all we will remind ourselves about dot product operator defined for
-vectors. Given any two vectors @@\vec{A}@@ and @@\vec{B}@@ we define dot product
+vectors. Given any two vectors \\( \vec{A} \\) and \\( \vec{B} \\) we define dot product
 as following equation:
+
 $$\vec{A} \cdot \vec{B} = \sum_{i = 1}^N \vec{A}_i * \vec{B}_i$$
 
 Where @@\vec{A}_i@@ and @@\vec{B}_i@@ are @@i@@-th components of @@N@@ dimensional
