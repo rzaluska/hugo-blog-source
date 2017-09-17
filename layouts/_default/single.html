@@ -14,33 +14,31 @@
             {{ .Content }}
             </div>
         </article>
-        <strong>Share:</strong>
-        <div class="social-share">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}&via={{ .Site.Params.Social.Twitter }}" data-size="large"> Tweet</a>
-        </div>
         <hr>
-        {{ if .PrevInSection | or .NextInSection -}}
-        <nav id="bottom" class="post-nav">
-            {{ if .PrevInSection -}}
-            <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post</a>
-            {{- end }}
-
-            {{ if .NextInSection -}}
-            <a href="{{ .NextInSection.Permalink }}">Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            {{- end }}
-        </nav>
-        <div style="clear: both;"></div>
-        {{ end }}
-        {{ partial "subscrible-form.html" }}
-        {{ partial "disqus.html" . }}
-        <a href="#top">
-            <div class="flex-col">
-                <div>
-                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                </div>
-                <div>
-                    Go to top
-                </div>
+        <div class="social">
+            <strong>Share and comment:</strong>
+            <div class="social-share">
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}&via={{ .Site.Params.Social.Twitter }}" data-size="large"> Tweet</a>
             </div>
-        </a>
+            <strong>Follow me, so you won't miss any new post:</strong>
+            <div class="social-share">
+                <a class="twitter-follow-button"
+                    href="https://twitter.com/WriteInGoCom" data-show-count="true" data-size="large"> Follow @WriteInGoCom</a>
+            </div>
+        </div>
+        {{ if .PrevInSection | or .NextInSection -}}
+        <hr>
+        <div style="margin:1em">
+            <nav id="bottom" class="post-nav">
+                {{ if .PrevInSection -}}
+                <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post</a>
+                {{- end }}
+
+                {{ if .NextInSection -}}
+                <a href="{{ .NextInSection.Permalink }}">Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                {{- end }}
+            </nav>
+            <div style="clear: both;"></div>
+            {{ end }}
+        </div>
         {{ end }}

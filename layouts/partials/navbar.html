@@ -8,23 +8,15 @@
             </div>
             <div class="brand">
                 <div> <a href="{{ $.Site.BaseURL }}"><strong>{{ .Site.Title }}</strong></a></div>
-                <div><small>{{ .Site.Params.Description }}
-                        <a href="/licensing/">by</a>
-                        <a href="/about/"><em>{{ .Site.Params.author }}</em></a>
-                    </small>
-                </div>
+                <div><small>{{ .Site.Params.Description }} by {{ .Site.Params.author }}</small></div>
             </div>
         </div>
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="https://twitter.com/writeingocom"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i> </a></li>
-            <li class="nav-item"><a class="nav-link" href="https://github.com/rzaluska"><i class="fa fa-lg fa-github" aria-hidden="true"></i> </a></li>
-            <li class="nav-item"><a class="nav-link" href="https://stackoverflow.com/users/8307258/radek-załuska"><i class="fa fa-lg fa-stack-overflow" aria-hidden="true"></i> </a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/radek-za%C5%82uska-3b281312a/"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i> </a></li>
-            <li class="nav-item"><a class="nav-link" href="/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-lg fa-rss"></i> </a></li>
-            <li class="nav-item"><a class="nav-link" href="/blog/"><i class="fa fa-lg fa-folder-open" aria-hidden="true"></i> </a></li>
-            <li class="nav-item"><a class="nav-link" href="/tags/"><i class="fa fa-lg fa-tags" aria-hidden="true"></i> </a></li>
-            <li class="nav-item"><a class="nav-link" href="/licensing/"><i class="fa fa-lg fa-creative-commons" aria-hidden="true"></i> </a></li>
-            <li class="nav-item"><a class="nav-link" href="/about/"><i class="fa fa-lg fa-question-circle-o" aria-hidden="true"></i> </a></li>
+            <li class="nav-item"><a class="nav-link" href="https://twitter.com/writeingocom">Twitter </a></li>
+            <li class="nav-item"><a class="nav-link" href="/index.xml" type="application/rss+xml" target="_blank">RSS</a></li>
+            <li class="nav-item"><a class="nav-link" href="/blog/">Posts</a></li>
+            <li class="nav-item"><a class="nav-link" href="/tags/">Tags</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
         </ul>
     </nav>
 </div>

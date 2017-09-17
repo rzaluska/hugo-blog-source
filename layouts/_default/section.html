@@ -8,13 +8,12 @@
             <h2><u>{{ .Key }}:</u></h2>
             <ul>
                 {{ range .Pages }}
-                    <li style="display: flex; justify-content: space-between;">
+                    <li>
                     <a href="{{ .Permalink }}">
                                 {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
                     </a>
-                    <time style="white-space: nowrap;">{{ .Date.Format "2 Jan 2006" }}</time>
+                    (<time>{{ .Date.Format "2 Jan 2006" }}</time>)
                     </li>
-                    <hr>
                 {{ end }}
             </ul>
             {{ end }}

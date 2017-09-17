@@ -8,9 +8,11 @@
                 {{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
                 <li>
                 <a href="/tags/{{ $value.Name | urlize }}">
-                    <span><i class="fa fa-tags"></i></span> {{ $value.Name }}
-                    <span style="float:right">{{ $value.Count }}</span>
-                </a>
+                    {{ $value.Name }}
+                    </a>
+                    <span class="sans">
+                    ({{ $value.Count }})
+                    </span>
                 </li>
                 {{ end }}
             </ul>

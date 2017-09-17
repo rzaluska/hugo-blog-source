@@ -2,18 +2,16 @@
 	max-width: 45em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
     padding-left: 1em;
     padding-right: 1em;
 }
 
 .fix-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-color: rgba(193, 232, 255, 0.9);
+    margin-bottom: 1em;
+}
+
+body {
+    margin: 0px;
 }
 
 .navbar {
@@ -49,15 +47,38 @@ blockquote {
     font-style: italic;
 }
 
-body {
+article {
     background-color: #fafafa;
     margin: 0px;
     font-size: 16px;
+}
+
+.sans {
+    font-family: 'Roboto', sans-serif;
+}
+
+time {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    color: #333;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.social {
     font-family: 'Roboto', sans-serif;
 }
 
 
-article p, ul {
+article {
     color: #333;
     line-height: 1.5;
     font-family: 'Merriweather', serif;
@@ -75,8 +96,9 @@ article p, ul {
         padding-bottom: 1em;
         padding-left: 1em;
         padding-right: 1em;
-        max-width: 800px;
+        max-width: 750px;
         margin: auto;
+        font-family: 'Roboto', sans-serif;
     }
     .brand {
         font-size: 1em;
@@ -122,6 +144,7 @@ a:hover {
 
 .post-meta {
     margin-bottom: -20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
