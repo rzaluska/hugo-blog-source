@@ -77,7 +77,7 @@ Opposite to other modern programming languages Go, decides to stay with
 not so many programming concepts included.
 There are no classes and standard object oriented features. We have
 only structures, interfaces, and composition of them.
-Authors are adding new features only after carefully thinking about positives
+Authors of Go are adding new features only after carefully thinking about positives
 and negatives of them. That is why we still don’t have generics in Go.
 Right now community can’t find a good way of their implementation.
 This is because the way must be coherent with rest of language.
