@@ -4,6 +4,7 @@
     margin-right: auto;
     padding-left: 1em;
     padding-right: 1em;
+    background-color: #fcfcfc;
 }
 
 .fix-navbar {
@@ -48,7 +49,6 @@ blockquote {
 }
 
 article {
-    background-color: #fafafa;
     margin: 0px;
     font-size: 16px;
 }
