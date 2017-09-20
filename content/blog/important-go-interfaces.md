@@ -11,11 +11,17 @@ Interfaces are very important concept in Go language. They provide simple and
 effective way of expressing common behaviours among types. Thats why interfaces
 are used all the time by Golang developers.
 
-Some of interfaces are more special than others. They are definded in standard
-library Go packages and they show how to desing good interface. Every Golang
-developer should know most important set of interfaces. That way one can easly
-determine which of well known interfaces given type implements just
-by looking at methods signatures.
+Some of interfaces are more special than others.
+Most essential ones are definded in Go standard
+library.
+They are used in every Go project.
+They are showing us how to desing good interface
+(one that will be idiomatic Go code).
+Each Golang developer should know these most important interfaces.
+That way one can easly determine which of well known
+interfaces given type implements just by looking at methods signatures.
+It also gives us grasp of what behaviours we can expect, while calling
+implemented method of interface, that is standard and used everywhere.
 
 In this blog post I will present most important and good to know interfaces
 and semantics behind them.
@@ -67,3 +73,5 @@ type Reader interface {
 ## image.Image
 
 ## draw.Image
+
+## sort.Interface
