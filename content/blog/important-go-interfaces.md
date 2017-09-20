@@ -4,6 +4,7 @@ date = 2017-09-20T18:19:56+02:00
 draft = true
 slug = "important-go-interfaces"
 hl = true
+tags = ["go", "interfaces"]
 +++
 
 Interfaces are very important concept in Go language. They provide simple and
@@ -50,3 +51,19 @@ type Reader interface {
         Read(p []byte) (n int, err error)
 }
 ```
+
+## io.Writer
+
+## io.ReadWriter
+
+## io.Closer
+
+## io.WriteCloser
+
+## fmt.Stringer
+
+## net.Conn
+
+## image.Image
+
+## draw.Image
