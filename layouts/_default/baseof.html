@@ -5,7 +5,7 @@
         <title>
         {{ block "title" . }}
         {{ end }}
-            {{ .Site.Title }} by {{ $.Site.Params.author }}
+        {{ .Site.Title }} - {{ .Site.Params.Description }} by {{ .Site.Params.author }}
         </title>
     </head>
     <body>
