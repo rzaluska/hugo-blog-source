@@ -47,11 +47,6 @@ blockquote {
     font-style: italic;
 }
 
-article {
-    margin: 0px;
-    font-size: 16px;
-}
-
 .sans {
     font-family: 'Roboto', sans-serif;
 }
@@ -61,6 +56,7 @@ time {
 }
 
 h1 {
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
     display: block;
     margin-top: 0.5em;
@@ -86,14 +82,16 @@ a {
 
 
 article {
+    margin: 0px;
+    font-size: 20px;
     color: #333;
     line-height: 1.5;
-    font-family: 'Merriweather', serif;
+    font-family: 'Lato', serif;
 }
 
 @media (min-width: 700px) {
     .title {
-        font-size: 35px;
+        font-size: 40px;
     }
     .navbar {
         display: flex;
@@ -120,7 +118,7 @@ code {
 }
 
 pre {
-    font-size: 80%;
+    font-size: 70%;
 }
 
 a {
