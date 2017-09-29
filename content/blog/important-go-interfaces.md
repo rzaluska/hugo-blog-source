@@ -6,32 +6,32 @@ slug = "important-go-interfaces"
 tags = ["go", "interfaces"]
 +++
 
-Interfaces are very important concept in Go language.
-They provide simple and effective way to express common behaviours among types.
+Interfaces are a very important concept in Go language.
+They provide a simple and effective way to express common behaviors among types.
 They give us easy to understand solution for typical situations where
 we need some kind of polymorphism.
-Thats why interfaces are used all the time by Golang developers.
+That's why interfaces are used all the time by Golang developers.
 
-Some of interfaces are more special than others.
-Most essential ones are definded in Go standard library.
-They are used and can be find in every Go project.
+Some of the interfaces are more special than others.
+Most essential ones are defined in Go standard library.
+They are used and can be found in every Go project.
 Each Golang developer should know these most important interfaces.
-That way one can easly determine which of well known
-interfaces given type implements just by looking at methods signatures.
-It also gives us a grasp of what behaviours we can expect, while calling
+That way one can easily determine which of well-known
+interfaces a given type implements just by looking at methods signatures.
+It also gives us a grasp of what behaviors we can expect, while calling
 implemented method of interface that is standard and used everywhere.
-Standard interfaces are also showing us how to desing good interface
+Standard interfaces are also showing us how to design good interface
 (one that will be idiomatic Go code).
 
-In this blog post I will present most important and good to know interfaces
+In this blog post, I will present most important and good to know interfaces
 and semantics behind them.
 
-After this a litter too long introduction lets see and actual list of most
+After this, a litter too long introduction lets see an actual list of most
 important interfaces:
 
-## Build in: error
+## Build in  interface - error
 Error in build in interfaces that defines whether given type can be treated
-as error. Error interface is defined as
+as an error. Error interface is defined as
 
 {{< highlight go >}}
 type error interface {
@@ -39,12 +39,12 @@ type error interface {
 }
 {{< / highlight >}}
 
-As you can see this is exteamly simple interface. Only one method
+As you can see this is an exteamly simple interface. Only one method
 is defined - `Error()`.
 Its purpose is to provide precise information about given error including
 verbose context.
 
-Most of the time you don't need to create impementation of this interfaces
+Most of the time you don't need to create implementation of this interfaces
 by yourself. You can find helper methods in package `errors`. For example,
 to create new error value one can write:
 
@@ -52,7 +52,7 @@ to create new error value one can write:
 myError := errors.New("Something goes wrong")
 {{< / highlight >}}
 
-If you want to wrap error aroud another error and provide more context to it
+If you want to wrap error around another error and provide more context to it
 you can use function `Errorf` from `fmt` package
 \[[doc](https://golang.org/pkg/fmt/#Errorf)\].
 
@@ -75,8 +75,8 @@ type Reader interface {
 }
 {{< / highlight >}}
 
-It's definition contains one method `Read`.
-This method will read `len(p)` bytes from whatever source it is definde for.
+Its definition contains one method `Read`.
+This method will read `len(p)` bytes from whatever source it is defined for.
 The bytes will be saved in slice `p []byte`.
 This method will return `n` - the number of bytes that were
 read and an `error` if something went wrong.
@@ -87,7 +87,7 @@ read bytes from that file:
 {{< highlight go >}}
 file, err := os.Open("file.txt")
 if err != nil {
-	log.Fatal(err)
+    log.Fatal(err)
 }
 
 defer file.Close()
@@ -98,10 +98,10 @@ contens := make([]byte, 10)
 n, err := file.Read(contains)
 {{< / highlight >}}
 
-This method also have the same semetics for network connections where you can read data from
+This method also has the same semantics for network connections where you can read data from
 them just like from file.
 
-An `ioutil` package defines method `ReadAll` which is helpful when you want to read whole file at
+An `ioutil` package defines method `ReadAll` which is helpful when you want to read the whole file at
 once \[ [doc](https://golang.org/pkg/io/ioutil/#ReadAll) \]
 
 {{< highlight go >}}
@@ -122,13 +122,13 @@ if err != nil {
 {{< / highlight >}}
 
 By using io.Reader interface we can wrap one implementation around another.
-This gives us idiomatic way of achieveing things such as:
+This gives us an idiomatic way of achieving things such as:
 
-- reading from compressed file
-- reading from compressed network tcp stream
-- reading from encrypted network connection
+- reading from the compressed file
+- reading from compressed network TCP stream
+- reading from an encrypted network connection
 
-Below is and example of reading from compressed file:
+Below is an example of reading from compressed file:
 {{< highlight go >}}
 import "compress/gzip"
 
@@ -164,20 +164,20 @@ type Writer interface {
 }
 {{< / highlight >}}
 
-This interface has one method - `Write`, which takes one argument - slice of
+This interface has one method - `Write`, which takes one argument - the slice of
 bytes `p` (`[]byte`). Then it writes given bytes to some output
 for which this method is defined for.
-Finally it returns `n` - number of bytes that have been written to output
-and `error` if there was an error during writeing.
-Simple exaples of `io.Writer` usage
-my include writeing bytes to file or network connection.
+Finally, it returns `n` - number of bytes that have been written to output
+and `error` if there was an error during writing.
+Simple examples of `io.Writer` usage
+my include writing bytes to file or network connection.
 
 This example shows how to write text `'Test\n'` to file:
 {{< highlight go >}}
 ...
 file, err := os.Create("file.txt")
 if err != nil {
-	log.Fatal(err)
+    log.Fatal(err)
 }
 
 defer file.Close()
@@ -194,8 +194,8 @@ if err != nil {
 Similar to `io.Reader`, `io.Writer` interfaces can be wrapped around each
 other. This gives us result opposite to `io.Reader`, for example:
 
-- writeing compressed bytes to file
-- writeing compressed bytes to network connection
+- writing compressed bytes to file
+- writing compressed bytes to the network connection
 
 This example shows how we can write compressed bytes to file:
 
@@ -206,7 +206,7 @@ import "compress/gzip"
 
 file, err := os.Create("file.txt.gz")
 if err != nil {
-	log.Fatal(err)
+    log.Fatal(err)
 }
 
 defer file.Close()
