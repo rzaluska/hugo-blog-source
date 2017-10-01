@@ -1,6 +1,6 @@
 +++
 title = "Important interfaces that every Go developer should know"
-date = 2017-09-20T18:19:56+02:00
+date = 2017-10-01T21:10:56+02:00
 draft = true
 slug = "important-go-interfaces"
 tags = ["go", "interfaces"]
@@ -39,12 +39,12 @@ type error interface {
 }
 {{< / highlight >}}
 
-As you can see this is an exteamly simple interface. Only one method
+As you can see this is an extremely simple interface. Only one method
 is defined - `Error()`.
 Its purpose is to provide precise information about given error including
 verbose context.
 
-Most of the time you don't need to create implementation of this interfaces
+Most of the time you don't need to create the implementation of this interfaces
 by yourself. You can find helper methods in package `errors`. For example,
 to create new error value one can write:
 
@@ -225,7 +225,7 @@ if err != nil {
 {{< / highlight >}}
 
 ## io.ReadWriter
-This is first of presented interfaces that is exaple of interface composition
+This is first of presented interfaces that is example of interface composition
 in Golang. This interface is defined like this:
 
 {{< highlight go >}}
@@ -245,11 +245,11 @@ For example:
 - os.File
 - bytes.Buffer
 
-By definind `io.Reader` and `io.Writer` as small one method interfaces we
-can now compose them into new one.
+By defining `io.Reader` and `io.Writer` as small one method interfaces we
+can now compose them into a new one.
 
 ## io.Closer
-This interface is definded for objects that needs to be closed after use.
+This interface is defined for objects that need to be closed after use.
 An example that comes to head immediately is `os.File`.
 This interface definition is very simple:
 
@@ -259,8 +259,8 @@ type Closer interface {
 }
 {{< / highlight >}}
 
-In this interface we have  only one method - `Close`. It is used to
-report a finish of usage of given resouce. This metod is also importand
+In this interface, we have only one method - `Close`. It is used to
+report a finish of usage of given resource. This method is also important
 when we write to file using buffered io (`package  bufio`) and we need to make
 sure that all bytes are saved to file.
 
@@ -297,7 +297,7 @@ type WriteCloser interface {
 }
 {{< / highlight >}}
 
-It combines functionality of `io.Writer` and `io.Closer`.
+It combines the functionality of `io.Writer` and `io.Closer`.
 
 ## io.ReadWriteCloser
 This interface combines three simple interfaces together
@@ -322,12 +322,142 @@ type Stringer interface {
 {{< / highlight >}}
 
 ## net.Conn
+This interface is more complicated than previous ones. It has more methods
+and they are designed to work with network data streams.
+
+{{< highlight go >}}
+type Conn interface {
+        Read(b []byte) (n int, err error)
+        Write(b []byte) (n int, err error)
+        Close() error
+        LocalAddr() Addr
+        RemoteAddr() Addr
+        SetDeadline(t time.Time) error
+        SetReadDeadline(t time.Time) error
+        SetWriteDeadline(t time.Time) error
+}
+{{< / highlight >}}
+
+The `net.Conn`  is an interface because that way it is easy to test programs
+that use a network for communication. You can mock this interface by dummy
+implementation of its methods and test if your network protocol is working well.
+
+You can get ready to use real implementation of `net.Conn` by using methods from
+standard library:
+
+- `net.Dial` - this method will return connection object which we can use to
+    talk to remote server
+- `net.Listener.Accept()` - this method will return connection
+    which represents client connected to the server. Method `Accept()` is defined
+    for `interface Listener` and how it works depends on the implementation
+    of this interface.
 
 ## http.ResponseWriter
-mock httptest.RespnseRecorder
+This interface is used most often when we are working with HTTP connections.
+It is used to send data back to the client. It has simple implementation:
+
+{{< highlight go >}}
+type ResponseWriter interface {
+        Header() Header
+        Write([]byte) (int, error)
+        WriteHeader(int)
+}
+{{< / highlight >}}
+
+This methods have very simple semantics:
+
+- `Header()` - it gives ability to set custom HTTP headers:
+    {{< highlight go >}}
+    func handler(w http.ResponseWriter, req *http.Request) {
+        w.Header().Set("Content-Type", "text/plain")
+    }
+    {{< / highlight >}}
+- `Write()` - sends response body do client
+    {{< highlight go >}}
+    func handler(w http.ResponseWriter, req *http.Request) {
+        w.Write([]byte("Test"))
+    }
+    {{< / highlight >}}
+- `WriteHeader()` - sets HTTP response status code (eg. 200 or 404)
+    {{< highlight go >}}
+    func handler(w http.ResponseWriter, req *http.Request) {
+        w.WriteHeader(http.StatusOK)
+    }
+    {{< / highlight >}}
+
+Interface `ResponseWriter` can be mocked using `httptest.ResonseRecorder`
+struct which is an implementation of it. That way it is very easy to test
+HTTP servers in Golang.
 
 ## image.Image
+This interface represents the read-only image. You can read color data at given
+coordinate.
+
+{{< highlight go >}}
+type Image interface {
+        ColorModel() color.Model
+        Bounds() Rectangle
+        At(x, y int) color.Color
+}
+{{< / highlight >}}
+
+This interface is very simple and has three methods:
+
+- `ColorModel()` - returns information about color space used by image (eg. RGBA)
+- `Bounds()` - returns image dimension data
+- `At()` returns color information at gived coordinate
 
 ## draw.Image
+This interface represents the image that can be modified. It adds the new method to
+`image.Image` interface.
+
+{{< highlight go >}}
+type Image interface {
+        image.Image
+        Set(x, y int, c color.Color)
+}
+{{< / highlight >}}
+
+The `Set()` method can be used to modify color data at given coordinate.
+
+## driver.Conn (SQL)
+This interface is used for various SQL servers connection implementations.
+
+{{< highlight go >}}
+type Conn interface {
+        Prepare(query string) (Stmt, error)
+        Close() error
+        Begin() (Tx, error)
+}
+{{< / highlight >}}
+
+Most of the time you don't need to use this interface as it is created
+for SQL drivers developers. Normal connection to SQL servers in
+Golang will involve `sql.Open` function and `sql.BD` structure which
+implements `driver.Conn` for given SQL server type (eq. Postgresql, MySQL).
 
 ## sort.Interface
+This interface is used to define the method of comparing data types.
+
+{{< highlight go >}}
+type Interface interface {
+        Len() int
+        Less(i, j int) bool
+        Swap(i, j int)
+}
+{{< / highlight >}}
+
+It has three methods:
+- `Len()` - returns size of collection
+- `Less()` - tells if one of the elements at given indices is smaller than other
+- `Swap()` - used to swap elements at given indices in collection
+
+If you want your collection to be sortable by standard Golang functions
+you must create proper `sort.Interface` implementation for it.
+
+## Conclusion
+This post lists most important interfaces in Golang.
+Of course, this list is not complete because there are a lot more
+interfaces in Go. The ones in this post are a good starting point and
+will give you knowledge of what you are dealing with,
+useful for most of the time.
