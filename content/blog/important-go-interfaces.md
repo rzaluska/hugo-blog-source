@@ -1,7 +1,6 @@
 +++
 title = "Important interfaces that every Go developer should know"
 date = 2017-10-01T21:10:56+02:00
-draft = true
 slug = "important-go-interfaces"
 tags = ["go", "interfaces"]
 +++
