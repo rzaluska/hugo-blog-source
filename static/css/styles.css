@@ -121,8 +121,11 @@ article {
 code {
      font-family: 'Source Code Pro', monospace;
      color: #9d0000;
-     background-color: #eee;
      font-style: normal;
+ }
+
+ p > code {
+     background-color: #eee;
  }
 
 
