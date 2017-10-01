@@ -225,12 +225,101 @@ if err != nil {
 {{< / highlight >}}
 
 ## io.ReadWriter
+This is first of presented interfaces that is exaple of interface composition
+in Golang. This interface is defined like this:
+
+{{< highlight go >}}
+type ReadWriter interface {
+        Reader
+        Writer
+}
+{{< / highlight >}}
+
+As you can see this interface is composed of two other interfaces:
+
+- io.Reader
+- io.Writer
+
+It represents method set defined for things that you can read from and write to.
+For example:
+- os.File
+- bytes.Buffer
+
+By definind `io.Reader` and `io.Writer` as small one method interfaces we
+can now compose them into new one.
 
 ## io.Closer
+This interface is definded for objects that needs to be closed after use.
+An example that comes to head immediately is `os.File`.
+This interface definition is very simple:
+
+{{< highlight go >}}
+type Closer interface {
+        Close() error
+}
+{{< / highlight >}}
+
+In this interface we have  only one method - `Close`. It is used to
+report a finish of usage of given resouce. This metod is also importand
+when we write to file using buffered io (`package  bufio`) and we need to make
+sure that all bytes are saved to file.
+
+Method `Close` is used in a lot of situations together with `defer` keyword:
+
+{{< highlight go >}}
+func foo() {
+    f, err := os.Open("file.txt")
+    if err != nil {
+        //error handling
+    }
+
+    // Call Close() when we will be returning form current function
+    defer func() {
+        err := f.Close()
+        if err != nil {
+            // error when closing file
+        }
+    }()
+
+    ...
+
+}
+{{< / highlight >}}
 
 ## io.WriteCloser
+This is next example of interfaces that combines two simple ones into
+one bigger. This interface is defined like this:
+
+{{< highlight go >}}
+type WriteCloser interface {
+        Writer
+        Closer
+}
+{{< / highlight >}}
+
+It combines functionality of `io.Writer` and `io.Closer`.
+
+## io.ReadWriteCloser
+This interface combines three simple interfaces together
+
+{{< highlight go >}}
+type ReadWriteCloser interface {
+        Reader
+        Writer
+        Closer
+}
+{{< / highlight >}}
 
 ## fmt.Stringer
+This interface functionality is similar to methods like `__str__` in Python
+and `toString()` in Java. It is used to define text representation of
+given object. This interface has one method `String()`:
+
+{{< highlight go >}}
+type Stringer interface {
+        String() string
+}
+{{< / highlight >}}
 
 ## net.Conn
 
