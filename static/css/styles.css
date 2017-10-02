@@ -129,6 +129,11 @@ code {
      background-color: #eee;
  }
 
+ li > code {
+     color: #9d0000;
+     background-color: #eee;
+ }
+
 
 a {
     color: #39619e;
