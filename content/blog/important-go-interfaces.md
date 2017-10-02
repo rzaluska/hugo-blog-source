@@ -28,7 +28,7 @@ and semantics behind them.
 After this, a litter too long introduction lets see an actual list of most
 important interfaces:
 
-## Build in  interface - error
+## Build in  interface - error \[[doc](https://golang.org/ref/spec#Errors)\]
 Error in build in interfaces that defines whether given type can be treated
 as an error. Error interface is defined as
 
@@ -63,7 +63,7 @@ if err != nil {
 ...
 {{< / highlight >}}
 
-## io.Reader
+## io.Reader \[[doc](https://golang.org/pkg/io/#Reader)\]
 
 This interface is very important for various types of file system and network
 communication tasks. It is defined like this:
@@ -153,7 +153,7 @@ if err != nil {
 a := c[0] // use decompressed data
 {{< / highlight >}}
 
-## io.Writer
+## io.Writer \[[doc](https://golang.org/pkg/io/#Writer)\]
 This interface is very similar to io.Reader. We use it to write bytes to
 various destinations. Its definition is also very simple:
 
@@ -223,7 +223,7 @@ if err != nil {
 ...
 {{< / highlight >}}
 
-## io.ReadWriter
+## io.ReadWriter  \[[doc](https://golang.org/pkg/io/#ReadWriter)\]
 This is first of presented interfaces that is example of interface composition
 in Golang. This interface is defined like this:
 
@@ -247,7 +247,7 @@ For example:
 By defining `io.Reader` and `io.Writer` as small one method interfaces we
 can now compose them into a new one.
 
-## io.Closer
+## io.Closer \[[doc](https://golang.org/pkg/io/#Closer)\]
 This interface is defined for objects that need to be closed after use.
 An example that comes to head immediately is `os.File`.
 This interface definition is very simple:
@@ -285,7 +285,7 @@ func foo() {
 }
 {{< / highlight >}}
 
-## io.WriteCloser
+## io.WriteCloser \[[doc](https://golang.org/pkg/io/#WriteCloser)\]
 This is next example of interfaces that combines two simple ones into
 one bigger. This interface is defined like this:
 
@@ -298,7 +298,7 @@ type WriteCloser interface {
 
 It combines the functionality of `io.Writer` and `io.Closer`.
 
-## io.ReadWriteCloser
+## io.ReadWriteCloser \[[doc](https://golang.org/pkg/io/#ReadWriteCloser)\]
 This interface combines three simple interfaces together
 
 {{< highlight go >}}
@@ -309,7 +309,7 @@ type ReadWriteCloser interface {
 }
 {{< / highlight >}}
 
-## fmt.Stringer
+## fmt.Stringer \[[doc](https://golang.org/pkg/fmt/#Stringer)\]
 This interface functionality is similar to methods like `__str__` in Python
 and `toString()` in Java. It is used to define text representation of
 given object. This interface has one method `String()`:
@@ -320,7 +320,7 @@ type Stringer interface {
 }
 {{< / highlight >}}
 
-## net.Conn
+## net.Conn \[[doc](https://golang.org/pkg/net/#Conn)\]
 This interface is more complicated than previous ones. It has more methods
 and they are designed to work with network data streams.
 
@@ -351,7 +351,7 @@ standard library:
     for `interface Listener` and how it works depends on the implementation
     of this interface.
 
-## http.ResponseWriter
+## http.ResponseWriter \[[doc](https://golang.org/pkg/http/#ResponseWriter)\]
 This interface is used most often when we are working with HTTP connections.
 It is used to send data back to the client. It has simple implementation:
 
@@ -388,7 +388,7 @@ Interface `ResponseWriter` can be mocked using `httptest.ResonseRecorder`
 struct which is an implementation of it. That way it is very easy to test
 HTTP servers in Golang.
 
-## image.Image
+## image.Image \[[doc](https://golang.org/pkg/image/#Image)\]
 This interface represents the read-only image. You can read color data at given
 coordinate.
 
@@ -406,7 +406,7 @@ This interface is very simple and has three methods:
 - `Bounds()` - returns image dimension data
 - `At()` returns color information at gived coordinate
 
-## draw.Image
+## draw.Image \[[doc](https://golang.org/pkg/image/draw/#Image)\]
 This interface represents the image that can be modified. It adds the new method to
 `image.Image` interface.
 
@@ -419,7 +419,7 @@ type Image interface {
 
 The `Set()` method can be used to modify color data at given coordinate.
 
-## driver.Conn (SQL)
+## driver.Conn (SQL) \[[doc](https://golang.org/pkg/database/sql/driver/#Conn)\]
 This interface is used for various SQL servers connection implementations.
 
 {{< highlight go >}}
@@ -435,7 +435,7 @@ for SQL drivers developers. Normal connection to SQL servers in
 Golang will involve `sql.Open` function and `sql.BD` structure which
 implements `driver.Conn` for given SQL server type (eq. Postgresql, MySQL).
 
-## sort.Interface
+## sort.Interface \[[doc](https://golang.org/pkg/sort/#Interface)\]
 This interface is used to define the method of comparing data types.
 
 {{< highlight go >}}
@@ -447,6 +447,7 @@ type Interface interface {
 {{< / highlight >}}
 
 It has three methods:
+
 - `Len()` - returns size of collection
 - `Less()` - tells if one of the elements at given indices is smaller than other
 - `Swap()` - used to swap elements at given indices in collection
