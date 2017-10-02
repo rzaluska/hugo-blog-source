@@ -320,6 +320,24 @@ type Stringer interface {
 }
 {{< / highlight >}}
 
+This method is invoked implicitly when object is passed to `fmt.Printf`
+function and verb is valid for string (`%s`, `%q`, `%v`, `%x`, `%X`). Be aware
+that if an object implements both `String()` and `Error()` methods,
+then the `Error()` method will be used by `fmt.Printf`.
+
+## fmt.GoStringer \[[doc](https://golang.org/pkg/fmt/#GoStringer)\]
+This interface can be used to change the behavior of Go-syntax representation
+verb in `fmt.Printf` format string (`%#v`). By default, this verb will produce
+the representation of an object that is valid Go source code. If you want to
+change this then you need to implement this interface:
+
+{{< highlight go >}}
+type GoStringer interface {
+        GoString() string
+}
+{{< / highlight >}}
+
+
 ## net.Conn \[[doc](https://golang.org/pkg/net/#Conn)\]
 This interface is more complicated than previous ones. It has more methods
 and they are designed to work with network data streams.
