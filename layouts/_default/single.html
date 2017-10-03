@@ -15,9 +15,10 @@
             </div>
         </article>
         <div class="social">
-            <strong>Share:</strong>
+            <strong>Share and comment:</strong>
             <div class="social-share">
                 <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}&via={{ .Site.Params.Social.Twitter }}" data-size="large"> Tweet</a>
+                <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location) + '&title=' + {{ .Title }} ; return false"> <img src="//www.redditstatic.com/spreddit8.gif" alt="submit to reddit" border="0" /> </a>
             </div>
         </div>
         <hr>
