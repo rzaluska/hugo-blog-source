@@ -29,8 +29,8 @@ After this, a litter too long introduction lets see an actual list of most
 important interfaces:
 
 ## Build in  interface - error \[[doc](https://golang.org/ref/spec#Errors)\]
-Error in build in interfaces that defines whether given type can be treated
-as an error. Error interface is defined as
+Error in build in interfaces that describles types that can be treated
+as an error values. Error interface is defined as:
 
 {{< highlight go >}}
 type error interface {
@@ -38,9 +38,10 @@ type error interface {
 }
 {{< / highlight >}}
 
-As you can see this is an extremely simple interface. Only one method
-is defined - `Error()`.
-Its purpose is to provide precise information about given error including
+As you can see this is an extremely simple interface.
+Every type in Go that is created to describle some sort of error must implement
+only one method - `Error()`.
+The purpose of it is to provide precise information about given error including
 verbose context.
 
 Most of the time you don't need to create the implementation of this interfaces
@@ -101,7 +102,8 @@ This method also has the same semantics for network connections where you can re
 them just like from file.
 
 An `ioutil` package defines method `ReadAll` which is helpful when you want to read the whole file at
-once \[ [doc](https://golang.org/pkg/io/ioutil/#ReadAll) \]
+once \[ [doc](https://golang.org/pkg/io/ioutil/#ReadAll) \] (or read from
+whatever source that implements `io.Reader` interface).
 
 {{< highlight go >}}
 ...
@@ -120,7 +122,7 @@ if err != nil {
 // b slice contains all bytes of file
 {{< / highlight >}}
 
-By using io.Reader interface we can wrap one implementation around another.
+By using `io.Reader` interface we can wrap one of its implementation around another.
 This gives us an idiomatic way of achieving things such as:
 
 - reading from the compressed file
@@ -138,7 +140,7 @@ file, err := os.Open("archive.gz")
 
 // Wrap os.File with gzip.Reader
 // We can do this beacause new reader expects io.Reader implementation
-// as argument and os.File implements is
+// as argument and os.File is implementing it
 decompressReader, err := gzip.NewReader(file)
 
 c := make([]byte, 10)
@@ -181,7 +183,7 @@ if err != nil {
 
 defer file.Close()
 
-contens := []byte{"Test\n"}
+contens := []byte("Test\n")
 
 n, err := file.Write(contains)
 if err != nil {
@@ -210,7 +212,7 @@ if err != nil {
 
 defer file.Close()
 
-contens := []byte{"Test\n"}
+contens := []byte("Test\n")
 
 // Wrap os.File with gzip.Writer
 compressedWriter := gzip.NewWriter(file)
@@ -241,6 +243,7 @@ As you can see this interface is composed of two other interfaces:
 
 It represents method set defined for things that you can read from and write to.
 For example:
+
 - os.File
 - bytes.Buffer
 
@@ -474,7 +477,7 @@ If you want your collection to be sortable by standard Golang functions
 you must create proper `sort.Interface` implementation for it.
 
 ## Conclusion
-This post lists most important interfaces in Golang.
+This post lists some of the most important interfaces in Golang.
 Of course, this list is not complete because there are a lot more
 interfaces in Go. The ones in this post are a good starting point and
 will give you knowledge of what you are dealing with,
