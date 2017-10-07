@@ -28,8 +28,8 @@ and semantics behind them.
 After this, a litter too long introduction lets see an actual list of most
 important interfaces:
 
-## Build in  interface - error \[[doc](https://golang.org/ref/spec#Errors)\]
-Error in build in interface that describles types that can be treated
+## Build-in  interface - error \[[doc](https://golang.org/ref/spec#Errors)\]
+Error in build-in interface that describles types that can be treated
 as an error values. Error interface is defined as:
 
 {{< highlight go >}}
@@ -63,6 +63,13 @@ if err != nil {
 }
 ...
 {{< / highlight >}}
+
+If you are looking for more powerful solution that can help you effectively
+deal with errors in Go you can use
+[https://github.com/pkg/errors/](https://github.com/pkg/errors/) package.
+By using function `Wrap` from this package you can create meaningful
+error messages that can also contain function stack traces.
+This solution is far more superior than using `fmt.Errorf`.
 
 ## io.Reader \[[doc](https://golang.org/pkg/io/#Reader)\]
 
