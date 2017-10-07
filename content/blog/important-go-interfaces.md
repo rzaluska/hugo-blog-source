@@ -29,7 +29,7 @@ After this, a litter too long introduction lets see an actual list of most
 important interfaces:
 
 ## Build in  interface - error \[[doc](https://golang.org/ref/spec#Errors)\]
-Error in build in interfaces that describles types that can be treated
+Error in build in interface that describles types that can be treated
 as an error values. Error interface is defined as:
 
 {{< highlight go >}}
