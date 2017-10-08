@@ -22,11 +22,10 @@ implemented method of interface that is standard and used everywhere.
 Standard interfaces are also showing us how to design good interface
 (one that will be idiomatic Go code).
 
-In this blog post, I will present most important and good to know interfaces
-and semantics behind them.
+In this blog post, I will present some of the most important
+and good to know interfaces and semantics behind them.
 
-After this, a litter too long introduction lets see an actual list of most
-important interfaces:
+After this, a litte too long introduction lets see an actual list:
 
 ## Build-in  interface - error \[[doc](https://golang.org/ref/spec#Errors)\]
 Error is an build-in interface that describles types that can be treated
@@ -106,11 +105,11 @@ n, err := file.Read(content)
 {{< / highlight >}}
 
 This method also has the same semantics for network connections where you can read data from
-them just like from file.
+them just like from files.
 
 An `ioutil` package defines method `ReadAll` which is helpful when you want to read the whole file at
-once \[ [doc](https://golang.org/pkg/io/ioutil/#ReadAll) \] (or read from
-whatever source that implements `io.Reader` interface).
+once \[ [doc](https://golang.org/pkg/io/ioutil/#ReadAll) \] (or read
+until `EOF` from whatever source that implements `io.Reader` interface).
 
 {{< highlight go >}}
 ...
@@ -126,11 +125,12 @@ b, err := ioutil.ReadAll(file),
 if err != nil {
     // handle error
 }
+
 // b slice contains all bytes of file
 {{< / highlight >}}
 
-By using `io.Reader` interface we can wrap one of its implementation around another.
-This gives us an idiomatic way of achieving things such as:
+By using `io.Reader` interface we can wrap one of its implementations
+around another. This gives us an idiomatic way of achieving things such as:
 
 - reading from the compressed file
 - reading from compressed network TCP stream
@@ -381,7 +381,7 @@ standard library:
 
 ## http.ResponseWriter \[[doc](https://golang.org/pkg/http/#ResponseWriter)\]
 This interface is used most often when we are working with HTTP connections.
-It is used to send data back to the client. It has simple implementation:
+It is used to send data back to the client. It has simple definition:
 
 {{< highlight go >}}
 type ResponseWriter interface {
@@ -391,7 +391,7 @@ type ResponseWriter interface {
 }
 {{< / highlight >}}
 
-This methods have very simple semantics:
+This three methods have very easy to remember semantics:
 
 - `Header()` - it gives ability to set custom HTTP headers:
     {{< highlight go >}}
@@ -413,7 +413,8 @@ This methods have very simple semantics:
     {{< / highlight >}}
 
 Interface `ResponseWriter` can be mocked using `httptest.ResonseRecorder`
-struct which is an implementation of it. That way it is very easy to test
+struct \[ [doc](https://golang.org/pkg/net/http/httptest/#ResponseRecorder) \]
+which is an implementation of it. That way it is very easy to test
 HTTP servers in Golang.
 
 ## image.Image \[[doc](https://golang.org/pkg/image/#Image)\]
