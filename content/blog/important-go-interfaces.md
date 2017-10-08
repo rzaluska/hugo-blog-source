@@ -99,10 +99,10 @@ if err != nil {
 
 defer file.Close()
 
-contens := make([]byte, 10)
+content := make([]byte, 10)
 
 // Try to read 10 or less bytes in case of EOF
-n, err := file.Read(contains)
+n, err := file.Read(content)
 {{< / highlight >}}
 
 This method also has the same semantics for network connections where you can read data from
@@ -190,9 +190,9 @@ if err != nil {
 
 defer file.Close()
 
-contens := []byte("Test\n")
+content := []byte("Test\n")
 
-n, err := file.Write(contains)
+n, err := file.Write(content)
 if err != nil {
     log.Printf("Error while writeing to file: %v", err)
 }
@@ -219,13 +219,13 @@ if err != nil {
 
 defer file.Close()
 
-contens := []byte("Test\n")
+content := []byte("Test\n")
 
 // Wrap os.File with gzip.Writer
 compressedWriter := gzip.NewWriter(file)
 
 // Write compressed bytes
-n, err := compressedWriter.Write(contains)
+n, err := compressedWriter.Write(content)
 if err != nil {
     log.Printf("Error while writeing to file: %v", err)
 }
