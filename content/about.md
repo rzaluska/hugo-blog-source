@@ -31,7 +31,7 @@ I am also an amateur astronomy hobbyist.
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/rzaluska)
 - <i class="fa fa-bitbucket" aria-hidden="true"></i> [bitbucket](https://bitbucket.org/Panoramix/)
 - <i class="fa fa-stack-overflow" aria-hidden="true"></i> [stackoverflow](https://stackoverflow.com/users/8307258/radek-za%C5%82uska)
-- <i class="fa fa-linkedin" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/radek-za%C5%82uska-3b281312a/)
+- <i class="fa fa-linkedin" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/rzaluska/)
 - <i class="fa fa-reddit" aria-hidden="true"></i> [reddit](https://www.reddit.com/user/rzaluska/)
 - <i class="fa fa-twitter" aria-hidden="true"></i> [twitter](https://twitter.com/rzaluska)
 - <i class="fa fa-steam" aria-hidden="true"></i> [steam](https://steamcommunity.com/profiles/76561198036490269)
