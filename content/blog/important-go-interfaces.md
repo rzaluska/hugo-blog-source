@@ -412,7 +412,7 @@ This three methods have very easy to remember semantics:
     }
     {{< / highlight >}}
 
-Interface `ResponseWriter` can be mocked using `httptest.ResonseRecorder`
+Interface `ResponseWriter` can be mocked using `httptest.ResponseRecorder`
 struct \[ [doc](https://golang.org/pkg/net/http/httptest/#ResponseRecorder) \]
 which is an implementation of it. That way it is very easy to test
 HTTP servers in Golang.
