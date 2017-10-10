@@ -81,14 +81,14 @@ type Reader interface {
 }
 {{< / highlight >}}
 
-Its definition contains one method `Read`.
+Its definition contains one method `Read()`.
 This method will read `len(p)` bytes from whatever source it is defined for.
 The bytes will be saved in slice `p []byte`.
 This method will return `n` - the number of bytes that were
 read and an `error` if something went wrong.
 
-For example if you open a file and then call `Read` method you will
-read bytes from that file:
+For example, if you open a file and then call `Read()` method,
+you will read bytes from that file:
 
 {{< highlight go >}}
 file, err := os.Open("file.txt")
@@ -104,8 +104,8 @@ content := make([]byte, 10)
 n, err := file.Read(content)
 {{< / highlight >}}
 
-This method also has the same semantics for network connections where you can read data from
-them just like from files.
+This method also has the same semantics for network connections where you can
+read data from them, just like from files.
 
 An `ioutil` package defines method `ReadAll` which is helpful when you want to read the whole file at
 once \[ [doc](https://golang.org/pkg/io/ioutil/#ReadAll) \] (or read
@@ -172,8 +172,8 @@ type Writer interface {
 }
 {{< / highlight >}}
 
-This interface has one method - `Write`, which takes one argument - the slice of
-bytes `p` (`[]byte`). Then it writes given bytes to some output
+This interface has one method - `Write()`, which takes one argument - the slice of
+bytes `p` (`[]byte`). Then it writes this slice of bytes to some output
 for which this method is defined for.
 Finally, it returns `n` - number of bytes that have been written to output
 and `error` if there was an error during writing.
@@ -320,7 +320,7 @@ type ReadWriteCloser interface {
 {{< / highlight >}}
 
 ## fmt.Stringer \[[doc](https://golang.org/pkg/fmt/#Stringer)\]
-This interface functionality is similar to methods like `__str__` in Python
+This interface functionality is similar to methods like `__str__()` in Python
 and `toString()` in Java. It is used to define text representation of
 given object. This interface has one method `String()`:
 
