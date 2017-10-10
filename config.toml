@@ -1,7 +1,7 @@
 baseURL = "https://www.rzaluska.com/"
 languageCode = "en-us"
 title = "Radosław Załuska"
-disqusShortname = "writeingo"
+disqusShortname = "rzaluska"
 
 [params]
   author = "Radosław Załuska"
