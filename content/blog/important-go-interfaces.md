@@ -460,7 +460,7 @@ type Conn interface {
 {{< / highlight >}}
 
 Most of the time you don't need to use this interface as it is created
-for SQL drivers developers. Normal connection to SQL servers in
+for SQL driver developers. Normal connection to SQL servers in
 Golang will involve `sql.Open` function and `sql.BD` structure which
 implements `driver.Conn` for given SQL server type (eq. Postgresql, MySQL).
 
