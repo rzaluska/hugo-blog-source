@@ -7,29 +7,29 @@ tags = ["go", "interfaces"]
 
 Interfaces are a very important concept in Go language.
 They provide a simple and effective way to express common behaviors among types.
-They give us easy to understand solution for typical situations where
+They give us and easy to understand solution for typical situations where
 we need some kind of polymorphism.
 That's why interfaces are used all the time by Golang developers.
 
 Some of the interfaces are more special than others.
-Most essential ones are defined in Go standard library.
+Most essential ones are defined in the Go standard library.
 They are used and can be found in every Go project.
 Each Golang developer should know these most important interfaces.
-That way one can easily determine which of well-known
+That way one can easily determine which of the well-known
 interfaces a given type implements just by looking at methods signatures.
-It also gives us a grasp of what behaviors we can expect, while calling
-implemented method of interface that is standard and used everywhere.
-Standard interfaces are also showing us how to design good interface
+It also gives us a grasp of what behaviors we can expect while calling
+implemented methods of interface that is standard and used everywhere.
+Standard interfaces also show us how to design good interface
 (one that will be idiomatic Go code).
 
 In this blog post, I will present some of the most important
 and good to know interfaces and semantics behind them.
 
-After this, a litte too long introduction lets see an actual list:
+After this, a litte too long introduction let's see an actual list:
 
-## Build-in  interface - error \[[doc](https://golang.org/ref/spec#Errors)\]
-Error is an build-in interface that describles types that can be treated
-as an error values. Error interface is defined as:
+## Built-in  interface - error \[[doc](https://golang.org/ref/spec#Errors)\]
+Error is an built-in interface that describes types that can be treated
+as error values. Error interface is defined as:
 
 {{< highlight go >}}
 type error interface {
@@ -38,20 +38,20 @@ type error interface {
 {{< / highlight >}}
 
 As you can see this is an extremely simple interface.
-Every type in Go that is created to describle some sort of error must implement
+Every type in Go that is created to describe some sort of error must implement
 only one method - `Error()`.
-The purpose of it is to provide precise information about given error including
+The purpose of it is to provide precise information about the given error including
 verbose context.
 
-Most of the time you don't need to create the implementation of this interfaces
+Most of the time you don't need to create the implementation of this interface
 by yourself. You can find helper methods in package `errors`. For example,
-to create new error value one can write:
+to create a new error value one can write:
 
 {{< highlight go >}}
 myError := errors.New("Something goes wrong")
 {{< / highlight >}}
 
-If you want to wrap error around another error and provide more context to it
+If you want to wrap the error around another error and provide more context to it
 you can use function `Errorf` from `fmt` package
 \[[doc](https://golang.org/pkg/fmt/#Errorf)\].
 
@@ -63,7 +63,7 @@ if err != nil {
 ...
 {{< / highlight >}}
 
-If you are looking for more powerful solution that can help you effectively
+If you are looking for a more powerful solution that can help you effectively
 deal with errors in Go you can use
 [https://github.com/pkg/errors/](https://github.com/pkg/errors/) package.
 By using function `Wrap` from this package you can create meaningful
@@ -84,10 +84,10 @@ type Reader interface {
 Its definition contains one method `Read()`.
 This method will read `len(p)` bytes from whatever source it is defined for.
 The bytes will be saved in slice `p []byte`.
-This method will return `n` - the number of bytes that were
-read and an `error` if something went wrong.
+This method will return the number of bytes that were read (`n`)
+and an error (`err`) if something went wrong.
 
-For example, if you open a file and then call `Read()` method,
+For example, if you open a file and then call the `Read()` method,
 you will read bytes from that file:
 
 {{< highlight go >}}
@@ -120,7 +120,7 @@ file, err := os.Open("file.txt")
 
 // ReadAll argument is io.Reader.
 // It turns out that struct os.File is implementing this interface,
-// as we saw beafore, so we can use it here.
+// as we saw before, so we can use it here.
 b, err := ioutil.ReadAll(file),
 if err != nil {
     // handle error
@@ -129,14 +129,14 @@ if err != nil {
 // b slice contains all bytes of file
 {{< / highlight >}}
 
-By using `io.Reader` interface we can wrap one of its implementations
+By using the `io.Reader` interface we can wrap one of its implementations
 around another. This gives us an idiomatic way of achieving things such as:
 
-- reading from the compressed file
-- reading from compressed network TCP stream
+- reading from a compressed file
+- reading from a compressed network TCP stream
 - reading from an encrypted network connection
 
-Below is an example of reading from compressed file:
+Below is an example of reading from a compressed file:
 {{< highlight go >}}
 import "compress/gzip"
 
@@ -146,7 +146,7 @@ file, err := os.Open("archive.gz")
 ...
 
 // Wrap os.File with gzip.Reader
-// We can do this beacause new reader expects io.Reader implementation
+// We can do this beacause gzip.NewReader expects io.Reader implementation
 // as argument and os.File is implementing it
 decompressReader, err := gzip.NewReader(file)
 
@@ -174,7 +174,7 @@ type Writer interface {
 
 This interface has one method - `Write()`, which takes one argument - the slice of
 bytes `p` (`[]byte`). Then it writes this slice of bytes to some output
-for which this method is defined for.
+for which this method is defined.
 Finally, it returns `n` - number of bytes that have been written to output
 and `error` if there was an error during writing.
 Simple examples of `io.Writer` usage
@@ -200,7 +200,7 @@ if err != nil {
 {{< / highlight >}}
 
 Similar to `io.Reader`, `io.Writer` interfaces can be wrapped around each
-other. This gives us result opposite to `io.Reader`, for example:
+other. This gives us results opposite to `io.Reader`, for example:
 
 - writing compressed bytes to file
 - writing compressed bytes to the network connection
@@ -233,7 +233,7 @@ if err != nil {
 {{< / highlight >}}
 
 ## io.ReadWriter  \[[doc](https://golang.org/pkg/io/#ReadWriter)\]
-This is first of presented interfaces that is example of interface composition
+This is the first of presented interfaces that is example of interface composition
 in Golang. This interface is defined like this:
 
 {{< highlight go >}}
@@ -259,7 +259,7 @@ can now compose them into a new one.
 
 ## io.Closer \[[doc](https://golang.org/pkg/io/#Closer)\]
 This interface is defined for objects that need to be closed after use.
-An example that comes to head immediately is `os.File`.
+An example that comes to mind immediately is `os.File`.
 This interface definition is very simple:
 
 {{< highlight go >}}
@@ -321,7 +321,7 @@ type ReadWriteCloser interface {
 
 ## fmt.Stringer \[[doc](https://golang.org/pkg/fmt/#Stringer)\]
 This interface functionality is similar to methods like `__str__()` in Python
-and `toString()` in Java. It is used to define text representation of
+and `toString()` in Java. It is used to define text representation of the
 given object. This interface has one method `String()`:
 
 {{< highlight go >}}
@@ -381,7 +381,7 @@ standard library:
 
 ## http.ResponseWriter \[[doc](https://golang.org/pkg/http/#ResponseWriter)\]
 This interface is used most often when we are working with HTTP connections.
-It is used to send data back to the client. It has simple definition:
+It is used to send data back to the client. It has a simple definition:
 
 {{< highlight go >}}
 type ResponseWriter interface {
@@ -399,7 +399,7 @@ This three methods have very easy to remember semantics:
         w.Header().Set("Content-Type", "text/plain")
     }
     {{< / highlight >}}
-- `Write()` - sends response body do client
+- `Write()` - sends response body to client
     {{< highlight go >}}
     func handler(w http.ResponseWriter, req *http.Request) {
         w.Write([]byte("Test"))
@@ -433,7 +433,7 @@ This interface is very simple and has three methods:
 
 - `ColorModel()` - returns information about color space used by image (eg. RGBA)
 - `Bounds()` - returns image dimension data
-- `At()` returns color information at gived coordinate
+- `At()` returns color information at given coordinate
 
 ## draw.Image \[[doc](https://golang.org/pkg/image/draw/#Image)\]
 This interface represents the image that can be modified. It adds the new method to
@@ -449,7 +449,7 @@ type Image interface {
 The `Set()` method can be used to modify color data at given coordinate.
 
 ## driver.Conn (SQL) \[[doc](https://golang.org/pkg/database/sql/driver/#Conn)\]
-This interface is used for various SQL servers connection implementations.
+This interface is used for various SQL server connection implementations.
 
 {{< highlight go >}}
 type Conn interface {
@@ -478,7 +478,7 @@ type Interface interface {
 It has three methods:
 
 - `Len()` - returns size of collection
-- `Less()` - tells if one of the elements at given indices is smaller than other
+- `Less()` - tells if one of the elements at given indices is smaller than the other
 - `Swap()` - used to swap elements at given indices in collection
 
 If you want your collection to be sortable by standard Golang functions
