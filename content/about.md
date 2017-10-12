@@ -5,7 +5,8 @@ url = "about"
 +++
 
 # About me
-Hello, my name is Radek and I am from Poland.
+Hello, my name is Radek and I live in
+[Warsaw / Poland](https://tools.wmflabs.org/geohack/geohack.php?pagename=Warsaw&params=52_14_N_21_1_E_region:PL_type:city).
 
 My main interests are programming
 in various languages and reverse engineering.
@@ -20,12 +21,12 @@ I have created several server setups using docker compose tools.
 I use [<i class="fa fa-linux" aria-hidden="true"></i>Arch Linux](https://www.archlinux.org/) at every day
 basis, and I have big experience working as Linux administrator.
 
-As my hobby, I sometimes reverse engineer software written in C, C++, and Java. So in this blog
-I will show also how to rewrite compiled programs using Golang.
+As my hobby, I sometimes reverse engineer software written in C, C++, and Java.
+So in this blog I will show also how to rewrite compiled programs using Golang.
 
 Currently I am studying Computer Science at Master’s academic degree.
 
-I am also an amateur astronomy hobbyist.
+Also I am an amateur astronomy hobbyist.
 
 ## You can find me on:
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/rzaluska)
