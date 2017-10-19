@@ -8,25 +8,27 @@ url = "about"
 Hello, my name is Radek and I live in
 [Warsaw / Poland](https://tools.wmflabs.org/geohack/geohack.php?pagename=Warsaw&params=52_14_N_21_1_E_region:PL_type:city).
 
-My main interests are programming
-in various languages and reverse engineering.
-My favourite programming language is [Go](https://golang.org/).  I have
-switched to it from Python. I use this two programming languages most often so
-this blog will be dedicated to them.
+My main interests are programming in various languages and reverse engineering.
+My favourite programming language is [Go](https://golang.org/).
+I have switched to it from Python. I use this two programming languages most
+often so this blog will be dedicated to them.
 
-I am also big fan of
-[Docker](https://www.docker.com/).
+I am also big fan of [Docker](https://www.docker.com/).
 I have created several server setups using docker compose tools.
 
-I use [<i class="fa fa-linux" aria-hidden="true"></i>Arch Linux](https://www.archlinux.org/) at every day
-basis, and I have big experience working as Linux administrator.
+I use [<i class="fa fa-linux" aria-hidden="true"></i>Arch Linux](https://www.archlinux.org/)
+at every day basis, and I have big experience working as Linux administrator.
+
+My favourite text editor is [NeoVim](https://github.com/neovim/neovim).
+I use it all the time when I am developing programs, writting blog
+posts, documentation or config files.
 
 As my hobby, I sometimes reverse engineer software written in C, C++, and Java.
-So in this blog I will show also how to rewrite compiled programs using Golang.
+So in this blog I will also show how to rewrite compiled programs using Golang.
 
 Currently I am studying Computer Science at Master’s academic degree.
 
-Also I am an amateur astronomy hobbyist.
+I am also an amateur astronomy hobbyist.
 
 ## You can find me on:
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/rzaluska)
@@ -48,7 +50,7 @@ radek at rzaluska dot com
 - Programming:
     - **Go (https://golang.org/)**
     - **Python**
-    - Haskell
+    - **C**
     - algorithms
 - Reverse engineering:
     - basic assembly
