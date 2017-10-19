@@ -2,7 +2,6 @@
 date = "2017-05-11T16:11:58+05:30"
 title = "Redmi Note 4 MTK Bootloader Unlocking using Linux"
 tags = ["android", "bootloader"]
-hl = true
 +++
 
 After long and tedious process of unlocking bootloader in my Xiaomi Redmi Note 4
@@ -21,7 +20,6 @@ try unlocking it using tools and methods presented here.
 > 1. I don't take any responsibility for bricked or broken devices.
 > 2. You are performing all steps at your own risk.
 > 3. Your warranty in most cases will be void.
-
 
 ## General informations
 Probably many of you knows that
@@ -47,25 +45,17 @@ we will use Android Fastboot tool.
     Relase buttons when Fastboot screen appears.
 - Connect your phone to linux PC
 - Issue following command to check if device is connected:
-    ~~~bash
-    fastboot devices
-    ~~~
+    {{< highlight sh >}}fastboot devices{{< / highlight >}}
 
     Non empty list of fastboot devices should appear
 - Issue next command to check if bootloader is locked:
-    ~~~bash
-    fastboot getvar unlocked
-    ~~~
+    {{< highlight sh >}}fastboot getvar unlocked{{< / highlight >}}
     If you get status like:
-    ~~~
-    unlocked: "no"
-    ~~~
+    {{< highlight sh >}}unlocked: "no"{{< / highlight >}}
     that means you need to unlock, so continue reading tutorial.
 
     If this appears:
-    ~~~
-    unlocked: "yes"
-    ~~~
+    {{< highlight sh >}}unlocked: "yes"{{< / highlight >}}
     then you don't need to do anything.
 
 
@@ -146,14 +136,9 @@ installed on your device.
 - Extract downloaded archive
 - Add your user to special linux group
     - For ubuntu
-    ~~~bash
-    sudo adduser username dialout
-    ~~~
-
+    {{< highlight  sh >}}sudo adduser username dialout{{< / highlight >}}
     - For arch
-    ~~~bash
-    sudo gpasswd -a username uucp
-    ~~~
+    {{< highlight  sh >}}sudo gpasswd -a username uucp{{< / highlight >}}
 
 - Logout and login again to make change live
 - run sp\_tool.sh which is located in folder where you extracted SP Tool archive

@@ -1,10 +1,3 @@
-{{ if $.Params.hl }}
-    <!-- highlight.js -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/go.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-{{ end }}
-
 {{ if $.Params.UseTex }}
     <!-- KaTeX.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.js" integrity="sha384-L9gv4ooDLrYwW0QCM6zY3EKSSPrsuUncpx26+erN0pJX4wv1B1FzVW1SvpcJPx/8" crossorigin="anonymous"></script>
@@ -34,4 +27,3 @@
 
   return t;
 }(document, "script", "twitter-wjs"));</script>
-

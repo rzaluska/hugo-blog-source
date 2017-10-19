@@ -167,3 +167,8 @@ a:hover {
     align-content: center;
     align-items: center;
 }
+
+li > p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

@@ -3,7 +3,6 @@ date = "2017-05-30T12:33:05+02:00"
 draft = false
 title = "Installing and using TWRP Recovery for Xiaomi Redmi Note 4 MTK"
 tags = ["twrp", "xiaomi", "android"]
-hl = true
 +++
 
 In the last post I have presented you way of unlocking bootloader in Xiaomi
@@ -45,26 +44,15 @@ recovery image.
 4. Connect your phone to PC via USB cable
 5. Make sure you have **android tools** installed (fastboot and adb commands)
 6. Check if phone is detected by fastboot
-
-    ~~~bash
-    fastboot devices
-    ~~~
+    {{< highlight sh >}} fastboot devices{{< / highlight >}}
 
     The result should be similar to:
-
-    ~~~ bash
-    01234567890abcdef           fastboot
-    ~~~
+    {{< highlight sh >}}01234567890abcdef           fastboot{{< / highlight >}}
 7. Go to catalogue where you have downloaded fastboot image
 8. To flash recovery image type:
-
-    ~~~ bash
-    fastboot flash recovery cofface_twrp_nikel_recovery1124.img
-    ~~~
-9. Boot your phone using new recovery image to finish installation process
-    ~~~ bash
-    fastboot boot cofface_twrp_nikel_recovery1124.img
-    ~~~
+{{< highlight sh >}}fastboot flash recovery cofface_twrp_nikel_recovery1124.img{{< / highlight >}}
+9. Boot your phone using new recovery image to finish installation process:
+{{< highlight sh >}}fastboot boot cofface_twrp_nikel_recovery1124.img{{< / highlight >}}
 10. Your phone should start and TWRP splash screen should appear
 11. After recovery start you might notice that default language is Chinese. To
     change it click on button on the **right** and from popup menu select

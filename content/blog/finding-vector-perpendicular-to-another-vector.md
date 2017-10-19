@@ -4,7 +4,6 @@ draft = false
 title = "Finding vector perpendicular to another vector"
 tags = ['3D', 'math']
 useTex = true
-hl = true
 +++
 
 Hello, in this post I will present solution for math problem I stumbled upon
@@ -124,8 +123,7 @@ another component of \\( \vec{U} \\) and set it arbitrarily to \\( 1 \\).
 ## Final python example code
 To sum up I prepared simple Python method that will compute vector perpendicular to another for 3D
 case. It can be easily inserted into existing implementation of vector class.
-
-~~~python
+{{< highlight python >}}
 class Vector:
     def __init__(self, x, y, z):
         self.x = x
@@ -141,8 +139,7 @@ class Vector:
             return Vector(1, 1, -(self.x + self.y)/self.z)
 
         raise ValueError("Can't compute perpendicular vector")
-~~~
-
+{{< / highlight >}}
 
 ## References
 - http://tutorial.math.lamar.edu/Classes/CalcII/DotProduct.aspx

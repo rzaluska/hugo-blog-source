@@ -3,7 +3,6 @@ title = "What can be used as method receiver in Go?"
 date = 2017-07-30T17:20:00+02:00
 slug = "method-receiver-types-in-go"
 tags = ["go"]
-hl = true
 +++
 
 In this post, I will show what kind of Go primitives can be used
@@ -18,7 +17,7 @@ capable of enhancing other things in Go.
 In the beginning, we will establish and remind ourselves what
 exactly is function receiver. Let's take a simple example:
 
-```go
+{{< highlight go >}}
 package main
 
 import "fmt"
@@ -37,40 +36,40 @@ func main() {
 
     fmt.Println(a.sumFields(10))
 }
-```
+{{< / highlight >}}
 
 I will explain what is happening here. First of all, we define
 `type A` to be `struct` which has two fields `i` and `j` of type int.
 
-```go
+{{< highlight go >}}
 type A struct {
     i, j int
 }
-```
+{{< / highlight >}}
 
 Next, we define function `sumFields` but its definition is little
 different than a normal one
 
-```go
+{{< highlight go >}}
 func (a A) sumFields(k int) int {
     return a.i + a.j + k
 }
-```
+{{< / highlight >}}
 
 In Go we define normal function like that:
 
-```go
+{{< highlight go >}}
 func FuncName(Arg1 type1, Arg2 type2...) ReturnValuesList {
 }
-```
+{{< / highlight >}}
 
-But this one
+But this one:
 
-```go
+{{< highlight go >}}
 func (a A) sumFields(k int) int {
     return a.i + a.j + k
 }
-```
+{{< / highlight >}}
 
 has another additional argument `(a A)` next to `func` keyword.
 
@@ -87,22 +86,22 @@ This argument is our **receiver**.
 
 Take a closer look at the usage of our new method.
 
-```go
+{{< highlight go >}}
 func main() {
     a := A{i: 2, j: 3}
 
     fmt.Println(a.sumFields(10))
 }
-```
+{{< / highlight >}}
 
 We create new variable `a` and call `sumFields` on it like
 if we would use a method on the object in object oriented programming.
 We pass `10` as argument named `k` which is defined next to function
 name.
 
-```go
+{{< highlight go >}}
 func (a A) sumFields(k int) int
-```
+{{< / highlight >}}
 
 The result of the program is obviously `15`.
 
@@ -113,7 +112,7 @@ extends type. If we declare our receiver like this then we
 will get a copy of struct to our method. To illustrate this, a small
 example will be the best.
 
-```go
+{{< highlight go >}}
 package main
 
 import "fmt"
@@ -135,7 +134,7 @@ func main() {
     a.add()
     fmt.Println(a.get())
 }
-```
+{{< / highlight >}}
 
 First of all, we create simple structure type `A`. We add two methods
 to it `add()` and `get()`. Notice that these methods receive struct
@@ -152,7 +151,7 @@ Note that when your struct contains reference as one of its
 members, then despite the fact that we pass a struct as copy
 the reference is the same. Another example illustrates it.
 
-```go
+{{< highlight go >}}
 package main
 
 import "fmt"
@@ -176,7 +175,7 @@ func main() {
 
     fmt.Printf("%#v\n", a)
 }
-```
+{{< / highlight >}}
 
 The output of programs turns out to be:
 
@@ -199,7 +198,7 @@ type and pointer to that struct are two different things in Go. As you may guess
 by passing a pointer to the struct as receiver type we give our method ability
 to modify all fields of the original struct.
 
-```go
+{{< highlight go >}}
 package main
 
 import "fmt"
@@ -221,17 +220,16 @@ func main() {
 
     fmt.Printf("%#v\n", a)
 }
-
-```
+{{< / highlight >}}
 
 In this example, we define that our `add()` function will
 be a method of type `*A`.
 
-```go
+{{< highlight go >}}
 func (a *A) add() {
     a.i++
 }
-```
+{{< / highlight >}}
 
 Our function receives reference to original object and it is able
 to modify it. The output of a program is:
@@ -254,7 +252,7 @@ used to enhance function with simple decorators. They can be
 used for example for logging errors or measuring execution time.
 The following, simple example explains the usage of functions as receiver types.
 
-```go
+{{< highlight go >}}
 package main
 
 import (
@@ -291,18 +289,18 @@ func main() {
 
     fmt.Println(f.mixCase("a"))
 }
-```
+{{< / highlight >}}
 
 First of all, we declare that `F` is type of function that takes string
 and returns string.
 
-```go
+{{< highlight go >}}
 type F func(string) string
-```
+{{< / highlight >}}
 
 Next, we add methods for type `F`.
 
-```go
+{{< highlight go >}}
 func (f F) upperCase(s string) string {
     return strings.ToUpper(f(s))
 }
@@ -314,7 +312,7 @@ func (f F) lowerCase(s string) string {
 func (f F) mixCase(s string) string {
     return f.lowerCase(s) + f.upperCase(s)
 }
-```
+{{< / highlight >}}
 
 Note, that the only things you can do with function
 as receiver type argument, is to:
@@ -330,17 +328,17 @@ The last thing is to define function that will be compatible with
 This simple function that concatenates string with itself is
 a good candidate to use as `F` type:
 
-```go
+{{< highlight go >}}
 func doubleString(a string) string {
     return a + a
 }
-```
+{{< / highlight >}}
 
 In the main function, we create a new variable of type `F`. We convert `doubleString`
 function to this type. The conversion is possible because `doubleString`
 the function is coherent with type `F`.
 
-```go
+{{< highlight go >}}
 func main() {
     f := F(doubleString)
 
@@ -352,7 +350,8 @@ func main() {
 
     fmt.Println(f.mixCase("a"))
 }
-```
+{{< / highlight >}}
+
 The output of program is:
 
 `
@@ -401,7 +400,7 @@ We have main and lib packages. Individual files look like this:
 
 `main.go`
 
-```go
+{{< highlight go >}}
 package main
 
 import (
@@ -426,7 +425,7 @@ package lib
 type A struct {
     I int
 }
-```
+{{< / highlight >}}
 
 In `lib` package we define type `A`. This struct has one field `I int`
 which name starts with upper case letter so this field is accessible from
@@ -445,7 +444,7 @@ But there is a solution. We can create type redefinition and refer to it instead
 to original type. Next example illustrates the way of adding a new method for
 build in `int` type.
 
-```go
+{{< highlight go >}}
 package main
 
 import "fmt"
@@ -465,21 +464,22 @@ func main() {
 
     fmt.Println(i)
 }
-```
+{{< / highlight >}}
 
 We define that `Int` is type that is same as `int` but it is defined
 inside our package.
-```go
+{{< highlight go >}}
 type Int int
-```
+{{< / highlight >}}
 
 Next, we add a new method for type `*Int`. Inside it,
 we cast `Int` to `int` to be able to use `+` operator defined for `int`.
-```go
+
+{{< highlight go >}}
 func (i *Int) add() {
     *i = Int(int(*i) + 1)
 }
-```
+{{< / highlight >}}
 
 The output of a program is:
 
@@ -491,7 +491,7 @@ The output of a program is:
 2
 `
 
-We successfully enhanced build in type with new functionality (not super
+We successfully enhanced built-in type with new functionality (not super
 useful in this example).
 
 
@@ -510,5 +510,3 @@ In this post, I presented what kinds of objects in Go can be used
 as function receiver arguments. As you can see various types
 of receivers and methods in Go
 are very usable and they are complementing normal functions.
-
-

@@ -2,7 +2,6 @@
 date = "2017-07-28T15:40:00+02:00"
 title = "Reasons why I like Go"
 tags = ["go"]
-hl = true
 +++
 
 Let' s talk about Go (also known as Golang) and why I like it. Go is a small and
@@ -25,9 +24,12 @@ for you. No more mistakes that come from uninitialized variables. Declaration
 and initialization can be done in one step.
 Have a look at some examples of variables usage:
 
-```go
-var a int // declare a is int and has value of 0
-a := 0 // declare and initialize a (compiler will infer that a is int)
+{{< highlight go >}}
+// declare a is int and has value of 0
+var a int
+
+// declare and initialize a (compiler will infer that a is int)
+a := 0
 
 var b string = "abc" // b is string and has value of "abc"
 var b = "abc" // you can omit type
@@ -35,16 +37,15 @@ b := "abc" // you can omit var and use :=
 
 c := 1 // declare and initialize c to be equal 1
 c = 2  // reuse declaration of c and overwrite it with 2
-```
+{{< / highlight >}}
 
 Despite the fact that types are not written explicitly the compiler does check
 if they match. Let's see it in a simple example:
-
-```go
+{{< highlight go >}}
 f := "test"
 g := 1
 g = f  // this line will cause compilation error
-```
+{{< / highlight >}}
 
 This is a very import feature of Go and is an advantage over languages
 that don't check types during compile time. For example in Python
@@ -61,8 +62,7 @@ Error handling is based on multiple return values. Language has some sort of
 try catch exceptions handling (panic, recover) but it is used only in rare
 situations. Typical check for errors looks like this:
 
-```go
-
+{{< highlight go >}}
 f, err := os.Open("file.txt")
 if err != nil {
     // handle error here, write info to log etc...
@@ -71,7 +71,7 @@ if err != nil {
 defer f.Close() // close file when surrounding function returns
 
 // use f
-```
+{{< / highlight >}}
 
 Opposite to other modern programming languages Go, decides to stay with
 not so many programming concepts included.
@@ -111,7 +111,7 @@ Go philosophy is convention over configuration. From syntax point of view we
 have only one type of loop - the for loop. But you can use it to achieve a lot
 of things:
 
-```go
+{{< highlight go >}}
 //infinite loop
 for {
 }
@@ -125,7 +125,7 @@ for i < n {
 for i := 0; i < n; i++ {
 
 }
-```
+{{< / highlight >}}
 
 ## Fast compilation to machine code
 Go compiles to native code really fast. You can feel like if you are working with scripting
@@ -139,7 +139,7 @@ and even more in servers.
 Go is created together with the set of official tools that help with development.
 You don't need to choose and configure compiler.
 You don't need to write any kind of additional scripts (Makefiles)
-to build your project or read generate docs. The most important and interesting
+to build your project or generate documentation. The most important and interesting
 tools are:
 
 - `go build` - this command analyzes your project and its dependencies and
@@ -156,42 +156,46 @@ tools are:
     you don't need to use HTML or Restructuredtext. Just add comment line above object you want to write info about. After running `godoc`
     you will have beautiful and uniform documentation for your code
     in your web browser.
-- `gorename` - one of the nice tools for code refactoring (guess what it does)
+- `gorename` - one of the nice tools for code refactoring (Guess what it does? -
+    Obviously it is used for renaming variables, functions, types and other symbols in Go souce code)
 - `gofmt` - this tool formats your Go code to meet official standards.
     In Go, there are no more formatting wars because everybody just runs Go fmt on
     their code and it gets tidy up.
 
 ## Concurrency
 In Go concurrency is the first class citizen. There are special keywords that are built into language:
+
 - go - this one allows you to call function concurrent to actual instruction
     sequence.
 
-    package main
+    {{< highlight go >}}
+package main
 
-    import (
-        "fmt"
-        "sync"
-    )
+import (
+    "fmt"
+    "sync"
+)
 
-    var wg sync.WaitGroup
+var wg sync.WaitGroup
 
-    func test(i int) {
-        defer wg.Done()
-        fmt.Println(i)
+func test(i int) {
+    defer wg.Done()
+    fmt.Println(i)
+}
+
+func main() {
+    for i := 0; i < 10; i++ {
+        wg.Add(1)
+        go test(i)
     }
-
-    func main() {
-        for i := 0; i < 10; i++ {
-            wg.Add(1)
-            go test(i)
-        }
-        wg.Wait()
-    }
+    wg.Wait()
+}
+    {{< / highlight >}}
 - chan - in go you can communicate with other concurrent functions using
     channels. They are a preferred way of safe synchronizing access to shared data.
 - select - this keyword allows to use a group of channels at once
 
-## Brings some interesting concepts
+## Brings in some interesting concepts
 Some of them are:
 
 - Struct and interface embedding instead of inheritance.
@@ -206,6 +210,7 @@ Some of them are:
     function return.
 
 ## Conclusion
-I presented a list of reasons why I think that Go is a good language. Some of the readers may have other opinions and I respect them. Nevertheless, I hope that
+I presented a list of reasons why I think that Go is a good language.
+Some of the readers may have other opinions and I respect them. Nevertheless, I hope that
 this article gives everybody good collection of stand out Go features and some
-of the readers may give Go a try.
+of the readers will be intrested and may give Go a try.

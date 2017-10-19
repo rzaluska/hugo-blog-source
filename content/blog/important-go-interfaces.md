@@ -395,22 +395,19 @@ This three methods have very easy to remember semantics:
 
 - `Header()` - it gives ability to set custom HTTP headers:
     {{< highlight go >}}
-    func handler(w http.ResponseWriter, req *http.Request) {
-        w.Header().Set("Content-Type", "text/plain")
-    }
-    {{< / highlight >}}
-- `Write()` - sends response body to client
+func handler(w http.ResponseWriter, req *http.Request) {
+    w.Header().Set("Content-Type", "text/plain")
+}{{< / highlight >}}
+- `Write()` - sends response body to client:
     {{< highlight go >}}
-    func handler(w http.ResponseWriter, req *http.Request) {
-        w.Write([]byte("Test"))
-    }
-    {{< / highlight >}}
-- `WriteHeader()` - sets HTTP response status code (eg. 200 or 404)
+func handler(w http.ResponseWriter, req *http.Request) {
+    w.Write([]byte("Test"))
+}{{< / highlight >}}
+- `WriteHeader()` - sets HTTP response status code (eg. 200 or 404):
     {{< highlight go >}}
-    func handler(w http.ResponseWriter, req *http.Request) {
-        w.WriteHeader(http.StatusOK)
-    }
-    {{< / highlight >}}
+func handler(w http.ResponseWriter, req *http.Request) {
+    w.WriteHeader(http.StatusOK)
+}{{< / highlight >}}
 
 Interface `ResponseWriter` can be mocked using `httptest.ResponseRecorder`
 struct \[ [doc](https://golang.org/pkg/net/http/httptest/#ResponseRecorder) \]
