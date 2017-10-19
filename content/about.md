@@ -6,7 +6,7 @@ url = "about"
 
 # About me
 Hello, my name is Radek and I live in
-[Warsaw / Poland](https://tools.wmflabs.org/geohack/geohack.php?pagename=Warsaw&params=52_14_N_21_1_E_region:PL_type:city).
+[Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.php?pagename=Warsaw&params=52_14_N_21_1_E_region:PL_type:city).
 
 My main interests are programming in various languages and reverse engineering.
 My favourite programming language is [Go](https://golang.org/).
