@@ -42,6 +42,7 @@ I am also an amateur astronomy hobbyist.
 - <i class="fa fa-soundcloud" aria-hidden="true"></i> [soundcloud](https://soundcloud.com/antiquo)
 - <i class="fa fa-twitch" aria-hidden="true"></i> [twitch.tv](https://www.twitch.tv/luxurypro)
 - <i class="fa fa-open-street-map" aria-hidden="true"></i> [OpenStreetMap](https://www.openstreetmap.org/user/RadekZ)
+- [HackerRank](https://www.hackerrank.com/rzaluska)
 
 ## Contact me:
 radek at rzaluska dot com
