@@ -31,7 +31,7 @@ Currently I am studying Computer Science at Master’s academic degree.
 I am also an amateur astronomy hobbyist.
 
 ## You can find me on:
-- <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/zaluska)
+- <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/rzaluska)
 - <i class="fa fa-bitbucket" aria-hidden="true"></i> [bitbucket](https://bitbucket.org/Panoramix/)
 - <i class="fa fa-stack-overflow" aria-hidden="true"></i> [stackoverflow](https://stackoverflow.com/users/8307258/radek-za%C5%82uska)
 - <i class="fa fa-linkedin" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/rzaluska/)
