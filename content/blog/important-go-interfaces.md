@@ -58,7 +58,7 @@ you can use function `Errorf` from `fmt` package
 {{< highlight go >}}
 ...
 if err != nil {
-    return fmt.Errorf("Error occured while we have computed something: %v", err)
+    return fmt.Errorf("Error occured: %v", err)
 }
 ...
 {{< / highlight >}}
@@ -77,7 +77,7 @@ communication tasks. It is defined like this:
 
 {{< highlight go >}}
 type Reader interface {
-        Read(p []byte) (n int, err error)
+    Read(p []byte) (n int, err error)
 }
 {{< / highlight >}}
 
@@ -168,7 +168,7 @@ various destinations. Its definition is also very simple:
 
 {{< highlight go >}}
 type Writer interface {
-        Write(p []byte) (n int, err error)
+    Write(p []byte) (n int, err error)
 }
 {{< / highlight >}}
 
@@ -238,8 +238,8 @@ in Golang. This interface is defined like this:
 
 {{< highlight go >}}
 type ReadWriter interface {
-        Reader
-        Writer
+    Reader
+    Writer
 }
 {{< / highlight >}}
 
@@ -264,7 +264,7 @@ This interface definition is very simple:
 
 {{< highlight go >}}
 type Closer interface {
-        Close() error
+    Close() error
 }
 {{< / highlight >}}
 
@@ -301,8 +301,8 @@ one bigger. This interface is defined like this:
 
 {{< highlight go >}}
 type WriteCloser interface {
-        Writer
-        Closer
+    Writer
+    Closer
 }
 {{< / highlight >}}
 
@@ -313,9 +313,9 @@ This interface combines three simple interfaces together
 
 {{< highlight go >}}
 type ReadWriteCloser interface {
-        Reader
-        Writer
-        Closer
+    Reader
+    Writer
+    Closer
 }
 {{< / highlight >}}
 
@@ -326,7 +326,7 @@ given object. This interface has one method `String()`:
 
 {{< highlight go >}}
 type Stringer interface {
-        String() string
+    String() string
 }
 {{< / highlight >}}
 
@@ -343,7 +343,7 @@ change this then you need to implement this interface:
 
 {{< highlight go >}}
 type GoStringer interface {
-        GoString() string
+    GoString() string
 }
 {{< / highlight >}}
 
@@ -354,14 +354,14 @@ and they are designed to work with network data streams.
 
 {{< highlight go >}}
 type Conn interface {
-        Read(b []byte) (n int, err error)
-        Write(b []byte) (n int, err error)
-        Close() error
-        LocalAddr() Addr
-        RemoteAddr() Addr
-        SetDeadline(t time.Time) error
-        SetReadDeadline(t time.Time) error
-        SetWriteDeadline(t time.Time) error
+    Read(b []byte) (n int, err error)
+    Write(b []byte) (n int, err error)
+    Close() error
+    LocalAddr() Addr
+    RemoteAddr() Addr
+    SetDeadline(t time.Time) error
+    SetReadDeadline(t time.Time) error
+    SetWriteDeadline(t time.Time) error
 }
 {{< / highlight >}}
 
@@ -385,9 +385,9 @@ It is used to send data back to the client. It has a simple definition:
 
 {{< highlight go >}}
 type ResponseWriter interface {
-        Header() Header
-        Write([]byte) (int, error)
-        WriteHeader(int)
+    Header() Header
+    Write([]byte) (int, error)
+    WriteHeader(int)
 }
 {{< / highlight >}}
 
@@ -403,7 +403,7 @@ func handler(w http.ResponseWriter, req *http.Request) {
 func handler(w http.ResponseWriter, req *http.Request) {
     w.Write([]byte("Test"))
 }{{< / highlight >}}
-- `WriteHeader()` - sets HTTP response status code (eg. 200 or 404):
+- `WriteHeader()` - sets HTTP response status code (eg. `200` or `404`):
     {{< highlight go >}}
 func handler(w http.ResponseWriter, req *http.Request) {
     w.WriteHeader(http.StatusOK)
@@ -420,16 +420,16 @@ coordinate.
 
 {{< highlight go >}}
 type Image interface {
-        ColorModel() color.Model
-        Bounds() Rectangle
-        At(x, y int) color.Color
+    ColorModel() color.Model
+    Bounds() Rectangle
+    At(x, y int) color.Color
 }
 {{< / highlight >}}
 
 This interface is very simple and has three methods:
 
 - `ColorModel()` - returns information about color space used by image (eg. RGBA)
-- `Bounds()` - returns image dimension data
+- `Bounds()` - returns image dimensions data
 - `At()` returns color information at given coordinate
 
 ## draw.Image \[[doc](https://golang.org/pkg/image/draw/#Image)\]
@@ -438,8 +438,8 @@ This interface represents the image that can be modified. It adds the new method
 
 {{< highlight go >}}
 type Image interface {
-        image.Image
-        Set(x, y int, c color.Color)
+    image.Image
+    Set(x, y int, c color.Color)
 }
 {{< / highlight >}}
 
@@ -450,9 +450,9 @@ This interface is used for various SQL server connection implementations.
 
 {{< highlight go >}}
 type Conn interface {
-        Prepare(query string) (Stmt, error)
-        Close() error
-        Begin() (Tx, error)
+    Prepare(query string) (Stmt, error)
+    Close() error
+    Begin() (Tx, error)
 }
 {{< / highlight >}}
 
@@ -466,9 +466,9 @@ This interface is used to define the method of comparing data types.
 
 {{< highlight go >}}
 type Interface interface {
-        Len() int
-        Less(i, j int) bool
-        Swap(i, j int)
+    Len() int
+    Less(i, j int) bool
+    Swap(i, j int)
 }
 {{< / highlight >}}
 
