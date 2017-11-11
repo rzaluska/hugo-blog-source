@@ -1,6 +1,6 @@
 baseURL = "https://www.fxor.org/"
 languageCode = "en-us"
-title = "Radosław Załuska"
+title = "fxor.org - Radosław Załuska"
 
 [params]
   author = "Radosław Załuska"
