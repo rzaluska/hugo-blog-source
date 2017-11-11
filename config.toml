@@ -1,11 +1,10 @@
-baseURL = "https://www.rzaluska.com/"
+baseURL = "https://www.fxor.org/"
 languageCode = "en-us"
 title = "Radosław Załuska"
-disqusShortname = "rzaluska"
 
 [params]
   author = "Radosław Załuska"
-  description = "Blog about Golang"
+  description = "Blog"
   googleAnalytics = "UA-97780102-1"
   ISO8601 = "2006-01-02T15:04:05CEST"
   [params.social]
