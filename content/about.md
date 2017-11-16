@@ -44,8 +44,8 @@ I am also an amateur astronomy hobbyist.
 - <i class="fa fa-open-street-map" aria-hidden="true"></i> [OpenStreetMap](https://www.openstreetmap.org/user/RadekZ)
 - [HackerRank](https://www.hackerrank.com/rzaluska)
 
-## Contact me:
-radek at rzaluska dot com
+## Contact me via email:
+radek at fxor dot org
 
 ## Topics that will be discussed on this blog:
 - Programming:
