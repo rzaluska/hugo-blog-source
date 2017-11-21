@@ -1,4 +1,4 @@
-+++
+
 title = "About me"
 layout = "static"
 url = "about"
@@ -45,7 +45,7 @@ I am also an amateur astronomy hobbyist.
 - [HackerRank](https://www.hackerrank.com/rzaluska)
 
 ## Contact me via email:
-radek at fxor dot org
+radek at spino dot tech
 
 ## Topics that will be discussed on this blog:
 - Programming:
