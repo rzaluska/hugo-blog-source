@@ -1,6 +1,6 @@
 baseURL = "https://spino.tech/"
 languageCode = "en-us"
-title = "fxor.org - Radosław Załuska"
+title = "spino.tech"
 
 [params]
   author = "Radosław Załuska"
