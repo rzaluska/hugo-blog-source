@@ -1,4 +1,4 @@
-
++++
 title = "About me"
 layout = "static"
 url = "about"
