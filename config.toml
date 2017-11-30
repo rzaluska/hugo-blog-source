@@ -8,7 +8,7 @@ title = "spino.tech"
   googleAnalytics = "UA-97780102-1"
   ISO8601 = "2006-01-02T15:04:05CEST"
   [params.social]
-    twitter = "rzaluska"
+    twitter = "spino_tech"
 
 [permalinks]
 	blog = "/blog/:slug/"
