@@ -5,8 +5,9 @@ url = "about"
 +++
 
 # About me
-Hello, my name is Radek and I live in
-[Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.php?pagename=Warsaw&params=52_14_N_21_1_E_region:PL_type:city).
+Hello, my name is Radek and I am aspiring Golang developer.
+
+I live and work in [Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.php?pagename=Warsaw&params=52_14_N_21_1_E_region:PL_type:city).
 
 My main interests are programming in various languages and reverse engineering.
 My favourite programming language is [Go](https://golang.org/).
@@ -26,11 +27,15 @@ posts, documentation or config files.
 As my hobby, I sometimes reverse engineer software written in C, C++, and Java.
 So in this blog I will also show how to rewrite compiled programs using Golang.
 
-Currently I am studying Computer Science at Master’s academic degree.
+
+Currently I am studying Computer Science at Master’s academic degree. Recently,
+as part of my academic research
+I have started using [Keras](https://keras.io/) to solve some intresting
+problems using machine learning.
 
 I am also an amateur astronomy hobbyist.
 
-## You can find me on:
+## You can find me online on:
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/spinotech)
 - <i class="fa fa-bitbucket" aria-hidden="true"></i> [bitbucket](https://bitbucket.org/Panoramix/)
 - <i class="fa fa-stack-overflow" aria-hidden="true"></i> [stackoverflow](https://stackoverflow.com/users/8307258/)
@@ -53,17 +58,19 @@ radek at spino dot tech
     - **Python**
     - **C**
     - algorithms
+    - machine learning
 - Reverse engineering:
     - basic assembly
     - reversing games
     - cheats
     - cracking binary formats
+    - r2 (http://rada.re/r/)
     - **reverse engineering from C/C++ to Golang**
 - Linux:
     - tips and tricks
     - tutorials
+    - administration
     - command line usage
-    - developing apps
 - Android from advanced user perspective:
     - developing apps
     - custom roms
