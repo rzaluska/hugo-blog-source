@@ -1,6 +1,6 @@
-baseURL = "https://spino.tech/"
+baseURL = "https://devopsguy.info/"
 languageCode = "en-us"
-title = "spino.tech"
+title = "devopsguy.info"
 
 [params]
   author = "Radosław Załuska"

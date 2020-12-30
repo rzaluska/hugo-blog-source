@@ -5,36 +5,26 @@ url = "about"
 +++
 
 # About me
-Hello, my name is Radek and I am aspiring Golang developer.
+Hello, my name is Radek and I am DevOps Engineer.
+
+Tools I have experience with following tools / technologies:
+- docker / swarm
+- Arch Linux
+- Ubuntu Linux
+- NeoVim
+- Ansible
+- Python
+- Golang
+- Bash
+- Postgresq
+- MySQL
+- Nginx
+- HAProxy
+- Consul / Vault
 
 I live and work in [Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.php?pagename=Warsaw&params=52_14_N_21_1_E_region:PL_type:city).
 
-My main interests are programming in various languages and reverse engineering.
-My favourite programming language is [Go](https://golang.org/).
-I have switched to it from Python. I use this two programming languages most
-often so this blog will be dedicated to them.
-
-I am also big fan of [Docker](https://www.docker.com/).
-I have created several server setups using docker compose tools.
-
-I use [<i class="fa fa-linux" aria-hidden="true"></i>Arch Linux](https://www.archlinux.org/)
-at every day basis, and I have big experience working as Linux administrator.
-
-My favourite text editor is [NeoVim](https://github.com/neovim/neovim).
-I use it all the time when I am developing programs, writting blog
-posts, documentation or config files.
-
-As my hobby, I sometimes reverse engineer software written in C, C++, and Java.
-So in this blog I will also show how to rewrite compiled programs using Golang.
-
-
-Currently I am studying Computer Science at Master’s academic degree. Recently,
-as part of my academic research
-I have started using [Keras](https://keras.io/) to solve some intresting
-problems using machine learning.
-
-I am also an amateur astronomy hobbyist.
-
+<!---
 ## You can find me online on:
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/spinotech)
 - <i class="fa fa-bitbucket" aria-hidden="true"></i> [bitbucket](https://bitbucket.org/Panoramix/)
@@ -48,48 +38,4 @@ I am also an amateur astronomy hobbyist.
 - <i class="fa fa-twitch" aria-hidden="true"></i> [twitch.tv](https://www.twitch.tv/luxurypro)
 - <i class="fa fa-open-street-map" aria-hidden="true"></i> [OpenStreetMap](https://www.openstreetmap.org/user/RadekZ)
 - [HackerRank](https://www.hackerrank.com/rzaluska)
-
-## Contact me via email:
-radek at spino dot tech
-
-## Topics that will be discussed on this blog:
-- Programming:
-    - **Go (https://golang.org/)**
-    - **Python**
-    - **C**
-    - algorithms
-    - machine learning
-- Reverse engineering:
-    - basic assembly
-    - reversing games
-    - cheats
-    - cracking binary formats
-    - r2 (http://rada.re/r/)
-    - **reverse engineering from C/C++ to Golang**
-- Linux:
-    - tips and tricks
-    - tutorials
-    - administration
-    - command line usage
-- Android from advanced user perspective:
-    - developing apps
-    - custom roms
-    - rooting
-- Other:
-    - astronomy
-    - math
-
-I hope this blog it will be intresting for many people.
-
-# Licensing
-This site is made by Radosław Załuska.
-
-Source code (HTML templates/CSS/Js) is published under
-[MIT License](https://github.com/rzaluska/hugo-blog-source/blob/master/LICENSE).
-
-Blog contents (posts etc.) are published under
-[Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/)
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a>
-
-The Go gopher  \([this site logo](/img/gopher.svg)\) was designed by Renee French and licensed under the Creative Commons 3.0 Attributions license.
+-->

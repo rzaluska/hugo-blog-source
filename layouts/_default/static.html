@@ -3,11 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="row justify-content-center push-navbar">
-    <div style="margin-top:10px" class="col-xl-7 col-lg-8 col-md-11 col-sm-12 col-12">
-        <article itemprop="articleBody" id="content">
-            {{ .Content }}
-        </article>
-    </div>
-</div>
+    <article itemprop="articleBody" id="content">
+        {{ .Content }}
+    </article>
 {{ end }}
