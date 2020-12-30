@@ -5,10 +5,8 @@ title = "devopsguy.info"
 [params]
   author = "Radosław Załuska"
   description = "Blog"
-  googleAnalytics = "UA-97780102-1"
+  googleAnalytics = "G-QX0DBL5CG4"
   ISO8601 = "2006-01-02T15:04:05CEST"
-  [params.social]
-    twitter = "spino_tech"
 
 [permalinks]
 	blog = "/blog/:slug/"
