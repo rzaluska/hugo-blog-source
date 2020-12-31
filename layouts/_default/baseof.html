@@ -9,10 +9,10 @@
         </title>
     </head>
     <body>
-        <div class="container col-xl-7">
+        <div class="container">
         {{ partial "navbar.html" . }}
         <main class="column">
-            <div class="content container">
+            <div class="content container col">
                 {{ block "main" . }}
                 {{ end }}
             </div>

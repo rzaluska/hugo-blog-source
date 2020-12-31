@@ -17,15 +17,7 @@
             {{ .Content }}
             </div>
         </article>
-        <div class="social">
-            <strong>Share:</strong>
-            <div>
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}&via={{ .Site.Params.Social.Twitter }}" data-size="large"> Tweet</a>
-                <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location) + '&title=' + {{ .Title }} ; return false"> <img src="//www.redditstatic.com/spreddit8.gif" alt="submit to reddit" border="0" /></a>
-                <script src="https://apis.google.com/js/platform.js" async defer></script>
-                <div class="g-plus" data-action="share" data-height="24"></div>
-            </div>
-        </div>
+        {{ partial "share.html" . }}
         <hr>
         <div style="text-align:center">
             <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i> Top</a>
