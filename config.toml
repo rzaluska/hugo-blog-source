@@ -4,8 +4,8 @@ title = "iops.tech"
 
 [params]
   author = "Radosław Załuska"
-  description = "Blog"
-  googleAnalytics = "G-QX0DBL5CG4"
+  description = "DevOps Blog by Radosław Załuska"
+  googleAnalytics = "G-PGPLFBD7KR"
   ISO8601 = "2006-01-02T15:04:05CEST"
 
 [permalinks]
