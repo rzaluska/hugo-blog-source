@@ -8,6 +8,7 @@ url = "about"
 Hello, my name is Radek and I am DevOps Engineer.
 
 Tools I have experience with following tools / technologies:
+
 - docker / swarm
 - Arch Linux
 - Ubuntu Linux
