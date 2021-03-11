@@ -1,6 +1,6 @@
-baseURL = "https://devopsguy.info/"
+baseURL = "https://iops.tech/"
 languageCode = "en-us"
-title = "devopsguy.info"
+title = "iops.tech"
 
 [params]
   author = "Radosław Załuska"
