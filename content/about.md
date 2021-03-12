@@ -7,17 +7,18 @@ url = "about"
 # About me
 Hello, my name is Radek and I am DevOps Engineer.
 
-Tools I have experience with following tools / technologies:
+I have experience with following tools / technologies:
 
-- docker / swarm
+- Docker / Docker Swarm
 - Arch Linux
 - Ubuntu Linux
+- Linux Administration
 - NeoVim
 - Ansible
 - Python
 - Golang
 - Bash
-- Postgresq
+- PostgreSQL
 - MySQL
 - Nginx
 - HAProxy
