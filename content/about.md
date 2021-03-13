@@ -14,6 +14,7 @@ I have experience with following tools / technologies:
 - Ubuntu Linux
 - Linux Administration
 - NeoVim
+- Git SCM
 - Ansible
 - Python
 - Golang
