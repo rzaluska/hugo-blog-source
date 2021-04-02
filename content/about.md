@@ -17,6 +17,7 @@ I have experience with following tools / technologies:
 - Git SCM
 - Ansible
 - Python
+- Bash
 - Golang
 - Bash
 - PostgreSQL
@@ -24,6 +25,12 @@ I have experience with following tools / technologies:
 - Nginx
 - HAProxy
 - Consul / Vault
+- Elastic Search
+- Apache Kafka
+- Influxdb
+- Prometheus
+- Grafana
+- Graylog
 
 I live and work in [Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.php?pagename=Warsaw&params=52_14_N_21_1_E_region:PL_type:city).
 
