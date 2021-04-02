@@ -1,2 +1,2 @@
-# Source code of my personal blog about Golang
+# Source code of my personal blog
 https://www.iops.tech
