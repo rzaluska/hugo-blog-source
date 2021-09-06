@@ -1,6 +1,7 @@
 baseURL = "https://www.iops.tech/"
 languageCode = "en-us"
 title = "iops.tech"
+disqusShortname = "iopstech"
 
 [params]
   author = "Radosław Załuska"
