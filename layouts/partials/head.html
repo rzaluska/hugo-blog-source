@@ -6,7 +6,11 @@
 
 <base href="{{ .Permalink }}">
 <link rel="canonical" href="{{ .Permalink }}">
-<link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
+
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
 
 {{ partial "head_includes.html" . }}
 {{ partial "google-structured-data.html" . }}

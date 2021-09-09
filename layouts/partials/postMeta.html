@@ -2,7 +2,7 @@
         {{ .Date.Format "2 January 2006" }}
     {{ if isset .Params "tags" }}
         {{ range .Params.tags }}
-            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fa fa-tags"></i> {{ . }}</a>
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fas fa-tags"></i> {{ . }}</a>
         {{ end }}
     {{ end }}
     <i class="fa fa-clock-o"></i> {{ .ReadingTime }} min read
