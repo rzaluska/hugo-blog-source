@@ -1,5 +1,5 @@
 <div class="post-meta text-muted" style="font-size:12pt">
-        {{ .Date.Format "2 January 2006" }}
+    Posted on {{ .Date.Format "2 January 2006" }}
     {{ if isset .Params "tags" }}
         {{ range .Params.tags }}
             <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fas fa-tags"></i> {{ . }}</a>

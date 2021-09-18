@@ -1,5 +1,5 @@
 +++
-title = "HAProxy Dynamic Maintenance Page Using Unix Admin Socket"
+title = "HAProxy Dynamic Maintenance Page Using Unix Socket"
 date = 2021-09-18T00:00:00+02:00
 draft = false
 +++
@@ -12,7 +12,7 @@ your webpage during production deployment.
 
 # Configuration of admin socket in HAProxy
 
-To enable dynamic configuration of HAProxy via admin socket we need to add this line to `haproxy.conf` file.
+To enable dynamic configuration of HAProxy via admin socket we need to add this line to `haproxy.conf` file:
 
 ```ini
 global

@@ -10,7 +10,8 @@
                     {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
                 </h1>
                 <div class="post-meta" style="margin-bottom: 2em;font-size:12pt">
-                    by <a href="/about/">{{ $.Site.Params.Author }}</a>
+                    by <i class="fas fa-user"></i>
+                    <a href="/about/">{{ $.Site.Params.Author }}</a>
                 </div>
             </header>
             <div class="postContent">

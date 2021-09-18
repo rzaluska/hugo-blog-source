@@ -3,3 +3,11 @@
         max-width: 800px;
     }
 }
+
+.postContent {
+    font-size: larger;
+}
+
+.title {
+    font-size: 4rem;
+}
