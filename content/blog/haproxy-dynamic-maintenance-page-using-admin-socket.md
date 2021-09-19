@@ -2,6 +2,7 @@
 title = "HAProxy Dynamic Maintenance Page Using Unix Socket"
 date = 2021-09-18T00:00:00+02:00
 draft = false
+tags = ["haproxy", "socat", "unix"]
 +++
 
 In this blog post, I will describe a method of dynamically enable maintenance page backend using HAProxy
