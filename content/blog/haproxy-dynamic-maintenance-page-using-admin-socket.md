@@ -97,6 +97,7 @@ frontend frontend-http
     ACL maintenance path -i -u 9999 -m reg
 ...
     use_backend maintenance if maintenance
+    ####[other use_backend rules goes here]####
 ...
 ```
 
@@ -108,6 +109,7 @@ This will be important later when we will use this id in your communication with
 empty. There is no regex specified in it. That means that all requests will be rejected by this ACL and no traffic will
 go to the maintenance backend by default.
 The second line is the standard `use_backend` directive that will move traffic that matches maintenance ACL to maintenance backend.
+Remember to add it on top of all other `use_backend` rules to make sure it will be evaluated as first one.
 
 ## Adding Maintenance Backend
 
