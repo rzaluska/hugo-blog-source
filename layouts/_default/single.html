@@ -5,11 +5,11 @@
 {{ define "main" }}
         <article itemprop="articleBody" id="content">
             <header class="post-header">
-                {{ partial "postMeta.html" . }}
                 <h1 class="title">
                     {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
                 </h1>
                 <div class="post-meta" style="margin-bottom: 2em;font-size:12pt">
+                    {{ partial "postMeta.html" . }}
                     by <i class="fas fa-user"></i>
                     <a href="/about/">{{ $.Site.Params.Author }}</a>
                 </div>

@@ -43,7 +43,7 @@ services:
 After setup of socket reload haproxy config and check if `haproxy.sock` file is available on directory that we
 specified, like so:
 
-```shell
+```console
 $ ls -alhn
 drwxr-xr-x 2   99   99 4,0K 09-18 18:27 .
 drwxr-xr-x 4 1000 1000 4,0K 09-15 21:13 ..
