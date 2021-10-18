@@ -49,5 +49,5 @@ I live and work in [Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.ph
 - [GitHub](https://github.com/rzaluska)
 - [Bit Bucket](https://bitbucket.org/Panoramix/)
 - [Stack Overflow](https://stackoverflow.com/users/8307258/)
-- [LinkedIn](https://www.linkedin.com/in/rzaluska/)
+- [LinkedIn](https://www.linkedin.com/in/radoslaw-zaluska/)
 - [HackerRank](https://www.hackerrank.com/rzaluska)
