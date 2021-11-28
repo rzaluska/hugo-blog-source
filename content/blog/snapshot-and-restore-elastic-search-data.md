@@ -1,6 +1,7 @@
 +++
 title = "Snapshot and Restore Elastic Search Data"
 date = 2021-11-28T00:00:00+01:00
+tags = ["elasticsearch", "docker"]
 +++
 
 In this blog post, I will describe how to use the snapshots functionality
