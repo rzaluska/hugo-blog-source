@@ -12,7 +12,9 @@ things and explore new technologies.
 
 # Contact
 
-Email: <a href="mailto:contact@iops.tech">contact@iops.tech</a>
+- Email: <a href="mailto:contact@iops.tech">contact@iops.tech</a>
+- [Twitter](https://twitter.com/iops_tech)
+- [LinkedIn](https://www.linkedin.com/in/radoslaw-zaluska/)
 
 # Expirience
 
@@ -60,4 +62,5 @@ I live and work in [Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.ph
 - [Bit Bucket](https://bitbucket.org/Panoramix/)
 - [Stack Overflow](https://stackoverflow.com/users/8307258/)
 - [LinkedIn](https://www.linkedin.com/in/radoslaw-zaluska/)
+- [Twitter](https://twitter.com/iops_tech)
 - [HackerRank](https://www.hackerrank.com/rzaluska)

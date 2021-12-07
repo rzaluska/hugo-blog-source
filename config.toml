@@ -12,6 +12,9 @@ disqusShortname = "iopstech"
 [permalinks]
 	blog = "/blog/:slug/"
 
+[params.social]
+    twitter = "iops_tech"
+
 [taxonomies]
 tag = "tags"
 
