@@ -5,7 +5,16 @@ url = "about"
 +++
 
 # About me
-Hello, my name is Radek and I am currently working as a DevOps Engineer.
+Hello, my name is Radek and I am currently working as a DevOps Engineer. My main
+field of expertise in Linux Administration. On my blog I am posting tips and
+tutorials related to DevOps tools and trends. I am always keen to learn new
+things and explore new technologies.
+
+# Contact
+
+Email: <a href="mailto:contact@iops.tech">contact@iops.tech</a>
+
+# Expirience
 
 I have commercial experience with following tools / technologies:
 - Docker / Docker Swarm
@@ -34,6 +43,7 @@ I have commercial experience with following tools / technologies:
 - Redis
 - VMware VSphere / VCloud
 - Postfix
+- Cloudflare
 
 I have non-commercial experience with following tools / technologies:
 - Android Development
