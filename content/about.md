@@ -22,12 +22,13 @@ I have commercial experience with following tools / technologies:
 - Docker / Docker Swarm
 - Arch Linux
 - Ubuntu Linux
+- Oracle Linux
 - Linux Administration
 - NeoVim
 - Git SCM
+- GitLab
 - Ansible
 - Python
-- Bash
 - Bash
 - PostgreSQL
 - MySQL
@@ -46,6 +47,8 @@ I have commercial experience with following tools / technologies:
 - VMware VSphere / VCloud
 - Postfix
 - Cloudflare
+- Jenkins
+- Selenium Grid
 
 I have non-commercial experience with following tools / technologies:
 - Android Development
