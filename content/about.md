@@ -16,7 +16,7 @@ things and explore new technologies.
 - [Twitter](https://twitter.com/iops_tech)
 - [LinkedIn](https://www.linkedin.com/in/radoslaw-zaluska/)
 
-# Expirience
+# Experience
 
 I have commercial experience with following tools / technologies:
 - Docker / Docker Swarm
@@ -28,6 +28,7 @@ I have commercial experience with following tools / technologies:
 - Git SCM
 - GitLab
 - Ansible
+- Terraform
 - Python
 - Bash
 - PostgreSQL
@@ -49,6 +50,9 @@ I have commercial experience with following tools / technologies:
 - Cloudflare
 - Jenkins
 - Selenium Grid
+- Django Administration
+- Magento Administration
+- Apache JMeter
 
 I have non-commercial experience with following tools / technologies:
 - Android Development
