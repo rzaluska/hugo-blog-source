@@ -191,7 +191,7 @@ where haproxy socket is placed and create a file named
 set -euo pipefail
 
 if [[ $1 == "on" ]]; then
-        # clean our acl to avid duplicate rules beging added
+        # clean our acl to avid duplicate rules being added
         echo "clear acl #9999" | socat unix-connect:haproxy.sock stdio
         echo "add acl #9999 ^.*$" | socat unix-connect:haproxy.sock stdio
 elif [[ $1 == "off" ]]; then

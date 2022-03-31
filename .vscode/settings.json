@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "elif",
+        "reindex",
+        "socat",
+        "struct"
+    ],
+    "cSpell.enableFiletypes": [
+        "dockerfile"
+    ]
+}

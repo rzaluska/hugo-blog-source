@@ -100,7 +100,7 @@ or `/data/elasticsearch/snapshots/fs` directory on the Docker host.
 
 There should be no errors in a response message and that means your repository is
 set up correctly. You need to run this command on only one node if you are using
-the multinode cluster.
+the multi-node cluster.
 
 To check if your cluster is set up properly run the following command:
 

@@ -6,7 +6,7 @@ tags = ["android", "bootloader"]
 
 After long and tedious process of unlocking bootloader in my Xiaomi Redmi Note 4
 phone using linux, to sum up I decided to write *definitive* tutorial about it.
-I have collected all informations that were scattered around internet and
+I have collected all information that were scattered around internet and
 gathered them in one place.
 
 <!--more-->
@@ -21,7 +21,7 @@ try unlocking it using tools and methods presented here.
 > 2. You are performing all steps at your own risk.
 > 3. Your warranty in most cases will be void.
 
-## General informations
+## General information
 Probably many of you knows that
 [bootloader unlocking process](http://en.miui.com/thread-202290-1-1.html)
 in recent Xiaomi phones is difficult and requires a lot of work.
@@ -83,7 +83,7 @@ my vary between users.
     and download old version of Mi Flash tool. This is needed for bypass
     possible error saying that **binding time is too short**.
 - Install application in windows machine or go to next section where I
-  describled process of preparing virtual machine.
+  described process of preparing virtual machine.
 
 ### Using Virtual Machine instead of physical Windows PC
 - Install Virtual Box via package manager
@@ -101,7 +101,7 @@ my vary between users.
         - Launch virtual box
         - Go to File -> Preferences -> Extensions
         - Click on small orange button and select downloaded file
-        - Go throught install wizard steps and finally provide root password for
+        - Go through install wizard steps and finally provide root password for
           installation completion
         - Restart virtual box
 - Go to your virtual machine settings
@@ -111,7 +111,7 @@ my vary between users.
 - Click on small blue icon
 - *New Filter 1* position will appear on list
 - Make sure new filter is checked
-- You can test if USB is working by pluging USB Stick to your PC while virtual
+- You can test if USB is working by plugging USB Stick to your PC while virtual
   machine is running. It should appear inside VM.
 - If everything is working install Mi Flash on virtual machine
 
@@ -179,12 +179,12 @@ After wizard is done:
 - On first screen provide username and password and login to your Xiaomi account
 - Turn off your phone and turn in on in Fastboot mode. To do so,
     hold **Volume (-)** and
-    **Power** buttons **together**. Relase buttons when Fastboot screen appears.
+    **Power** buttons **together**. Release buttons when Fastboot screen appears.
 - Follow steps in Mi Unlock app and connect your phone to PC via USB cable when
     you are asked to do so.
 - If everything works out well Mi Unlock will stop at 100% and **your bootloader
     will be unlocked** (you can verify this by using fastboot tool method
-            describled at begining of tutorial).
+            described at beginning of tutorial).
 - Enjoy!
 
 ## What to do next ?
