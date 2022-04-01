@@ -1,18 +1,17 @@
 {{ define "title" }}
-    Posts with tag {{ .Title }} -
+Posts with tag {{ .Title }} -
 {{ end }}
 
 {{ define "main" }}
-        <h1 id="title">Posts with tag {{ .Title }}:</h1>
-        <ul>
-        {{ range .Data.Pages }}
-                <li>
-                <a href="{{ .Permalink }}">
-                            {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
-                </a>
-                (<time>{{ .Date.Format "2 Jan 2006" }}</time>)
-                </li>
-        {{ end }}
-            </ul>
+<h1 id="title">Posts with tag {{ .Title }}:</h1>
+<ul>
+    {{ range .Data.Pages }}
+    <li>
+        <a href="{{ .Permalink }}">
+            {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
+        </a>
+        (<time>{{ .Date.Format "2 Jan 2006" }}</time>)
+    </li>
+    {{ end }}
+</ul>
 {{ end }}
-

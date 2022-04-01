@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
-    <head>
-        {{ partial "head.html" . }}
-        <title>
+
+<head>
+    {{ partial "head.html" . }}
+    <title>
         {{ block "title" . }}
         {{ end }}
         {{ .Site.Title }} - {{ .Site.Params.Description }}
-        </title>
-    </head>
-    <body>
-        <div class="container">
+    </title>
+</head>
+
+<body>
+    <div class="container">
         {{ partial "navbar.html" . }}
         <main class="column">
             <div class="content container col">
@@ -19,6 +21,7 @@
         </main>
         {{ partial "js_list.html" . }}
         {{ partial "footer" . }}
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>

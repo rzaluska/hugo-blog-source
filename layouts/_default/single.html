@@ -1,41 +1,41 @@
 {{ define "title" }}
-    {{ .Title }} -
+{{ .Title }} -
 {{ end }}
 
 {{ define "main" }}
-        <article itemprop="articleBody" id="content">
-            <header class="post-header">
-                <h1 class="title">
-                    {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
-                </h1>
-                <div class="post-meta" style="margin-bottom: 2em;font-size:12pt">
-                    {{ partial "postMeta.html" . }}
-                    by <i class="fas fa-user"></i>
-                    <a href="/about/">{{ $.Site.Params.Author }}</a>
-                </div>
-            </header>
-            <div class="postContent">
-            {{ .Content }}
-            </div>
-        </article>
-        {{ partial "share.html" . }}
-        <hr>
-        <div style="text-align:center">
-            <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i> Top</a>
+<article itemprop="articleBody" id="content">
+    <header class="post-header">
+        <h1 class="title">
+            {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
+        </h1>
+        <div class="post-meta" style="margin-bottom: 2em;font-size:12pt">
+            {{ partial "postMeta.html" . }}
+            by <i class="fas fa-user"></i>
+            <a href="/about/">{{ $.Site.Params.Author }}</a>
         </div>
-        {{ if .PrevInSection | or .NextInSection -}}
-            <div style="margin:1em">
-                    <nav id="bottom" class="post-nav">
-                        {{ if .PrevInSection -}}
-                        <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post</a>
-                        {{- end }}
+    </header>
+    <div class="postContent">
+        {{ .Content }}
+    </div>
+</article>
+{{ partial "share.html" . }}
+<hr>
+<div style="text-align:center">
+    <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i> Top</a>
+</div>
+{{ if .PrevInSection | or .NextInSection -}}
+<div style="margin:1em">
+    <nav id="bottom" class="post-nav">
+        {{ if .PrevInSection -}}
+        <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post</a>
+        {{- end }}
 
-                        {{ if .NextInSection -}}
-                        <a href="{{ .NextInSection.Permalink }}">Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        {{- end }}
-                    </nav>
-                <div style="clear: both;"></div>
-            </div>
-        {{ end }}
-        {{ template "_internal/disqus.html" . }}
+        {{ if .NextInSection -}}
+        <a href="{{ .NextInSection.Permalink }}">Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        {{- end }}
+    </nav>
+    <div style="clear: both;"></div>
+</div>
+{{ end }}
+{{ template "_internal/disqus.html" . }}
 {{ end }}

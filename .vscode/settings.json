@@ -5,7 +5,4 @@
         "socat",
         "struct"
     ],
-    "cSpell.enableFiletypes": [
-        "dockerfile"
-    ]
 }

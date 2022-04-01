@@ -8,14 +8,14 @@
     <h2>Latest posts:</h2>
     <ul>
         {{ range first 10 (where .Site.Pages "Section" "blog") }}
-            {{ if eq .Kind "page" }}
-            <li>
-                <a href="{{ .Permalink }}">
-                    {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
-                </a>
-                (<time style="white-space: nowrap;">{{ .Date.Format "2 Jan 2006" }}</time>)
-            </li>
-            {{ end }}
+        {{ if eq .Kind "page" }}
+        <li>
+            <a href="{{ .Permalink }}">
+                {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
+            </a>
+            (<time style="white-space: nowrap;">{{ .Date.Format "2 Jan 2006" }}</time>)
+        </li>
+        {{ end }}
         {{ end }}
     </ul>
     <a href="/blog/">More...</a>

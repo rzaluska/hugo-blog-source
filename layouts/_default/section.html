@@ -1,26 +1,20 @@
 {{ define "title" }}
-    Blog posts -
+Blog posts -
 {{ end }}
 
 {{ define "main" }}
-            <h1>Blog posts</h1>
-            {{ range .Data.Pages.GroupByDate "2006" }}
-            <h2><u>{{ .Key }}:</u></h2>
-            <ul>
-                {{ range .Pages }}
-                    <li>
-                    <a href="{{ .Permalink }}">
-                                {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
-                    </a>
-                    (<time>{{ .Date.Format "2 Jan 2006" }}</time>)
-                    </li>
-                {{ end }}
-            </ul>
-            {{ end }}
-        </div>
-    </div>
-</div>
-
+<h1>Blog posts</h1>
+{{ range .Data.Pages.GroupByDate "2006" }}
+<h2><u>{{ .Key }}:</u></h2>
+<ul>
+    {{ range .Pages }}
+    <li>
+        <a href="{{ .Permalink }}">
+            {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
+        </a>
+        (<time>{{ .Date.Format "2 Jan 2006" }}</time>)
+    </li>
+    {{ end }}
+</ul>
 {{ end }}
-
-
+{{ end }}
