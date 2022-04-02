@@ -7,7 +7,7 @@
 <div>
     <h2>Latest posts:</h2>
     <ul>
-        {{ range first 10 (where .Site.Pages "Section" "blog") }}
+        {{ range first 6 (where .Site.Pages "Section" "blog") }}
         {{ if eq .Kind "page" }}
         <li>
             <a href="{{ .Permalink }}">
