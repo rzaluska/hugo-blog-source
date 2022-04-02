@@ -1,7 +1,6 @@
 +++
 title = "Certbot in Docker container"
 date = 2022-04-02T00:00:00+02:00
-draft = true
 tags = ["haproxy", "certbot", "docker", "ssl", "https"]
 +++
 
