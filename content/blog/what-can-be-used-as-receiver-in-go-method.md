@@ -112,7 +112,7 @@ extends type. If we declare our receiver like this then we
 will get a copy of struct to our method. To illustrate this, a small
 example will be the best.
 
-{{< highlight go >}}
+```go
 package main
 
 import "fmt"
@@ -134,7 +134,7 @@ func main() {
     a.add()
     fmt.Println(a.get())
 }
-{{< / highlight >}}
+```
 
 First of all, we create simple structure type `A`. We add two methods
 to it `add()` and `get()`. Notice that these methods receive struct
