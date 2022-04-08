@@ -1,4 +1,5 @@
-{{ "<!-- ENTERING partial seo-schema.html -->" | safeHTML }}
+<!-- ENTERING partial seo-schema.html -->
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -13,7 +14,9 @@
 {
   "@context": "http://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [{
+  "itemListElement": [
+{{- if .Section }}
+  {
     "@type": "ListItem",
     "position": 1,
     "item": {
@@ -27,7 +30,18 @@
       "@id": "{{ .Permalink }}",
       "name": "{{ .Title }}"
     }
-  }]
+  }
+{{- else }}
+  {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "{{ .Permalink }}",
+      "name": "{{ .Title }}"
+    }
+  }
+{{ end }}
+  ]
 }
 </script>
 {{ if eq .Section "blog" }}
@@ -55,4 +69,5 @@
 </script>
 {{ end }}
 {{ end }}
-{{ "<!-- LEAVING partial seo-schema.html -->" | safeHTML }}
+
+<!-- LEAVING partial seo-schema.html -->

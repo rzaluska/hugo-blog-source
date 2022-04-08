@@ -1,16 +1,18 @@
 <!-- Twitter summary card with large image must be at least 280x150px -->
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:image:src" content="{{ .Site.BaseURL }}img/gopher.png" />
+<meta name="twitter:card" content="summary" />
+<!--<meta name="twitter:image:src" content="{{ .Site.BaseURL }}img/gopher.png" /> -->
 
 <!-- Twitter Card data -->
-<meta name="twitter:title" content="{{ .Title }}"/>
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ else }} {{.Site.Params.Description | plainify }} {{ end }}{{ end }}" />
-{{ with .Site.Params.social.twitter }}<meta name="twitter:site" content="@{{ . }}"/>{{ end }}
-{{ with .Site.Params.social.twitter_domain }}<meta name="twitter:domain" content="{{ . }}"/>{{ end }}
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description"
+    content="{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ else }} {{.Site.Params.Description | plainify }} {{ end }}{{ end }}" />
+{{ with .Site.Params.social.twitter }}
+<meta name="twitter:site" content="@{{ . }}" />{{ end }}
+{{ with .Site.Params.social.twitter_domain }}
+<meta name="twitter:domain" content="{{ . }}" />{{ end }}
 {{ if isset .Params "author" }}
-	{{ $author := index .Site.Params.authors .Params.author }}
-	{{ with $author.twitter }}<meta name="twitter:creator" content="@{{ $author.twitter }}"/>{{ end }}
+{{ $author := index .Site.Params.authors .Params.author }}
+{{ with $author.twitter }}
+<meta name="twitter:creator" content="@{{ $author.twitter }}" />{{ end }}
 {{ end }}
-<meta name="twitter:creator" content="@{{ $.Site.Params.Social.Twitter }}"/>
-
-
+<meta name="twitter:creator" content="@{{ $.Site.Params.Social.Twitter }}" />
