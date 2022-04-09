@@ -20,19 +20,39 @@
 </article>
 {{ partial "share.html" . }}
 <hr>
-<div style="text-align:center">
-    <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i> Top</a>
-</div>
 {{ if .PrevInSection | or .NextInSection -}}
 <div style="margin:1em">
-    <nav id="bottom" class="post-nav">
-        {{ if .PrevInSection -}}
-        <a href="{{ .PrevInSection.Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post</a>
-        {{- end }}
+    <nav id="bottom" class="post-nav" style="display: flex; margin: 0 auto;">
+        <table style="width: 100%;">
+            <tr>
+                <td style="width: 33%; text-align: left;">
+                    {{ if .PrevInSection -}}
+                    <a style="float: left;" href="{{ .PrevInSection.Permalink }}">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post
+                    </a>
+                    {{- end }}
 
-        {{ if .NextInSection -}}
-        <a href="{{ .NextInSection.Permalink }}">Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-        {{- end }}
+                </td>
+                <td style="width: 33%; text-align: center;">
+                    <div style="text-align:center">
+                        <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i> Top</a>
+                    </div>
+
+                </td>
+                <td style="width: 33%; text-align: right;">
+                    {{ if .NextInSection -}}
+                    <a style="float: right;" href="{{ .NextInSection.Permalink }}">
+                        Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                    {{- end }}
+
+                </td>
+            </tr>
+
+        </table>
+
+
+
     </nav>
     <div style="clear: both;"></div>
 </div>
