@@ -17,11 +17,11 @@
     <div class="postContent">
         {{ .Content }}
     </div>
+    {{ partial "share.html" . }}
 </article>
-{{ partial "share.html" . }}
-<hr>
 {{ if .PrevInSection | or .NextInSection -}}
-<div style="margin:1em">
+<hr>
+<div style="margin:1em" class="container">
     <nav id="bottom" class="post-nav" style="display: flex; margin: 0 auto;">
         <table style="width: 100%;">
             <tr>
