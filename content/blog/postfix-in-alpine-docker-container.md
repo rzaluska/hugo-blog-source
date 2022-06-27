@@ -155,7 +155,7 @@ everything inside `{{ }}` with a value of this variable. Config file that is pro
 configuration lines here. For full documentation of postfix main.cf config file go to:
 http://www.postfix.org/postconf.5.html.
 
-Alse take a close look at line:
+Also take a closer look at this line:
 
 `maillog_file = /dev/stdout`
 
