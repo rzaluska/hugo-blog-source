@@ -5,10 +5,17 @@ url = "about"
 +++
 
 # About me
-Hello, my name is Radek and I am currently working as a DevOps Engineer. My main
-field of expertise in Linux Administration. On my blog I am posting tips and
+
+![avatar](/avatar.jpg#center)
+
+Hello, my name is Radosław (Radek is a short form of my name) and I am
+currently working as a DevOps Engineer. My main
+field of expertise is Linux Administration. On my blog, I am posting tips and
 tutorials related to DevOps tools and trends. I am always keen to learn new
 things and explore new technologies.
+
+# Online Resume
+https://resume.iops.tech/
 
 # Contact
 
@@ -18,7 +25,7 @@ things and explore new technologies.
 
 # Experience
 
-I have commercial experience with following tools / technologies:
+I have commercial experience with the following tools/technologies:
 - Docker / Docker Swarm
 - Arch Linux
 - Ubuntu Linux
@@ -54,7 +61,7 @@ I have commercial experience with following tools / technologies:
 - Magento Administration
 - Apache JMeter
 
-I have non-commercial experience with following tools / technologies:
+I have non-commercial experience with the following tools/technologies:
 - Android Development
 - Java
 - Haskell
@@ -71,3 +78,5 @@ I live and work in [Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.ph
 - [LinkedIn](https://www.linkedin.com/in/radoslaw-zaluska/)
 - [Twitter](https://twitter.com/iops_tech)
 - [HackerRank](https://www.hackerrank.com/rzaluska)
+- [Fiverr](https://www.fiverr.com/rzaluska)
+- [Credly](https://www.credly.com/users/radoslaw-zaluska/)

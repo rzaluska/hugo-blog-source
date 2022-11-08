@@ -1,4 +1,5 @@
 # Welcome to my web page
 
-Hello, my name is [Radek](/about/) - welcome to my blog.
-On my web page you can read about DevOps stuff and other topics related to computers.
+My name is [Radoslaw](/about/) and I am a DevOps Engineer passionate about the automation
+of complicated tasks. On my web page, you can read about DevOps stuff and
+other topics related to Linux Administration

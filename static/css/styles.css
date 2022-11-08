@@ -27,3 +27,27 @@ body {
 code {
     font-family: "Roboto Mono";
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto;
+    border-radius: 50%;
+    width: auto;
+    height: 150px;
+}
+
+.avatar {
+    width; auto;
+    height: 24pt;
+    border-radius: 50%;
+}
+
+.bg-blue {
+    background-color: #0052b0;
+}
