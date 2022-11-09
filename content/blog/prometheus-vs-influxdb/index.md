@@ -1,5 +1,5 @@
 ---
-title: "Prometheus vs Influxdb"
+title: "Prometheus vs InfluxDB"
 date: "2022-10-10T09:19:07+02:00"
 slug: "prometheus-vs-influxdb"
 tags:
