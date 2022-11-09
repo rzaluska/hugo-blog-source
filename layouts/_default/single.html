@@ -8,7 +8,7 @@
         <h1 class="title">
             {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
         </h1>
-        <div class="post-meta" style="margin-bottom: 2em;font-size:12pt">
+        <div class="post-meta text-muted" style="margin-bottom: 2em;font-size:12pt">
             {{ partial "postMeta.html" . }}
             by
             <a href="/about/">
@@ -34,13 +34,11 @@
                         <i class="fa fa-arrow-left" aria-hidden="true"></i> Previous Post
                     </a>
                     {{- end }}
-
                 </td>
                 <td style="width: 33%; text-align: center;">
                     <div style="text-align:center">
                         <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i> Top</a>
                     </div>
-
                 </td>
                 <td style="width: 33%; text-align: right;">
                     {{ if .NextInSection -}}
@@ -48,14 +46,9 @@
                         Next Post <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </a>
                     {{- end }}
-
                 </td>
             </tr>
-
         </table>
-
-
-
     </nav>
     <div style="clear: both;"></div>
 </div>

@@ -30,10 +30,12 @@ I have commercial experience with the following tools/technologies:
 - Arch Linux
 - Ubuntu Linux
 - Oracle Linux
-- Linux Administration
+- Debian Linux
 - NeoVim
 - Git SCM
 - GitLab
+- Gerrit
+- Redmine
 - Ansible
 - Terraform
 - Python
@@ -47,7 +49,7 @@ I have commercial experience with the following tools/technologies:
 - Kibana
 - Filebeat
 - Apache Kafka
-- Influxdb (v1 and v2) / Telegraf
+- InfluxDB / Telegraf
 - Prometheus
 - Grafana
 - Graylog
@@ -58,7 +60,8 @@ I have commercial experience with the following tools/technologies:
 - Jenkins
 - Selenium Grid
 - Django Administration
-- Magento Administration
+- Magento2 Administration
+- Magento Cloud
 - Apache JMeter
 
 I have non-commercial experience with the following tools/technologies:
