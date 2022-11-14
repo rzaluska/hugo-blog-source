@@ -1,18 +1,18 @@
-+++
-title = "About me"
-layout = "static"
-url = "about"
-+++
+---
+title: About me
+layout: static
+url: about
+---
 
 # About me
 
 ![avatar](/avatar.jpg#center)
 
-Hello, my name is Radosław (Radek is a short form of my name) and I am
-currently working as a DevOps Engineer. My main
-field of expertise is Linux Administration. On my blog, I am posting tips and
-tutorials related to DevOps tools and trends. I am always keen to learn new
-things and explore new technologies.
+Hello, my name is Radosław (Radek is a short form of my name). I am currently
+working as a DevOps Engineer. My main field of expertise is Linux Administration
+and automation of complex tasks. On my blog, I post tips and tutorials related
+to DevOps topics. I am always keen to learn new things and explore new
+technologies.
 
 # Online Resume
 https://resume.iops.tech/
