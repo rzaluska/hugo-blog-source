@@ -110,8 +110,13 @@ resolution.
 
 Prometheus uses the `PromQL` query language, which is both simple and powerful.
 You can query for value in individual metrics and filter them based on label
-values. Example of such query: ```
-http_requests_total{job="prometheus",group="canary"} ``` Here, we use the
+values. Example of such query:
+
+```promql
+http_requests_total{job="prometheus",group="canary"}
+```
+
+Here, we use the
 http_requests_total metric and filter it by job and group. You can add the
 results of many queries to themselves and combine the final results in many
 ways. All alerts that can be configured in Prometheus are based on the PromQL
@@ -125,7 +130,7 @@ before version 2.0. FluxQL is based on stream-like data transformations, where
 the user defines all steps that need to be run to format data incorrectly way.
 Example of such a `FluxQL` query:
 
-```flux
+```sql
 from(bucket: "example-bucket")
     |> range(start: -1h)
     |> filter(fn: (r) => r._measurement == "example-measurement" and r.tag == "example-tag")
