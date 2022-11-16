@@ -105,6 +105,9 @@ By writing our Dockerfile like that, we make sure that when the source code is
 changed (server.py file in that case)
 building this image will take a very short. This is because all layers
 including one with the installation of dependencies are reused in that case.
+This will also impact network transfer times when you will push or pull your
+image. If only the last few layers are modified then the rest of them will be reused
+and downloading and uploading the image will take less time.
 
 # Don't use the latest tag
 It might be tempting to always tag your images using `latest` tags, but you
