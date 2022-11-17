@@ -12,7 +12,7 @@ In this blog post, I will list the best practices when creating Dockerfiles. By
 following these points, you can gain more confidence that your docker images are
 secure and reliable.
 
-# Using non-root user
+# Use non-root user
 The first and most important point when it comes to creating Dockerfiles is the avoidance
 of running images using the root user. This is a key point if you want your docker
 image to be as secure as possible. By default, Docker is using root as an account
@@ -129,7 +129,7 @@ docker container recreation (for example when changing environment vars) then
 during this recreation, docker will download the latest tag and also update your
 application when you do now want to do that.
 
-# Cleanup RUN layers
+# Always cleanup RUN layers
 If you want to keep your images as small as possible, you should always
 clean up the package's cache after any kind of apt / yum installation operation.
 This point is not only for the cache cleanup, and it is more general, but we will
@@ -173,7 +173,7 @@ docker build --build-arg username=nobody .
 In this way, we created a reusable Dockerfile that can be built multiple times
 producing different images only by changing `--build-arg` parameters.
 
-# Multi-stage build instead of many Dockerfiles
+# Use multi-stage build instead of many Dockerfiles
 If you want to separate building your application using build dependencies and
 running your application using runtime dependencies, then you can create two
 separate Dockerfile and use than one after another. This approach is very messy
