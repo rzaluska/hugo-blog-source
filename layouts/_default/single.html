@@ -8,14 +8,7 @@
         <h1 class="title">
             {{ .Title }} {{ if .Draft }}:: DRAFT{{end}}
         </h1>
-        <div class="post-meta text-muted" style="margin-bottom: 2em;font-size:12pt">
-            {{ partial "postMeta.html" . }}
-            by
-            <a href="/about/">
-                <img class=avatar src=/avatar.jpg></img>
-                {{ $.Site.Params.Author }}
-            </a>
-        </div>
+        {{ partial "postMeta.html" . }}
     </header>
     <div class="postContent">
         {{ .Content }}
