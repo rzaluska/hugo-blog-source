@@ -1,18 +1,18 @@
 <div class="post-meta text-muted" style="margin-bottom: 2em;font-size:12pt">
-        Posted on {{ .Date.Format "2 January 2006" }}
-        by
-        <a href="/about/">
-            <img class=avatar src=/avatar.jpg></img>
-            {{ $.Site.Params.Author }}
-        </a>
-        <span style="float: right">
-            <i  class="far fa-clock"></i> {{ .ReadingTime }} min read
-        </span>
-        <br>
-        Tags:
-        {{ if isset .Params "tags" }}
-        {{ range .Params.tags }}
-        <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}"><i class="fas fa-tags"></i> {{ . }}</a>
-        {{ end }}
-        {{ end }}
+    Posted on {{ .Date.Format "2 January 2006" }}
+    by
+    <a href="/about/">
+        <img class=avatar src=/avatar.jpg></img>
+        {{ $.Site.Params.Author }}
+    </a>
+    <span style="float: right">
+        <i class="far fa-clock"></i> {{ .ReadingTime }} min read
+    </span>
+    <br>
+    Tags:
+    {{ if isset .Params "tags" }}
+    {{ range .Params.tags }}
+    <a href="{{ " tags/" | relLangURL }}{{ . | urlize }}"><i class="fas fa-tags"></i> {{ . }}</a>
+    {{ end }}
+    {{ end }}
 </div>
