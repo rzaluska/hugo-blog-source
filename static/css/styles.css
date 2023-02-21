@@ -12,7 +12,7 @@
 }
 
 body {
-    font-size: 1.2rem
+    font-size: 1rem
 }
 
 .title {
@@ -24,8 +24,9 @@ body {
     padding-left: 0.5rem;
 }
 
-code {
-    font-family: "Roboto Mono";
+pre code {
+    font-family: Roboto Mono, monospace;
+    font-size: 0.75rem;
 }
 
 img {
@@ -33,8 +34,7 @@ img {
     max-height: 100%;
 }
 
-img[src$='#center']
-{
+img[src$='#center'] {
     display: block;
     margin: 0.7rem auto;
     border-radius: 50%;
@@ -43,7 +43,7 @@ img[src$='#center']
 }
 
 .avatar {
-    width; auto;
+    width: auto;
     height: 20pt;
     border-radius: 50%;
 }
