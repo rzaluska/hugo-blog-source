@@ -6,8 +6,6 @@ url: about
 
 # About me
 
-![avatar](/avatar.jpg#center)
-
 Hello, my name is Radosław (Radek is a short form of my name). I am currently
 working as a DevOps Engineer. My main field of expertise is Linux Administration
 and automation of complex tasks. On my blog, I post tips and tutorials related
@@ -83,3 +81,4 @@ I live and work in [Warsaw, Poland](https://tools.wmflabs.org/geohack/geohack.ph
 - [HackerRank](https://www.hackerrank.com/rzaluska)
 - [Fiverr](https://www.fiverr.com/rzaluska)
 - [Credly](https://www.credly.com/users/radoslaw-zaluska/)
+
