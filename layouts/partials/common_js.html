@@ -21,3 +21,43 @@ document.addEventListener('DOMContentLoaded', function () {
   }, { passive: true });
 });
 </script>
+
+<!-- Dark mode toggle -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var toggle = document.getElementById('theme-toggle');
+  var icon = document.getElementById('theme-toggle-icon');
+  if (!toggle || !icon) return;
+
+  var html = document.documentElement;
+
+  function setTheme(theme) {
+    if (theme === 'dark') {
+      html.setAttribute('data-theme', 'dark');
+      icon.className = 'fa-solid fa-sun';
+    } else {
+      html.removeAttribute('data-theme');
+      icon.className = 'fa-solid fa-moon';
+    }
+    localStorage.setItem('theme', theme);
+  }
+
+  // Set icon based on current theme (already set by blocking script)
+  var current = html.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+  icon.className = current === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+
+  // Toggle on click
+  toggle.addEventListener('click', function () {
+    var next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    setTheme(next);
+  });
+
+  // Listen for system preference changes (when no manual override)
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+    // Only follow system if user hasn't set a manual preference
+    if (!localStorage.getItem('theme')) {
+      setTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+});
+</script>

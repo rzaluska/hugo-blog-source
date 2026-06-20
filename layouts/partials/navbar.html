@@ -1,11 +1,14 @@
 <nav id="hide-on-scroll" class="navbar navbar-expand-md navbar-light bg-light justify-content-end">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ "/" | relLangURL }}"> <i class="fa-solid fa-house" aria-hidden="true"></i> <strong>{{ .Site.Title }}</strong></a>
+        <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <i class="fa-solid fa-moon" id="theme-toggle-icon"></i>
+        </button>
         <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav" style="flex-direction: row;">
+            <ul class="navbar-nav mx-auto" style="flex-direction: row;">
                 <li class="active"><a class="nav-link" href="https://x.com/iops_tech"> <i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a></li>
                 <li class="active"><a class="nav-link" href="https://github.com/rzaluska"> <i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
                 <li class="active"><a class="nav-link" href="https://stackoverflow.com/users/8307258/"> <i class="fa-brands fa-stack-overflow" aria-hidden="true"></i></a></li>
