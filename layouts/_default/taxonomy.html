@@ -7,7 +7,7 @@ Posts with tag {{ .Title }} -
 <ul>
     {{ range .Data.Pages }}
     <li>
-        <a href="{{ .Permalink }}">
+        <a href="{{ .RelPermalink }}">
             {{ .Title }} {{ if .Draft }}::DRAFT{{end}}
         </a>
         (<time>{{ .Date.Format "2 Jan 2006" }}</time>)

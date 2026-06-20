@@ -20,7 +20,7 @@
                         {{ if eq ($.Scratch.Get $site.Permalink) nil }}
                             {{ if eq $site.Permalink $.Permalink }}
                             {{ else }}
-                                <a href="{{ $site.Permalink }}" class="list-group-item" style="color:#337ab7"> {{ $site.Title }}</a>
+                                <a href="{{ $site.RelPermalink }}" class="list-group-item" style="color:#337ab7"> {{ $site.Title }}</a>
                                 {{ $.Scratch.Add $site.Permalink true }}
                             {{ end }}
                         {{ end }}

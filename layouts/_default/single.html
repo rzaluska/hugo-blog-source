@@ -23,7 +23,7 @@
             <tr>
                 <td style="width: 33%; text-align: left;">
                     {{ if .PrevInSection -}}
-                    <a style="float: left;" href="{{ .PrevInSection.Permalink }}">
+                    <a style="float: left;" href="{{ .PrevInSection.RelPermalink }}">
                         <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Previous Post
                     </a>
                     {{- end }}
@@ -35,7 +35,7 @@
                 </td>
                 <td style="width: 33%; text-align: right;">
                     {{ if .NextInSection -}}
-                    <a style="float: right;" href="{{ .NextInSection.Permalink }}">
+                    <a style="float: right;" href="{{ .NextInSection.RelPermalink }}">
                         Next Post <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
                     </a>
                     {{- end }}
