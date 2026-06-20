@@ -3,10 +3,32 @@
     --container-max-width: 800px;
     --font-family-base: 'Roboto', system-ui, -apple-system, sans-serif;
     --font-family-mono: 'Roboto Mono', 'Cascadia Code', 'Fira Code', monospace;
-    --color-link: #0052b0;
-    --color-blockquote-bg: #EDEDED;
-    --color-blockquote-border: #008FEA;
+    --color-link: #0056b3;
+    --color-link-hover: #004494;
+    --color-blockquote-bg: #f8f9fa;
+    --color-blockquote-border: #0056b3;
     --navbar-transition: transform 0.3s ease-in-out;
+
+    /* Light theme (default) */
+    --bg-color: #fafafa;
+    --text-color: #2d3436;
+    --text-secondary: #636e72;
+    --navbar-bg: #f8f9fa;
+    --footer-bg: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+[data-theme="dark"] {
+    --bg-color: #0d1117;
+    --text-color: #ced4da;
+    --text-secondary: #adb5bd;
+    --navbar-bg: #161b22;
+    --footer-bg: #161b22;
+    --border-color: #30363d;
+    --color-link: #58a6ff;
+    --color-link-hover: #79c0ff;
+    --color-blockquote-bg: #161b22;
+    --color-blockquote-border: #58a6ff;
 }
 
 @media (min-width: 1000px) {
@@ -23,6 +45,16 @@
 body {
     font-size: 1rem;
     font-family: var(--font-family-base);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--color-link);
+}
+
+a:hover {
+    color: var(--color-link-hover);
 }
 
 .title {
@@ -81,4 +113,44 @@ blockquote {
 
 blockquote > p {
     margin: 0;
+}
+
+/* Dark mode overrides for Bootstrap components */
+[data-theme="dark"] .navbar-light {
+    background-color: var(--navbar-bg) !important;
+}
+
+[data-theme="dark"] .navbar-light .navbar-brand,
+[data-theme="dark"] .navbar-light .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-link);
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: var(--footer-bg) !important;
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .text-muted {
+    color: var(--text-secondary) !important;
+}
+
+/* Theme toggle button (more prominent) */
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    transition: color 0.2s;
+    margin-left: auto; /* Push it towards the right */
+    margin-right: 0.5rem; /* Space before the toggler */
+}
+
+#theme-toggle:hover {
+    color: var(--color-link);
 }
