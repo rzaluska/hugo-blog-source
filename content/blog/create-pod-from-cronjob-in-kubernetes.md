@@ -5,6 +5,11 @@ tags: ["kubernetes", "python", "devops"]
 draft: false
 ---
 
+> Note: This is all possible via built-in kubectl flag. The --from=cronjob/<name> flag for kubectl
+> create job was added in Kubernetes 1.10. This article presents alternative, manual process for
+> achieving the same thing. This is for educational purposes only. In reality you should just use
+> kubectl built-in functionality.
+
 Sometimes there is a need to run Kubernetes `CronJob` as a Pod. For example, you
 want to check if all files in Pod are in place because you are getting strange
 errors in logs.
@@ -22,7 +27,7 @@ you can always export `CronJob` as YAML and modify it manually, but this is
 time-consuming and may lead to errors. In this blog post, I will describe
 a better solution to that problem.
 
->Note: All code in this tutorial has been tested using Kubernetest v1.21.x and Python3.
+>Note: All code in this tutorial has been tested using Kubernetes v1.21.x and Python3.
 
 # Python Kubernetes API
 We will use the Python Kubernetes API to automate the creation of Pod based on `CronJob`.
@@ -42,7 +47,7 @@ from kubernetes import client, config
 ```
 
 If there are no import error, then that means our library is configured properly,
-and we can proceed with next steps. Our script will contain the followings steps:
+and we can proceed with next steps. Our script will contain the following steps:
 - getting `CronJob` definition from cluster
 - extracting `PodSpec` from `CronJob` definition
 - replacing some elements in `PodSpec`
@@ -131,3 +136,4 @@ In this blog post, I described how you can create Pod based on `CronJob`.
 The process involves using the Kubernetes Python API to interact with cluster.
 At the end, we got a script that can be further customized to fit more advanced needs,
 including automation of tasks.
+
