@@ -6,13 +6,13 @@
         {{ $.Site.Params.Author }}
     </a>
     <span style="float: right">
-        <i class="far fa-clock"></i> {{ .ReadingTime }} min read
+        <i class="fa-regular fa-clock"></i> {{ .ReadingTime }} min read
     </span>
     <br>
     Tags:
     {{ if isset .Params "tags" }}
     {{ range .Params.tags }}
-    <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}"><i class="fas fa-tags"></i> {{ . }}</a>
+    <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}"><i class="fa-solid fa-tags"></i> {{ . }}</a>
     {{ end }}
     {{ end }}
 </div>

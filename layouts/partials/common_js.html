@@ -1,0 +1,23 @@
+<!-- Scroll-hide navbar (vanilla JS, no jQuery) -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var navbar = document.getElementById('hide-on-scroll');
+  if (!navbar) return;
+
+  var prevScroll = window.scrollY;
+  var SCROLL_THRESHOLD = 5;
+
+  window.addEventListener('scroll', function () {
+    var curr = window.scrollY;
+    var delta = curr - prevScroll;
+
+    if (delta > SCROLL_THRESHOLD && curr > prevScroll) {
+      navbar.classList.add('navbar-hidden');
+    } else if (prevScroll - curr > SCROLL_THRESHOLD) {
+      navbar.classList.remove('navbar-hidden');
+    }
+
+    prevScroll = curr;
+  }, { passive: true });
+});
+</script>

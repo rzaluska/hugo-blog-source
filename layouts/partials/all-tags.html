@@ -3,10 +3,10 @@
     <div class="list-group">
         {{ range $key, $value := first 5 .Site.Taxonomies.tags.ByCount }}
         <a href="/tags/{{ $value.Name | urlize }}" class="list-group-item">
-            <span><i class="fa fa-tags"></i></span> {{ $value.Name | humanize }}
+            <span><i class="fa-solid fa-tags"></i></span> {{ $value.Name | humanize }}
             <span style="margin-left: auto;" class="badge text-right badge-primary">{{ $value.Count }} </span>
         </a>
         {{ end }}
-        <a style="margin-top:10px" href="/tags/" class="btn btn-success"><i class="fa fa-tags"></i> All tags</a>
+        <a style="margin-top:10px" href="/tags/" class="btn btn-success"><i class="fa-solid fa-tags"></i> All tags</a>
     </div>
 </div>
