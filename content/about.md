@@ -17,7 +17,7 @@ https://resume.iops.tech/
 
 # Contact
 
-- Email: <a href="mailto:contact@iops.tech">contact@iops.tech</a>
+- Email: [contact@iops.tech](mailto:contact@iops.tech)
 - [Twitter](https://twitter.com/iops_tech)
 - [LinkedIn](https://www.linkedin.com/in/radoslaw-zaluska/)
 

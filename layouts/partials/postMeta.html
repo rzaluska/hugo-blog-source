@@ -12,7 +12,7 @@
     Tags:
     {{ if isset .Params "tags" }}
     {{ range .Params.tags }}
-    <a href="{{ " tags/" | relLangURL }}{{ . | urlize }}"><i class="fas fa-tags"></i> {{ . }}</a>
+    <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}"><i class="fas fa-tags"></i> {{ . }}</a>
     {{ end }}
     {{ end }}
 </div>
